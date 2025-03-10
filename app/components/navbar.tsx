@@ -8,6 +8,8 @@ import { cn } from "@/lib/utils"
 import { MegaMenu } from "./mega-menu"
 import { LanguageSwitcher } from "./language-switcher"
 import { useLanguage } from "../contexts/language-context"
+import Image from 'next/image'
+
 
 export function Navbar() {
   const { t } = useLanguage()
@@ -69,14 +71,14 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group" onClick={() => setActiveSection("home")}>
-            <div
-              className={cn(
-                "w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-300 overflow-hidden",
-                "bg-primary text-white",
-              )}
-            >
-              <span className="font-bold text-lg">H</span>
-            </div>
+            
+            
+            <Image
+              src="/shortlogo.png"
+              width={45}
+              height={45}
+              alt="logo"
+            />
             <span
               className={cn(
                 "font-bold text-xl transition-all duration-300",
@@ -84,8 +86,8 @@ export function Navbar() {
                 "group-hover:text-primary",
               )}
             >
-              HimoSoft
-            </span>
+              HIMOSOFT
+            </span>  
           </Link>
 
           {/* Desktop Navigation */}
