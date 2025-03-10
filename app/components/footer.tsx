@@ -5,6 +5,8 @@ import Link from "next/link"
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Instagram } from "lucide-react"
 import { AnimatedSection } from "../animations"
 import { useLanguage } from "../contexts/language-context"
+import { cn } from "@/lib/utils"
+import Image from 'next/image'
 
 export function Footer() {
   const { t } = useLanguage()
@@ -36,12 +38,23 @@ export function Footer() {
           <AnimatedSection
             className={`space-y-4 transition-all duration-700 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
           >
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-lg bg-primary text-white flex items-center justify-center">
-                <span className="font-bold text-xl">H</span>
-              </div>
-              <span className="font-bold text-xl text-primary">HimoSoft</span>
-            </div>
+             <div className="flex gap-2 items-center">
+              <Image
+                src="/shortlogo.png"
+                width={45}
+                height={45}
+                alt="logo"
+              />
+              <span
+                className={cn(
+                  "font-bold text-xl transition-all duration-300",
+                  "text-primary",
+                  "group-hover:text-primary",
+                )}
+              >
+                HIMOSOFT
+              </span>  
+             </div>
             <p className="text-sm text-muted-foreground max-w-xs">{t("footer.description")}</p>
             <p className="text-xs text-muted-foreground">{t("footer.copyright")}</p>
           </AnimatedSection>

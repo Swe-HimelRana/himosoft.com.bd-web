@@ -237,12 +237,12 @@ const translations: Record<string, Record<Language, string>> = {
     en: "About Us",
   },
   "about.ourStory": {
-    bn: "আমাদের গল্প",
+    bn: "আমাদের সম্পর্কে",
     en: "Our Story",
   },
   "about.description1": {
-    bn: "২০১৫ সালে প্রতিষ্ঠিত, হিমোসফ্ট সফটওয়্যার উদ্ভাবনের অগ্রভাগে রয়েছে, ব্যবসাগুলিকে তাদের ডিজিটাল উপস্থিতি এবং অপারেশন রূপান্তর করতে সাহায্য করছে।",
-    en: "Founded in 2015, HimoSoft has been at the forefront of software innovation, helping businesses transform their digital presence and operations.",
+    bn: "২০২০ সালে প্রতিষ্ঠিত, HimoSoft সফটওয়্যার প্রতিষ্ঠান হিসেবে ব্যবসায়িক প্রতিষ্ঠানগুলোর ডিজিটাল উপস্থিতি ও কার্যক্রমের রূপান্তরে গুরুত্বপূর্ণ ভূমিকা রেখে চলেছে।",
+    en: "Founded in 2020, HimoSoft has been at the forefront of software innovation, helping businesses transform their digital presence and operations.",
   },
   "about.description2": {
     bn: "আমাদের অভিজ্ঞ ডেভেলপার, ডিজাইনার এবং প্রজেক্ট ম্যানেজারদের দল সহযোগিতামূলকভাবে কাজ করে ব্যবসার বৃদ্ধি এবং দক্ষতা চালিত করে এমন উচ্চ-মানের সফটওয়্যার সমাধান সরবরাহ করে।",

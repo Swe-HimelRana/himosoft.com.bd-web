@@ -71,8 +71,6 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group" onClick={() => setActiveSection("home")}>
-            
-            
             <Image
               src="/shortlogo.png"
               width={45}

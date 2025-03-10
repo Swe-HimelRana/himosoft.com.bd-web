@@ -4,11 +4,13 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { LanguageProvider } from "./contexts/language-context"
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "HimoSoft | Custom Software Development & IT Solutions",
+  title: "HimoSoft | Software Development & IT Solutions",
+  icons: "/shortlogo.png",
   description:
     "HimoSoft provides top-tier software development, cloud solutions, and IT consulting. Transform your business with our innovative technology services.",
   keywords: [
@@ -26,14 +28,14 @@ export const metadata: Metadata = {
     "professional email"
   ],
   openGraph: {
-    title: "HimoSoft | Custom Software Development & IT Solutions",
+    title: "HimoSoft | Software Development & IT Solutions",
     description:
       "Leading software development and IT solutions provider. Build scalable, secure, and innovative applications with HimoSoft.",
     url: "https://himosoft.com.bd",
     type: "website",
     images: [
       {
-        url: "https://himosoft.com.bd/og-image.jpg", // Replace with an actual image URL
+        url: "https://himosoft.com.bd/og-image.png", // Replace with an actual image URL
         width: 1200,
         height: 630,
         alt: "HimoSoft - Custom Software Development & IT Solutions",
@@ -46,7 +48,7 @@ export const metadata: Metadata = {
     title: "HimoSoft | Custom Software Development & IT Solutions",
     description:
       "Expert software development services, cloud solutions, and IT consulting. Partner with HimoSoft to innovate and grow your business.",
-    images: ["https://himosoft.com.bd/og-image.jpg"], // Replace with an actual image URL
+    images: ["https://himosoft.com.bd/og-image.png"], // Replace with an actual image URL
   },
 };
 
@@ -57,6 +59,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/shortlogo.png" type="image/x-icon" />
+      </Head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <LanguageProvider>{children}</LanguageProvider>
