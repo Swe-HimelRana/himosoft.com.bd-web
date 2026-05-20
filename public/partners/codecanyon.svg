@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 40" role="img" aria-label="CodeCanyon">
+  <rect width="150" height="40" fill="none"/>
+  <rect x="4" y="8" width="24" height="24" rx="5" fill="#82B541"/>
+  <path fill="#fff" d="M12 14h8v2h-6v4h5v2h-5v6h-2V14z"/>
+  <text x="36" y="26" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#3D4C41">Code</text>
+  <text x="78" y="26" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#82B541">Canyon</text>
+</svg>

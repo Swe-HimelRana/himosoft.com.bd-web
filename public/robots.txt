@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+
+Host: https://himosoft.com.bd
+Sitemap: https://himosoft.com.bd/sitemap.xml

@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "icon": "/partners/stripe.svg"
+    },
+    {
+      "id": "bkash",
+      "name": "bKash",
+      "icon": "/partners/bkash.svg"
+    },
+    {
+      "id": "easy-payment-gateway",
+      "name": "Easy Payment Gateway",
+      "icon": "/partners/easy-payment-gateway.svg"
+    },
+    {
+      "id": "nowpayments",
+      "name": "NOWPayments",
+      "icon": "/partners/nowpayments.svg"
+    },
+    {
+      "id": "codecanyon",
+      "name": "CodeCanyon",
+      "icon": "/partners/codecanyon.svg"
+    },
+    {
+      "id": "themeforest",
+      "name": "ThemeForest",
+      "icon": "/partners/themeforest.svg"
+    }
+  ]
+}

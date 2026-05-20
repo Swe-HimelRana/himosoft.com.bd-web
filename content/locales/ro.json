@@ -1,0 +1,842 @@
+{
+  "meta": {
+    "siteTitle": "HimoSoft | Dezvoltare software și soluții IT",
+    "siteDescription": "HimoSoft ajută companiile să reușească în lumea digitală cu soluții moderne de software, web și mobile — livrare la nivel de întreprindere.",
+    "locale": "ro",
+    "copyright": "© 2026 HimoSoft. Toate drepturile rezervate."
+  },
+  "nav": {
+    "brand": "HimoSoft",
+    "menuLabel": "Meniu",
+    "ctaLabel": "Contactaţi-ne",
+    "ctaHref": "/contact",
+    "items": [
+      {
+        "id": "mega-solutions",
+        "label": "Soluții și industrii",
+        "mega": {
+          "featured": {
+            "eyebrow": "Prezentare",
+            "title": "De la platforme digitale la integrări profunde",
+            "description": "Nu șabloane de industrie — modelăm împreună foile de parcurs ale produselor și arhitectura în funcție de ceea ce aveți nevoie cu adevărat.",
+            "href": "/stories",
+            "ctaLabel": "Vedeți modelele de succes"
+          },
+          "columns": [
+            {
+              "title": "Industrii și cazuri de utilizare",
+              "links": [
+                {
+                  "label": "Comerț electronic și vânzare cu amănuntul",
+                  "href": "/domains",
+                  "description": "Cataloage, comenzi și fluxuri de plată reglate pentru conversie."
+                },
+                {
+                  "label": "Educație și formare",
+                  "href": "/domains",
+                  "description": "Portaluri de învățare și urmărirea progresului."
+                },
+                {
+                  "label": "Asistență medicală și programări",
+                  "href": "/domains",
+                  "description": "Fluxuri accesibile cu manipulare mai sigură a datelor."
+                },
+                {
+                  "label": "Logistica si operatiuni",
+                  "href": "/domains",
+                  "description": "Tablouri de bord și urmărire aproape în timp real."
+                }
+              ]
+            },
+            {
+              "title": "Stiluri de livrare",
+              "links": [
+                {
+                  "label": "MVP-uri și lansări rapide",
+                  "href": "/platform",
+                  "description": "Ceva utilizabil în săptămâni, nu în sferturi."
+                },
+                {
+                  "label": "Modernizare moștenire",
+                  "href": "/capabilities",
+                  "description": "Rescrieri incrementale și migrări mai sigure."
+                },
+                {
+                  "label": "Ecosisteme API-first",
+                  "href": "/services",
+                  "description": "Conectați partenerii și instrumentele interne în mod curat."
+                },
+                {
+                  "label": "Sisteme de proiectare și UX",
+                  "href": "/domains",
+                  "description": "Interfață de utilizare consistentă care se adaptează cu echipele dvs."
+                }
+              ]
+            },
+            {
+              "title": "Legături rapide",
+              "links": [
+                {
+                  "label": "Repere de caz",
+                  "href": "/stories"
+                },
+                {
+                  "label": "Stâlpi de platformă",
+                  "href": "/platform"
+                },
+                {
+                  "label": "Servicii",
+                  "href": "/services"
+                },
+                {
+                  "label": "Contact",
+                  "href": "/contact"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "mega-services",
+        "label": "Servicii",
+        "mega": {
+          "featured": {
+            "eyebrow": "O echipă",
+            "title": "De la gândirea produsului la producție",
+            "description": "Descoperire, inginerie, DevOps și securitate – coordonate sub un singur acoperiș.",
+            "href": "/services",
+            "ctaLabel": "Răsfoiți servicii"
+          },
+          "columns": [
+            {
+              "title": "Inginerie",
+              "links": [
+                {
+                  "label": "Software personalizat",
+                  "href": "/services",
+                  "description": "Soluții ancorate domeniului dvs."
+                },
+                {
+                  "label": "aplicații web",
+                  "href": "/services",
+                  "description": "Reactiv, rapid, prietenos cu SEO."
+                },
+                {
+                  "label": "Mobil (iOS / Android)",
+                  "href": "/services",
+                  "description": "Nativ și multiplatform."
+                },
+                {
+                  "label": "Baze de date și performanță",
+                  "href": "/services",
+                  "description": "Modelare, indexare, optimizare."
+                }
+              ]
+            },
+            {
+              "title": "Integrare și platformă",
+              "links": [
+                {
+                  "label": "API-uri și webhook-uri",
+                  "href": "/services",
+                  "description": "Servicii de la terți sunt conectate curat."
+                },
+                {
+                  "label": "Cloud și implementare",
+                  "href": "/capabilities",
+                  "description": "CI/CD, găzduire, observabilitate."
+                },
+                {
+                  "label": "Securitate și conformitate",
+                  "href": "/capabilities",
+                  "description": "Roluri, piste de audit, întărire."
+                },
+                {
+                  "label": "Suport și SLA",
+                  "href": "/services",
+                  "description": "Întreținere pe care te poți baza."
+                }
+              ]
+            },
+            {
+              "title": "Explora",
+              "links": [
+                {
+                  "label": "Grila de capabilități ale domeniului",
+                  "href": "/domains"
+                },
+                {
+                  "label": "Triada platformei",
+                  "href": "/platform"
+                },
+                {
+                  "label": "Capacitate de livrare",
+                  "href": "/capabilities"
+                },
+                {
+                  "label": "Rețeaua de parteneri",
+                  "href": "/partners"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "mega-delivery",
+        "label": "Livrare și calitate",
+        "mega": {
+          "featured": {
+            "eyebrow": "Proces",
+            "title": "Planuri de parcurs clare · sincronizări săptămânale · arhitectură scalabilă",
+            "description": "Fluxuri de lucru ușoare cu părțile interesate, astfel încât deciziile să rămână rapide, iar expedierea să rămână previzibilă.",
+            "href": "/capabilities",
+            "ctaLabel": "Cum lucrăm"
+          },
+          "columns": [
+            {
+              "title": "Model de funcționare",
+              "links": [
+                {
+                  "label": "Descoperire și prototipare",
+                  "href": "/capabilities",
+                  "description": "Ascuțiți cerințele înainte ca codul să se acumuleze."
+                },
+                {
+                  "label": "Sprinturi și lansări",
+                  "href": "/capabilities",
+                  "description": "Lansări mici, risc controlat."
+                },
+                {
+                  "label": "QA și observabilitate",
+                  "href": "/capabilities",
+                  "description": "Testați piramida, jurnalele, trasarea."
+                },
+                {
+                  "label": "Îmbunătățiri după lansare",
+                  "href": "/insights",
+                  "description": "Iterați de la valori reale."
+                }
+              ]
+            },
+            {
+              "title": "Resurse",
+              "links": [
+                {
+                  "label": "Note tehnologice",
+                  "href": "/insights"
+                },
+                {
+                  "label": "Rezumatul proiectului (șablon PDF)",
+                  "href": "/contact"
+                },
+                {
+                  "label": "Planuri de suport",
+                  "href": "/services"
+                },
+                {
+                  "label": "Deveniți partener",
+                  "href": "/partners"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "insights",
+        "label": "Perspective",
+        "href": "/insights"
+      },
+      {
+        "id": "marketplace",
+        "label": "Marketplace",
+        "href": "https://apps.himosoft.com.bd",
+        "external": true
+      },
+      {
+        "id": "pay-bill",
+        "label": "Plătiți factura",
+        "href": "https://pay.himosoft.com.bd",
+        "external": true
+      },
+      {
+        "id": "mega-company",
+        "label": "Companie",
+        "mega": {
+          "featured": {
+            "eyebrow": "HimoSoft",
+            "title": "Echipa centrată pe client · livrare din 2020",
+            "description": "Inginerie, proiectare și conducere de proiect sub un singur acoperiș. Vorbim limba dvs. de afaceri.",
+            "href": "/about",
+            "ctaLabel": "Despre HimoSoft"
+          },
+          "columns": [
+            {
+              "title": "Companie",
+              "links": [
+                {
+                  "label": "Prezentare generală",
+                  "href": "/about",
+                  "description": "Misiune și mentalitate."
+                },
+                {
+                  "label": "Echipa si conducere",
+                  "href": "/team",
+                  "description": "Cine deține livrarea."
+                },
+                {
+                  "label": "Contact și birou",
+                  "href": "/contact",
+                  "description": "Începeți un thread de proiect."
+                }
+              ]
+            },
+            {
+              "title": "Lucrează cu noi",
+              "links": [
+                {
+                  "label": "Roluri de freelance și contract",
+                  "href": "/contact",
+                  "description": "Trimite portofoliu + disponibilitate."
+                },
+                {
+                  "label": "Stagiari și învățare",
+                  "href": "/insights",
+                  "description": "Cum îmbarcăm noii veniți."
+                },
+                {
+                  "label": "Media și parteneriate",
+                  "href": "/partners",
+                  "description": "Campanii și recomandări comune."
+                }
+              ]
+            },
+            {
+              "title": "Legal și informații",
+              "links": [
+                {
+                  "label": "Politica de confidențialitate",
+                  "href": "/privacy"
+                },
+                {
+                  "label": "Termeni și condiții",
+                  "href": "/terms"
+                },
+                {
+                  "label": "Politica de cookie-uri",
+                  "href": "/cookies"
+                },
+                {
+                  "label": "Harta site-ului",
+                  "href": "/sitemap"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "a11y": {
+      "mainNav": "Navigație principală",
+      "mobileNav": "Navigare mobil",
+      "megaLinkGroup": "Legături",
+      "closeMenuBackdrop": "Închide meniul"
+    }
+  },
+  "hero": {
+    "eyebrow": "Soluții inovatoare",
+    "title": "Transformă-ți ideile în realitate digitală",
+    "subtitle": "HimoSoft oferă servicii moderne de dezvoltare de software pentru a vă ajuta afacerea să prospere online - viteza de pornire cu disciplina întreprinderii.",
+    "primaryCta": {
+      "label": "Începeți un proiect",
+      "href": "/contact"
+    },
+    "secondaryCta": {
+      "label": "Explorați serviciile",
+      "href": "/services"
+    },
+    "aside": {
+      "title": "Gata pentru ce urmează?",
+      "body": "Un scurt apel de descoperire este suficient - aducem claritate asupra stivei, cronologiei și riscurilor.",
+      "cards": [
+        {
+          "label": "Concentrează-te",
+          "value": "Livrare"
+        },
+        {
+          "label": "Stil",
+          "value": "Parteneriat"
+        }
+      ]
+    }
+  },
+  "trustStrip": {
+    "headline": "Partener digital de încredere – aceeași rigoare inginerească de la fondatori până la întreprinderi",
+    "stats": [
+      {
+        "value": "2020",
+        "label": "Fondat"
+      },
+      {
+        "value": "6+",
+        "label": "Pilonii de serviciu"
+      },
+      {
+        "value": "100%",
+        "label": "Centrat pe client"
+      },
+      {
+        "value": "24/7",
+        "label": "Susține mentalitatea"
+      }
+    ]
+  },
+  "stories": {
+    "sectionEyebrow": "Carcase și modele",
+    "sectionTitle": "Acolo unde tehnologia mută acul - obiectivul HimoSoft",
+    "sectionSubtitle": "Echipe și constrângeri la fel ca ale tale. Scurte narațiuni ale locurilor în care adăugăm frecvent pârghie.",
+    "items": [
+      {
+        "title": "Automatizarea operațiunilor de vânzare cu amănuntul",
+        "description": "Inventar și comenzi într-un singur tablou de bord operațional pentru managerii de magazine.",
+        "href": "/contact",
+        "linkLabel": "Începeți o conversație"
+      },
+      {
+        "title": "Digitalizarea fluxului de producție",
+        "description": "De la urmărirea schimburilor la notițele QC — mai puțină hârtie, mai multă trasabilitate.",
+        "href": "/contact",
+        "linkLabel": "Obțineți o foaie de parcurs"
+      },
+      {
+        "title": "Rezervări și plăți în industria serviciilor",
+        "description": "Rezervări, mementouri și raportare pe mobil mai întâi într-un singur teanc.",
+        "href": "/services",
+        "linkLabel": "Vezi serviciile"
+      },
+      {
+        "title": "Fluxuri de lucru pentru resurse umane și achiziții",
+        "description": "Lanțuri de aprobare, piste de audit și sincronizare în mai multe ramuri.",
+        "href": "/domains",
+        "linkLabel": "Explorați domenii"
+      },
+      {
+        "title": "Suport de decizie logistic",
+        "description": "Vizualizați rutele și semnalele de marfă pentru a lua decizii mai rapide.",
+        "href": "/stories",
+        "linkLabel": "Află mai multe"
+      },
+      {
+        "title": "Creșterea vitezei de dezvoltare",
+        "description": "CI, punere în scenă și porți de calitate pe care toată lumea le urmează.",
+        "href": "/platform",
+        "linkLabel": "Vedere platformă"
+      }
+    ]
+  },
+  "spotlights": {
+    "sectionEyebrow": "La ce excelăm",
+    "sectionTitle": "Tehnologie flexibilă, rezultate scalabile",
+    "sectionSubtitle": "Părțile dvs. interesate, profunzimea noastră de inginerie - împreună livrăm produse care satisfac utilizatorii și veniturile.",
+    "items": [
+      {
+        "title": "Software personalizat",
+        "description": "Soluțiile adaptate provocărilor instrumentele generice pur și simplu ignoră.",
+        "linkLabel": "Află mai multe",
+        "href": "/capabilities"
+      },
+      {
+        "title": "Web și cloud",
+        "description": "Aplicații web responsive create cu performanță și securitate în avans.",
+        "linkLabel": "Servicii",
+        "href": "/services"
+      },
+      {
+        "title": "Experiențe mobile",
+        "description": "iOS și Android - nativ și multiplatform - UX coeziv.",
+        "linkLabel": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "platformTriad": {
+    "sectionEyebrow": "Mentalitatea platformei conectate",
+    "sectionTitle": "Construiți · Bazați-vă pe design și date · Guvernați și rulați",
+    "sectionSubtitle": "Trei piloni verticali inspirați de paginile de start ale întreprinderii — versiunea noastră pentru livrarea de software: inginerie, experiență și operațiuni sigure.",
+    "items": [
+      {
+        "eyebrow": "Construi",
+        "title": "Aplicații, integrări și lanț de instrumente",
+        "description": "O echipă care deține frontend, backend și DevOps cu iterații rapide și versiuni testabile.",
+        "href": "/services",
+        "linkLabel": "Inginerie"
+      },
+      {
+        "eyebrow": "Design și date",
+        "title": "Contextul utilizatorului și modelarea datelor",
+        "description": "UX/UI și arhitectura de date combinate, astfel încât deciziile din prima zi să se extindă la o mie de zile.",
+        "href": "/domains",
+        "linkLabel": "Domenii și UX"
+      },
+      {
+        "eyebrow": "Guvernează și alergă",
+        "title": "Monitorizare, securitate și SLA",
+        "description": "Sănătatea producției, jurnalele și manualele de răspuns care protejează programul de lucru.",
+        "href": "/capabilities",
+        "linkLabel": "Model de livrare"
+      }
+    ]
+  },
+  "services": {
+    "sectionEyebrow": "Servicii",
+    "sectionTitle": "Ceea ce oferim",
+    "sectionSubtitle": "Servicii de dezvoltare software pe care le puteți angaja end-to-end sau ca module concentrate.",
+    "items": [
+      {
+        "title": "Software format în jurul tău",
+        "description": "Soluții concepute special pentru provocările și cerințele dumneavoastră unice."
+      },
+      {
+        "title": "Dezvoltare web",
+        "description": "Site-uri web responsive, ușor de utilizat și aplicații web pe stive moderne."
+      },
+      {
+        "title": "Aplicații mobile",
+        "description": "Aplicații native și multiplatforme pentru iOS și Android."
+      },
+      {
+        "title": "Soluții de baze de date",
+        "description": "Proiectare, implementare și optimizare pentru performanță fiabilă."
+      },
+      {
+        "title": "Integrare API",
+        "description": "Conectați servicii terță parte și API-uri pentru a vă extinde produsul."
+      },
+      {
+        "title": "Suport și întreținere",
+        "description": "Asistență tehnică continuă pentru a menține software-ul de încredere."
+      }
+    ]
+  },
+  "domains": {
+    "sectionEyebrow": "Domenii și funcții",
+    "sectionTitle": "Când fiecare funcție partajează aceeași țesătură de date",
+    "sectionSubtitle": "Ne gândim profund la problemele de domeniu - asocierea codului cu modele de utilizare și rezultate măsurabile.",
+    "linkHint": "Explora",
+    "items": [
+      {
+        "title": "Date și analize",
+        "description": "Modele, tablouri de bord și urmărire a evenimentelor care accelerează deciziile.",
+        "href": "/services"
+      },
+      {
+        "title": "Experiența clientului",
+        "description": "Aterizare la îmbarcare — tonul și frecarea sunt aliniate.",
+        "href": "/stories"
+      },
+      {
+        "title": "Fluxuri de lucru și aprobări",
+        "description": "Aprobari în mai mulți pași cu notificări proactive.",
+        "href": "/capabilities"
+      },
+      {
+        "title": "Comerț electronic și plăți",
+        "description": "Fluxuri de cataloage, checkout și reconciliere.",
+        "href": "/domains"
+      },
+      {
+        "title": "Hub de integrare",
+        "description": "Un singur gateway care acoperă mai mulți furnizori.",
+        "href": "/services"
+      },
+      {
+        "title": "Operațiuni industriale",
+        "description": "Schimbări, inventar și instrumente de ticketing.",
+        "href": "/stories"
+      },
+      {
+        "title": "Orchestrare echipă și proiect",
+        "description": "Vizibilitatea rolurilor, sarcinilor și cronologiei.",
+        "href": "/team"
+      },
+      {
+        "title": "Securitate și conformitate",
+        "description": "Înregistrare, RBAC și politici de păstrare.",
+        "href": "/capabilities"
+      }
+    ]
+  },
+  "capabilities": {
+    "sectionEyebrow": "Mentalitatea platformei",
+    "sectionTitle": "Atunci când tehnologia și afacerile se mișcă împreună, se agravează",
+    "sectionSubtitle": "Lipici sănătos între date, aplicații și echipe - căi mai rapide de la decizii la software-ul livrat.",
+    "pillars": [
+      {
+        "title": "Planificare și arhitectură",
+        "description": "Fundații scalabile, sigure și care pot fi întreținute din ziua zero."
+      },
+      {
+        "title": "Livrare și calitate",
+        "description": "Lansări iterative cu recenzii și testare automată."
+      },
+      {
+        "title": "Integrare",
+        "description": "Conectează moștenirea și stivele moderne – API-urile în primul rând."
+      },
+      {
+        "title": "Operațiuni și suport",
+        "description": "Monitorizare, corecție și îngrijire proactivă pentru valoare pe termen lung."
+      }
+    ]
+  },
+  "partners": {
+    "sectionEyebrow": "Ecosistem",
+    "sectionTitle": "Rețea de parteneri pentru rezultate accelerate",
+    "sectionSubtitle": "Co-livrăm cu plăcere cu specialiști în design, infrastructură și domeniu, astfel încât echipa dvs. de bază să rămână concentrată.",
+    "items": [
+      {
+        "title": "Extensii și integratori",
+        "description": "Parteneri de canal pentru cloud, plăți și stive de marketing.",
+        "href": "/contact",
+        "linkLabel": "Discutați despre integrări"
+      },
+      {
+        "title": "Agenții și studiouri",
+        "description": "Când marca și mișcarea sunt gata, implementăm și scalam.",
+        "href": "/platform",
+        "linkLabel": "Modele de colaborare"
+      },
+      {
+        "title": "Vrei să faci partener?",
+        "description": "Intrare pe piață în comun, recomandări și sprijin tehnic - acorduri ușoare.",
+        "href": "/contact",
+        "linkLabel": "Formular de contact"
+      }
+    ]
+  },
+  "about": {
+    "sectionEyebrow": "Despre noi",
+    "sectionTitle": "HimoSoft — fondată în 2020",
+    "paragraphs": [
+      "Fondată în 2020, HimoSoft continuă să ajute organizațiile să remodeleze prezența și operațiunile digitale ca un studio de software concentrat.",
+      "Dezvoltatorii, designerii și managerii de proiect colaborează strâns pentru a livra soluții de înaltă calitate care deblochează creșterea și eficiența.",
+      "Abordarea noastră centrată pe client se concentrează pe provocările dumneavoastră unice, astfel încât rezultatele personalizate depășesc în mod obișnuit așteptările.",
+      "Ne angajăm pe termen lung — documentarea, predarea și instruirea fac parte din „terminat”. Securitatea și gradul de utilizare nu sunt negociabile."
+    ]
+  },
+  "team": {
+    "sectionEyebrow": "Echipa noastră",
+    "sectionTitle": "Faceți cunoștință cu specialiștii din spatele HimoSoft",
+    "sectionSubtitle": "Profesioniști talentați care asigură livrarea zi de zi.",
+    "members": [
+      {
+        "name": "Himel",
+        "role": "Director și fondator"
+      },
+      {
+        "name": "Tosar Ahmed",
+        "role": "Programator"
+      },
+      {
+        "name": "Jahidul Islam",
+        "role": "Dezvoltator principal"
+      },
+      {
+        "name": "Nasir Hossain",
+        "role": "Business Development Executive"
+      },
+      {
+        "name": "Jubel Ahmed",
+        "role": "Backend Developer (Leave, UK)"
+      },
+      {
+        "name": "Shajib Ahmed",
+        "role": "Account Manager (Leave, Study Abroad)"
+      }
+    ]
+  },
+  "insights": {
+    "sectionEyebrow": "Ce este nou",
+    "sectionTitle": "Perspective, evenimente și active",
+    "sectionSubtitle": "Subiecte substituenți — schimbați oricând blogul, YouTube sau adresele URL ale evenimentelor live.",
+    "items": [
+      {
+        "badge": "Atelier",
+        "title": "Laborator de descoperire a produselor – la distanță sau la fața locului",
+        "description": "O zi concentrată pentru a încadra problemele și a schița foaia de parcurs.",
+        "href": "/contact",
+        "linkLabel": "Rezervă un loc"
+      },
+      {
+        "badge": "Ghid",
+        "title": "Lista de verificare a lansării pe mobil",
+        "description": "Recenziile magazinului, analizele de blocare și elementele esențiale pentru testarea beta.",
+        "href": "/insights",
+        "linkLabel": "Descărcați în curând"
+      },
+      {
+        "badge": "Articol",
+        "title": "Modernizarea sistemelor vechi – reducerea riscului",
+        "description": "Tipare de strangler și capcane de migrare la care urmărim.",
+        "href": "/capabilities",
+        "linkLabel": "Capacitate de citire"
+      },
+      {
+        "badge": "Eveniment",
+        "title": "Întâlnirea dezvoltatorilor — Dhaka / online",
+        "description": "Discuții deschise lunare plus sloturi de revizuire a codurilor live.",
+        "href": "/contact",
+        "linkLabel": "Anunta-ma"
+      },
+      {
+        "badge": "Buletin informativ",
+        "title": "Note tehnice și de livrare - lunar",
+        "description": "Sfaturi scurte de instrumente și actualizări de bibliotecă.",
+        "href": "/contact",
+        "linkLabel": "Abonați-vă"
+      }
+    ]
+  },
+  "ctaBand": {
+    "title": "Începe următoarea ta inițiativă digitală",
+    "subtitle": "Discutați asupra domeniului de aplicare, a termenelor și a bugetului - răspundem cu o foaie de parcurs, riscuri și termene precizate.",
+    "primaryCta": {
+      "label": "Vorbește cu HimoSoft",
+      "href": "/contact"
+    }
+  },
+  "sitemap": {
+    "pageTitle": "Harta site-ului",
+    "metaDescription": "Toate paginile HimoSoft, secțiunile homepage, politici legale și servicii externe.",
+    "intro": "Găsiți fiecare pagină și secțiunea principală a site-ului HimoSoft.",
+    "xmlNote": "Pentru motoarele de căutare, sitemap-ul XML este disponibil la",
+    "homeLabel": "Acasă",
+    "groupPages": "Pagini",
+    "groupSections": "Secțiuni homepage",
+    "groupLegal": "Legal și politici",
+    "groupExternal": "Servicii externe",
+    "privacyLabel": "Politica de confidențialitate",
+    "termsLabel": "Termeni și condiții",
+    "cookiesLabel": "Politica de cookie-uri"
+  },
+  "cookieConsent": {
+    "title": "Prețuim confidențialitatea dvs.",
+    "description": "HimoSoft folosește cookie-uri și tehnologii similare pe acest site. Unele sunt strict necesare; altele sunt opționale și doar cu consimțământul dvs. Puteți naviga în timp ce decideți — acest mesaj nu blochează pagina.",
+    "categories": [
+      {
+        "title": "Cookie-uri esențiale (mereu active)",
+        "description": "Stochează limba aleasă (himosoft.locale) și dacă ați acceptat sau respins cookie-urile opționale (himosoft.cookie-consent). Fără acestea site-ul nu poate reține setările."
+      },
+      {
+        "title": "Cookie-uri de preferință și analiză (opționale)",
+        "description": "Dacă acceptați toate, putem folosi ulterior cookie-uri suplimentare pentru a înțelege utilizarea site-ului (ex. pagini vizitate). Nu sunt plasate dacă respingeți pe cele neesențiale."
+      },
+      {
+        "title": "Servicii terțe",
+        "description": "Linkurile externe (Marketplace, Pay Bill, site-uri partenere) pot seta propriile cookie-uri. Au politici de confidențialitate separate."
+      }
+    ],
+    "necessaryNote": "Respingerea cookie-urilor neesențiale nu limitează utilizarea site-ului. Rămân active doar cele esențiale.",
+    "rightsNote": "Puteți retrage consimțământul ștergând cookie-urile pentru himosoft.com.bd din browser și reîncărcând pagina.",
+    "retentionNote": "Alegerea dvs. este stocată până la 12 luni; apoi vi se poate cere din nou.",
+    "acceptLabel": "Acceptă toate",
+    "rejectLabel": "Respinge neesențiale"
+  },
+  "footer": {
+    "tagline": "Dezvoltare software și soluții IT — livrare disciplinată la nivel global, bazată în Bangladesh.",
+    "registrationLicense": "Licență înregistrată de guvern: TRADE-16247-100-8113",
+    "contactEmailLabel": "E-mail",
+    "contactPhoneLabel": "Telefon",
+    "contactMobileLabel": "Mobil",
+    "columns": [
+      {
+        "title": "Soluții și industrii",
+        "links": [
+          {
+            "label": "Repere de caz",
+            "href": "/stories"
+          },
+          {
+            "label": "Grila de domenii",
+            "href": "/domains"
+          },
+          {
+            "label": "Triada platformei",
+            "href": "/platform"
+          }
+        ]
+      },
+      {
+        "title": "Servicii și livrare",
+        "links": [
+          {
+            "label": "Servicii",
+            "href": "/services"
+          },
+          {
+            "label": "Livrare și calitate",
+            "href": "/capabilities"
+          },
+          {
+            "label": "Parteneri",
+            "href": "/partners"
+          }
+        ]
+      },
+      {
+        "title": "Companie și resurse",
+        "links": [
+          {
+            "label": "Despre",
+            "href": "/about"
+          },
+          {
+            "label": "Echipă",
+            "href": "/team"
+          },
+          {
+            "label": "Perspective",
+            "href": "/insights"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          {
+            "label": "Politica de confidențialitate",
+            "href": "/privacy"
+          },
+          {
+            "label": "Termeni și condiții",
+            "href": "/terms"
+          },
+          {
+            "label": "Politica de cookie-uri",
+            "href": "/cookies"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "protectedContacts": true,
+        "links": []
+      }
+    ]
+  },
+  "floatingContact": {
+    "buttonLabel": "Contactați-ne",
+    "chatTitle": "HimoSoft",
+    "chatSubtitle": "Răspundem de obicei într-o zi lucrătoare.",
+    "welcomeMessage": "Bună! Cu ce vă putem ajuta? Apăsați mai jos pentru email sau telefon.",
+    "onlineLabel": "Online",
+    "closeLabel": "Închide chatul",
+    "loadingLabel": "Se încarcă datele de contact…"
+  }
+}

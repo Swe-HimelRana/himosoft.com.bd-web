@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Terms of Service",
+    "description": "Terms governing HimoSoft software development, maintenance, deployment, payment integrations, and client engagements.",
+    "lastUpdated": "20 May 2026"
+  },
+  "nav": {
+    "backLabel": "Back to home",
+    "onThisPageLabel": "On this page"
+  },
+  "intro": "These Terms of Service (\"Terms\") govern access to websites operated by HimoSoft (\"HimoSoft\", \"we\", \"us\", \"our\"), including himosoft.com.bd and related subdomains, and all software development, consulting, maintenance, deployment, and integration services we provide. By using our website, marketplace links, payment portals, or engaging our services, you agree to these Terms. If you do not agree, do not use our services.",
+  "sections": [
+    {
+      "id": "about",
+      "title": "1. About HimoSoft",
+      "paragraphs": [
+        "HimoSoft is a software development and IT solutions company founded in 2020, headquartered in Bangladesh, serving clients domestically and internationally. We deliver custom software, web and mobile applications, systems integration, payment gateway implementations, cloud deployment, ongoing maintenance, and related professional services.",
+        "References to \"Client\", \"you\", or \"your\" mean the individual or legal entity purchasing or using our services. References to \"Deliverables\" mean software, documentation, designs, configurations, and other work product we provide under a statement of work, proposal, or contract."
+      ]
+    },
+    {
+      "id": "services",
+      "title": "2. Scope of services",
+      "paragraphs": [
+        "Our services may include, without limitation:"
+      ],
+      "list": [
+        "Custom software engineering, APIs, and microservices",
+        "Web applications, progressive web apps, and administrative portals",
+        "Native and cross-platform mobile applications",
+        "UI/UX design, design systems, and product discovery",
+        "Payment gateway and fintech integrations (e.g. card processing, mobile financial services, cryptocurrency checkout providers)",
+        "Third-party SaaS, ERP, CRM, and marketplace integrations (including Envato/CodeCanyon and ThemeForest distribution channels where applicable)",
+        "DevOps, CI/CD pipelines, containerization, and cloud infrastructure setup",
+        "Production deployment, monitoring, backup, and incident response",
+        "Application maintenance, security patching, performance optimization, and feature enhancements",
+        "Technical consulting, audits, documentation, and team training",
+        "Managed hosting coordination and vendor liaison on your behalf"
+      ]
+    },
+    {
+      "id": "engagement",
+      "title": "3. Engagements, proposals, and statements of work",
+      "paragraphs": [
+        "Specific project scope, milestones, acceptance criteria, fees, and timelines are defined in a written proposal, statement of work (SOW), service order, or master services agreement signed or accepted by both parties. If there is a conflict between these Terms and a signed SOW, the SOW prevails for that engagement only.",
+        "Estimates and timelines are based on information you provide. Delays caused by incomplete requirements, third-party dependencies, regulatory review, or change requests may adjust schedules and fees. We will use commercially reasonable efforts to notify you of material impacts.",
+        "Unless otherwise agreed, support outside agreed scope is billed on a time-and-materials basis at our then-current rates."
+      ]
+    },
+    {
+      "id": "client-obligations",
+      "title": "4. Client obligations",
+      "paragraphs": [
+        "You agree to provide timely access to stakeholders, specifications, credentials, test data, branding assets, and approvals necessary for delivery. You are responsible for the accuracy and legality of content, data, and business rules you supply.",
+        "You must maintain appropriate licenses for third-party software, fonts, stock assets, and plugins used in your project. You are responsible for obtaining merchant accounts, payment licenses, and regulatory approvals required for your business model in each jurisdiction where you operate.",
+        "You must not use our services to develop or operate unlawful products, infringe intellectual property, distribute malware, process prohibited transactions, or violate export control, sanctions, or anti-money-laundering laws."
+      ]
+    },
+    {
+      "id": "fees",
+      "title": "5. Fees, invoicing, and taxes",
+      "paragraphs": [
+        "Fees are due as stated in your SOW or invoice. Unless otherwise specified, invoices are payable within the stated net term (commonly 7–30 days). Late payments may incur suspension of work, withholding of deliverables, or interest at the maximum rate permitted by applicable law.",
+        "Quoted fees exclude VAT, GST, withholding tax, bank charges, currency conversion costs, third-party license fees, cloud consumption, SMS/transaction fees, and government levies unless explicitly included. You are responsible for applicable taxes in your jurisdiction; we may add Bangladesh VAT or other taxes where required by law.",
+        "Fixed-price engagements may require advance deposits or milestone payments. Retainer and maintenance agreements renew according to their term unless cancelled with written notice per the SOW."
+      ]
+    },
+    {
+      "id": "payments",
+      "title": "6. Payment methods and gateways",
+      "paragraphs": [
+        "We may accept payment via bank transfer, invoices, and approved online channels including HimoSoft payment portals (e.g. pay.himosoft.com.bd) and integrated processors such as Stripe, bKash, Easy Payment Gateway, NOWPayments, or other providers we designate.",
+        "When you pay through a third-party gateway, you also agree to that processor's terms, privacy policy, and acceptable use rules. HimoSoft does not control processor uptime, fraud decisions, chargebacks, settlement timing, or supported countries/currencies.",
+        "Chargebacks, disputed card payments, or reversed mobile-wallet transactions may result in suspension of services until resolved. You remain liable for work performed and non-refundable third-party costs already incurred on your behalf.",
+        "Cryptocurrency payments, where offered, are subject to network confirmation times, exchange-rate volatility, and irreversibility once confirmed on-chain. Refund policies for crypto transactions will be stated in your SOW or invoice."
+      ]
+    },
+    {
+      "id": "ip",
+      "title": "7. Intellectual property",
+      "paragraphs": [
+        "Unless your SOW states otherwise, upon full payment of all amounts due for a project, we assign to you ownership of custom source code and designs created specifically for you under that SOW, excluding our pre-existing tools, libraries, templates, and general know-how.",
+        "We retain ownership of reusable components, internal frameworks, and methodologies developed before or during your project that are not exclusively tied to your confidential business logic. We grant you a perpetual, non-exclusive license to use such embedded components as part of the Deliverables.",
+        "Open-source components remain subject to their respective licenses. You are responsible for compliance with license obligations in production distribution.",
+        "We may display non-confidential project descriptions, logos, and screenshots in portfolios and marketing unless you object in writing before launch or as agreed in an NDA."
+      ]
+    },
+    {
+      "id": "confidentiality",
+      "title": "8. Confidentiality and data protection",
+      "paragraphs": [
+        "Each party will protect the other's confidential information using reasonable care and use it only for performing obligations under the engagement. Confidentiality survives termination for the period stated in an NDA or, if none, five (5) years.",
+        "We process personal data in accordance with our Cookie Policy and applicable privacy laws, including where relevant the EU General Data Protection Regulation (GDPR), UK GDPR, US state privacy laws, and Bangladesh data protection and digital security requirements.",
+        "Where we act as a processor on your behalf, a data processing agreement (DPA) will define roles, subprocessors, security measures, breach notification, and international transfer mechanisms (such as Standard Contractual Clauses)."
+      ]
+    },
+    {
+      "id": "security",
+      "title": "9. Security, deployments, and infrastructure",
+      "paragraphs": [
+        "We implement reasonable administrative, technical, and organizational safeguards appropriate to project risk. No method of transmission or storage is 100% secure; we cannot guarantee absolute security.",
+        "Production deployments require agreed environments, secrets management, access controls, and backup procedures. You are responsible for cloud account ownership, domain DNS, SSL certificates, and production credentials unless we explicitly manage them under a managed-services SOW.",
+        "Emergency maintenance, security patches, or infrastructure provider outages may cause temporary downtime. We will use commercially reasonable efforts to restore services and communicate status during incidents."
+      ]
+    },
+    {
+      "id": "maintenance",
+      "title": "10. Maintenance, support, and service levels",
+      "paragraphs": [
+        "Ongoing maintenance, SLA response times, uptime targets, and support channels are defined only in a maintenance or support SOW. Without such agreement, post-launch support is on a best-effort or billable basis.",
+        "Support typically excludes issues caused by third-party modifications, unauthorized plugins, hosting misconfiguration, account suspension by payment providers, or failures outside systems under our control.",
+        "We may recommend upgrades for end-of-life frameworks, libraries, or operating systems. Deferred upgrades may increase security risk and future remediation cost."
+      ]
+    },
+    {
+      "id": "warranties",
+      "title": "11. Warranties and disclaimers",
+      "paragraphs": [
+        "For a period specified in your SOW (commonly 30–90 days after acceptance), we will correct reproducible defects in Deliverables that materially fail to meet documented acceptance criteria, provided you notify us promptly and provide reasonable reproduction steps.",
+        "EXCEPT AS EXPRESSLY STATED IN AN SOW, SERVICES AND DELIVERABLES ARE PROVIDED \"AS IS\" AND \"AS AVAILABLE.\" WE DISCLAIM ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND UNINTERRUPTED OR ERROR-FREE OPERATION.",
+        "We do not warrant third-party services, payment approval rates, marketplace sales performance, regulatory approval of your business model, or fitness of integrations for every jurisdiction."
+      ]
+    },
+    {
+      "id": "liability",
+      "title": "12. Limitation of liability",
+      "paragraphs": [
+        "TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NEITHER PARTY SHALL BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR LOST PROFITS, REVENUE, DATA, OR GOODWILL, EVEN IF ADVISED OF THE POSSIBILITY.",
+        "OUR AGGREGATE LIABILITY ARISING FROM OR RELATED TO AN ENGAGEMENT SHALL NOT EXCEED THE FEES PAID BY YOU TO HIMOSOFT FOR THAT ENGAGEMENT IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM, EXCEPT FOR LIABILITY THAT CANNOT BE LIMITED BY LAW (INCLUDING FRAUD OR WILLFUL MISCONDUCT).",
+        "Payment processors, cloud providers, and other third parties are independent of HimoSoft. Your remedies for their acts are against those providers under their terms."
+      ]
+    },
+    {
+      "id": "indemnity",
+      "title": "13. Indemnification",
+      "paragraphs": [
+        "You will defend and indemnify HimoSoft against claims arising from your content, products, regulated activities, misuse of Deliverables, breach of these Terms, or violation of law, except to the extent caused by our gross negligence or willful breach.",
+        "We will defend and indemnify you against third-party claims that custom Deliverables we created for you under an SOW infringe copyright or trade secrets, subject to your prompt notice and cooperation, and excluding claims arising from your modifications, combinations, or specified third-party materials."
+      ]
+    },
+    {
+      "id": "termination",
+      "title": "14. Term, suspension, and termination",
+      "paragraphs": [
+        "Either party may terminate an SOW for material breach not cured within the cure period stated therein (or 14 days if unstated) after written notice. We may suspend work or access for non-payment, security risk, or legal compliance.",
+        "Upon termination, you pay for work performed, committed third-party costs, and non-cancellable resources through the termination date. We will deliver paid-for work in progress and return your materials per the SOW.",
+        "Sections that by nature should survive (fees owed, confidentiality, IP, disclaimers, liability limits, indemnity, governing law) survive termination."
+      ]
+    },
+    {
+      "id": "compliance",
+      "title": "15. Regulatory compliance and export controls",
+      "paragraphs": [
+        "You represent that your use of services complies with laws in Bangladesh, the United States, the European Union, the United Kingdom, and any other jurisdiction where you operate or target users, including consumer protection, e-commerce, financial services, telecommunications, and tax rules.",
+        "You will not use our services in sanctioned countries or for prohibited end uses under US, EU, UK, UN, or Bangladesh export and sanctions regimes. We may refuse or discontinue services where required by law.",
+        "Payment and fintech features may require licenses (e.g. PCI-DSS compliance for card data, Bangladesh Bank rules for mobile financial services). HimoSoft implements technical integrations; regulatory compliance of your business remains your responsibility unless explicitly assumed in writing."
+      ]
+    },
+    {
+      "id": "disputes",
+      "title": "16. Governing law and disputes",
+      "paragraphs": [
+        "Unless your signed SOW specifies otherwise, these Terms are governed by the laws of Bangladesh, without regard to conflict-of-law principles. Courts in Dhaka, Bangladesh shall have exclusive jurisdiction, subject to mandatory consumer protections that cannot be waived in your country of residence.",
+        "For international commercial clients, parties may agree in an SOW to arbitration or another forum. Nothing prevents either party from seeking injunctive relief for IP or confidentiality breaches.",
+        "If you are an EU/EEA consumer using services primarily for personal use, you may retain mandatory rights under local consumer law."
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "17. Changes to these Terms",
+      "paragraphs": [
+        "We may update these Terms by posting a revised version with a new \"Last updated\" date. Material changes will be highlighted on this page. Continued use of the website or services after the effective date constitutes acceptance, except where prohibited by law or where your SOW requires written amendment.",
+        "Active paid engagements continue under the Terms version in effect at SOW signing unless both parties agree otherwise."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "18. Contact",
+      "paragraphs": [
+        "Questions about these Terms: contact HimoSoft via the Contact section on this website or email hello@himosoft.com.bd. For legal notices, include sufficient detail to identify your account or SOW reference.",
+        "Related policies: Privacy Policy at /privacy, Cookie Policy at /cookies on this website."
+      ]
+    }
+  ]
+}

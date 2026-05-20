@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 32" role="img" aria-label="Stripe">
+  <text
+    x="44"
+    y="23"
+    text-anchor="middle"
+    font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+    font-size="22"
+    font-weight="600"
+    fill="#635BFF"
+    letter-spacing="-0.03em"
+  >stripe</text>
+</svg>

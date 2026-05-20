@@ -1,0 +1,842 @@
+{
+  "meta": {
+    "siteTitle": "HimoSoft | Softwareentwicklung und IT-Lösungen",
+    "siteDescription": "HimoSoft verhilft Unternehmen mit modernen Software-, Web- und mobilen Lösungen zum Erfolg in der digitalen Welt – Bereitstellung auf Unternehmensniveau.",
+    "locale": "de",
+    "copyright": "© 2026 HimoSoft. Alle Rechte vorbehalten."
+  },
+  "nav": {
+    "brand": "HimoSoft",
+    "menuLabel": "Speisekarte",
+    "ctaLabel": "Kontaktieren Sie uns",
+    "ctaHref": "/contact",
+    "items": [
+      {
+        "id": "mega-solutions",
+        "label": "Lösungen & Branchen",
+        "mega": {
+          "featured": {
+            "eyebrow": "Hervorgehoben",
+            "title": "Von digitalen Plattformen bis hin zu tiefen Integrationen",
+            "description": "Keine Branchenvorlagen – wir gestalten Produkt-Roadmaps und Architektur gemeinsam auf der Grundlage Ihrer tatsächlichen Bedürfnisse.",
+            "href": "/stories",
+            "ctaLabel": "Sehen Sie sich Erfolgsmuster an"
+          },
+          "columns": [
+            {
+              "title": "Branchen und Anwendungsfälle",
+              "links": [
+                {
+                  "label": "E-Commerce und Einzelhandel",
+                  "href": "/domains",
+                  "description": "Auf die Konvertierung abgestimmte Kataloge, Bestellungen und Zahlungsströme."
+                },
+                {
+                  "label": "Bildung und Ausbildung",
+                  "href": "/domains",
+                  "description": "Lernportale und Fortschrittsverfolgung."
+                },
+                {
+                  "label": "Gesundheitsversorgung und Termine",
+                  "href": "/domains",
+                  "description": "Erschwingliche Abläufe mit sicherer Datenverarbeitung."
+                },
+                {
+                  "label": "Logistik & Betrieb",
+                  "href": "/domains",
+                  "description": "Dashboards und nahezu Echtzeit-Tracking."
+                }
+              ]
+            },
+            {
+              "title": "Lieferstile",
+              "links": [
+                {
+                  "label": "MVPs und schnelle Markteinführungen",
+                  "href": "/platform",
+                  "description": "Etwas, das in Wochen und nicht in Quartalen verwendbar ist."
+                },
+                {
+                  "label": "Legacy-Modernisierung",
+                  "href": "/capabilities",
+                  "description": "Inkrementelle Umschreibungen und sicherere Migrationen."
+                },
+                {
+                  "label": "API-First-Ökosysteme",
+                  "href": "/services",
+                  "description": "Partner und interne Tools sauber verbinden."
+                },
+                {
+                  "label": "Designsysteme und UX",
+                  "href": "/domains",
+                  "description": "Konsistente Benutzeroberfläche, die mit Ihren Teams skaliert."
+                }
+              ]
+            },
+            {
+              "title": "Schnelle Links",
+              "links": [
+                {
+                  "label": "Fall-Highlights",
+                  "href": "/stories"
+                },
+                {
+                  "label": "Plattformpfeiler",
+                  "href": "/platform"
+                },
+                {
+                  "label": "Dienstleistungen",
+                  "href": "/services"
+                },
+                {
+                  "label": "Kontakt",
+                  "href": "/contact"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "mega-services",
+        "label": "Dienstleistungen",
+        "mega": {
+          "featured": {
+            "eyebrow": "Ein Team",
+            "title": "Vom Produktdenken bis zur Produktion",
+            "description": "Discovery, Engineering, DevOps und Sicherheit – koordiniert unter einem Dach.",
+            "href": "/services",
+            "ctaLabel": "Durchsuchen Sie Dienste"
+          },
+          "columns": [
+            {
+              "title": "Maschinenbau",
+              "links": [
+                {
+                  "label": "Kundenspezifische Software",
+                  "href": "/services",
+                  "description": "Lösungen, die in Ihrer Domain verankert sind."
+                },
+                {
+                  "label": "Webanwendungen",
+                  "href": "/services",
+                  "description": "Reaktionsschnell, schnell, SEO-freundlich."
+                },
+                {
+                  "label": "Mobil (iOS / Android)",
+                  "href": "/services",
+                  "description": "Nativ und plattformübergreifend."
+                },
+                {
+                  "label": "Datenbanken und Leistung",
+                  "href": "/services",
+                  "description": "Modellierung, Indizierung, Optimierung."
+                }
+              ]
+            },
+            {
+              "title": "Integration & Plattform",
+              "links": [
+                {
+                  "label": "APIs und Webhooks",
+                  "href": "/services",
+                  "description": "Dienste von Drittanbietern sauber verkabelt."
+                },
+                {
+                  "label": "Cloud und Bereitstellung",
+                  "href": "/capabilities",
+                  "description": "CI/CD, Hosting, Beobachtbarkeit."
+                },
+                {
+                  "label": "Sicherheit und Compliance",
+                  "href": "/capabilities",
+                  "description": "Rollen, Prüfpfade, Härtung."
+                },
+                {
+                  "label": "Support und SLA",
+                  "href": "/services",
+                  "description": "Wartung, auf die Sie sich verlassen können."
+                }
+              ]
+            },
+            {
+              "title": "Erkunden",
+              "links": [
+                {
+                  "label": "Domänenfähigkeitsraster",
+                  "href": "/domains"
+                },
+                {
+                  "label": "Plattform-Dreiklang",
+                  "href": "/platform"
+                },
+                {
+                  "label": "Liefermöglichkeiten",
+                  "href": "/capabilities"
+                },
+                {
+                  "label": "Partnernetzwerk",
+                  "href": "/partners"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "mega-delivery",
+        "label": "Lieferung & Qualität",
+        "mega": {
+          "featured": {
+            "eyebrow": "Verfahren",
+            "title": "Klare Roadmaps · wöchentliche Synchronisierungen · skalierbare Architektur",
+            "description": "Einfache Arbeitsabläufe mit Stakeholdern, damit Entscheidungen schnell getroffen und der Versand vorhersehbar bleibt.",
+            "href": "/capabilities",
+            "ctaLabel": "Wie wir arbeiten"
+          },
+          "columns": [
+            {
+              "title": "Betriebsmodell",
+              "links": [
+                {
+                  "label": "Entdeckung und Prototyping",
+                  "href": "/capabilities",
+                  "description": "Schärfen Sie die Anforderungen, bevor sich der Code anhäuft."
+                },
+                {
+                  "label": "Sprints und Veröffentlichungen",
+                  "href": "/capabilities",
+                  "description": "Kleine Freisetzungen, kontrolliertes Risiko."
+                },
+                {
+                  "label": "Qualitätssicherung und Beobachtbarkeit",
+                  "href": "/capabilities",
+                  "description": "Testpyramide, Protokolle, Nachverfolgung."
+                },
+                {
+                  "label": "Verbesserungen nach dem Start",
+                  "href": "/insights",
+                  "description": "Iterieren Sie anhand realer Metriken."
+                }
+              ]
+            },
+            {
+              "title": "Ressourcen",
+              "links": [
+                {
+                  "label": "Tech-Stack-Notizen",
+                  "href": "/insights"
+                },
+                {
+                  "label": "Projektbeschreibung (PDF-Vorlage)",
+                  "href": "/contact"
+                },
+                {
+                  "label": "Supportpläne",
+                  "href": "/services"
+                },
+                {
+                  "label": "Werden Sie Partner",
+                  "href": "/partners"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "insights",
+        "label": "Einblicke",
+        "href": "/insights"
+      },
+      {
+        "id": "marketplace",
+        "label": "Marktplatz",
+        "href": "https://apps.himosoft.com.bd",
+        "external": true
+      },
+      {
+        "id": "pay-bill",
+        "label": "Rechnung bezahlen",
+        "href": "https://pay.himosoft.com.bd",
+        "external": true
+      },
+      {
+        "id": "mega-company",
+        "label": "Unternehmen",
+        "mega": {
+          "featured": {
+            "eyebrow": "HimoSoft",
+            "title": "Kundenorientiertes Team · Versand seit 2020",
+            "description": "Engineering, Design und Projektleitung unter einem Dach. Wir sprechen Ihre Geschäftssprache.",
+            "href": "/about",
+            "ctaLabel": "Über HimoSoft"
+          },
+          "columns": [
+            {
+              "title": "Unternehmen",
+              "links": [
+                {
+                  "label": "Überblick",
+                  "href": "/about",
+                  "description": "Mission und Denkweise."
+                },
+                {
+                  "label": "Team & Führung",
+                  "href": "/team",
+                  "description": "Wem gehört die Lieferung?"
+                },
+                {
+                  "label": "Kontakt & Büro",
+                  "href": "/contact",
+                  "description": "Starten Sie einen Projektthread."
+                }
+              ]
+            },
+            {
+              "title": "Arbeiten Sie mit uns",
+              "links": [
+                {
+                  "label": "Freiberufliche und vertragliche Tätigkeiten",
+                  "href": "/contact",
+                  "description": "Portfolio + Verfügbarkeit senden."
+                },
+                {
+                  "label": "Praktikanten & Lernen",
+                  "href": "/insights",
+                  "description": "Wie wir Neulinge an Bord bringen."
+                },
+                {
+                  "label": "Medien & Partnerschaften",
+                  "href": "/partners",
+                  "description": "Gemeinsame Kampagnen und Empfehlungen."
+                }
+              ]
+            },
+            {
+              "title": "Rechtliches & Infos",
+              "links": [
+                {
+                  "label": "Datenschutzerklärung",
+                  "href": "/privacy"
+                },
+                {
+                  "label": "Nutzungsbedingungen",
+                  "href": "/terms"
+                },
+                {
+                  "label": "Cookie-Richtlinie",
+                  "href": "/cookies"
+                },
+                {
+                  "label": "Sitemap",
+                  "href": "/sitemap"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "a11y": {
+      "mainNav": "Hauptnavigation",
+      "mobileNav": "Mobile Navigation",
+      "megaLinkGroup": "Links",
+      "closeMenuBackdrop": "Menü schließen"
+    }
+  },
+  "hero": {
+    "eyebrow": "Innovative Lösungen",
+    "title": "Verwandeln Sie Ihre Ideen in digitale Realität",
+    "subtitle": "HimoSoft bietet moderne Softwareentwicklungsdienste, die Ihrem Unternehmen helfen, online erfolgreich zu sein – Startup-Geschwindigkeit mit Unternehmensdisziplin.",
+    "primaryCta": {
+      "label": "Starten Sie ein Projekt",
+      "href": "/contact"
+    },
+    "secondaryCta": {
+      "label": "Entdecken Sie Dienstleistungen",
+      "href": "/services"
+    },
+    "aside": {
+      "title": "Bereit für das, was als nächstes kommt?",
+      "body": "Ein kurzes Beratungsgespräch genügt – wir sorgen für Klarheit über Stack, Zeitpläne und Risiken.",
+      "cards": [
+        {
+          "label": "Fokus",
+          "value": "Lieferung"
+        },
+        {
+          "label": "Stil",
+          "value": "Partnerschaft"
+        }
+      ]
+    }
+  },
+  "trustStrip": {
+    "headline": "Vertrauenswürdiger digitaler Partner – gleiche technische Sorgfalt vom Gründer bis zum Unternehmen",
+    "stats": [
+      {
+        "value": "2020",
+        "label": "Gegründet"
+      },
+      {
+        "value": "6+",
+        "label": "Servicesäulen"
+      },
+      {
+        "value": "100 %",
+        "label": "Kundenzentriert"
+      },
+      {
+        "value": "24/7",
+        "label": "Unterstützen Sie die Denkweise"
+      }
+    ]
+  },
+  "stories": {
+    "sectionEyebrow": "Hüllen und Muster",
+    "sectionTitle": "Wo Technologie den Ton angibt – die HimoSoft-Linse",
+    "sectionSubtitle": "Teams und Einschränkungen ähnlich wie bei Ihnen. Kurze Erzählungen von Orten, an denen wir häufig Einfluss nehmen.",
+    "items": [
+      {
+        "title": "Automatisierung des Einzelhandelsbetriebs",
+        "description": "Lagerbestände und Bestellungen in einem operativen Dashboard für Filialleiter.",
+        "href": "/contact",
+        "linkLabel": "Beginnen Sie ein Gespräch"
+      },
+      {
+        "title": "Digitalisierung des Produktionsablaufs",
+        "description": "Von der Schichtverfolgung bis hin zu QC-Notizen – weniger Papier, mehr Rückverfolgbarkeit.",
+        "href": "/contact",
+        "linkLabel": "Holen Sie sich eine Roadmap"
+      },
+      {
+        "title": "Buchungen und Zahlungen im Dienstleistungssektor",
+        "description": "Mobile-First-Buchungen, Erinnerungen und Berichte in einem Stapel.",
+        "href": "/services",
+        "linkLabel": "Siehe Dienstleistungen"
+      },
+      {
+        "title": "HR- und Beschaffungsworkflows",
+        "description": "Genehmigungsketten, Audit-Trails und Synchronisierung mehrerer Zweige.",
+        "href": "/domains",
+        "linkLabel": "Entdecken Sie Domänen"
+      },
+      {
+        "title": "Unterstützung bei Logistikentscheidungen",
+        "description": "Visualisieren Sie Routen und Frachtsignale für schnellere Entscheidungen.",
+        "href": "/stories",
+        "linkLabel": "Erfahren Sie mehr"
+      },
+      {
+        "title": "Steigerung der Entwicklungsgeschwindigkeit",
+        "description": "CI, Staging und Quality Gates, denen jeder folgt.",
+        "href": "/platform",
+        "linkLabel": "Plattformansicht"
+      }
+    ]
+  },
+  "spotlights": {
+    "sectionEyebrow": "Worin wir uns auszeichnen",
+    "sectionTitle": "Flexible Technologie, skalierbare Ergebnisse",
+    "sectionSubtitle": "Ihre Stakeholder, unsere technische Tiefe – gemeinsam liefern wir Produkte, die Benutzer und Umsatz zufriedenstellen.",
+    "items": [
+      {
+        "title": "Kundenspezifische Software",
+        "description": "Auf Herausforderungen zugeschnittene Lösungen werden von generischen Tools einfach ignoriert.",
+        "linkLabel": "Erfahren Sie mehr",
+        "href": "/capabilities"
+      },
+      {
+        "title": "Web & Cloud",
+        "description": "Responsive Web-Apps, die von Anfang an auf Leistung und Sicherheit ausgelegt sind.",
+        "linkLabel": "Dienstleistungen",
+        "href": "/services"
+      },
+      {
+        "title": "Mobile Erlebnisse",
+        "description": "iOS und Android – nativ und plattformübergreifend – zusammenhängende UX.",
+        "linkLabel": "Kontakt",
+        "href": "/contact"
+      }
+    ]
+  },
+  "platformTriad": {
+    "sectionEyebrow": "Denkweise einer vernetzten Plattform",
+    "sectionTitle": "Bauen · Sich auf Design und Daten stützen · Verwalten und verwalten",
+    "sectionSubtitle": "Drei vertikale Säulen, inspiriert von Unternehmens-Homepages – unsere Version für die Softwarebereitstellung: Technik, Erfahrung und sicherer Betrieb.",
+    "items": [
+      {
+        "eyebrow": "Bauen",
+        "title": "Apps, Integrationen und Toolchain",
+        "description": "Ein Team mit Frontend, Backend und DevOps mit schnellen Iterationen und testbaren Releases.",
+        "href": "/services",
+        "linkLabel": "Maschinenbau"
+      },
+      {
+        "eyebrow": "Design & Daten",
+        "title": "Benutzerkontext und Datenmodellierung",
+        "description": "UX/UI und Datenarchitektur sind zusammengefügt, sodass Entscheidungen vom ersten Tag an auf den tausendsten Tag übertragen werden können.",
+        "href": "/domains",
+        "linkLabel": "Domänen und UX"
+      },
+      {
+        "eyebrow": "Regieren und regieren",
+        "title": "Überwachung, Sicherheit und SLAs",
+        "description": "Produktionszustand, Protokolle und Reaktions-Playbooks, die die Geschäftszeiten schützen.",
+        "href": "/capabilities",
+        "linkLabel": "Liefermodell"
+      }
+    ]
+  },
+  "services": {
+    "sectionEyebrow": "Dienstleistungen",
+    "sectionTitle": "Was wir bieten",
+    "sectionSubtitle": "Softwareentwicklungsdienste können Sie End-to-End oder als fokussierte Module in Anspruch nehmen.",
+    "items": [
+      {
+        "title": "Software, die auf Sie zugeschnitten ist",
+        "description": "Speziell entwickelte Lösungen für Ihre individuellen Herausforderungen und Anforderungen."
+      },
+      {
+        "title": "Webentwicklung",
+        "description": "Reaktionsfähige, benutzerfreundliche Websites und Web-Apps auf modernen Stacks."
+      },
+      {
+        "title": "Mobile Apps",
+        "description": "Native und plattformübergreifende Anwendungen für iOS und Android."
+      },
+      {
+        "title": "Datenbanklösungen",
+        "description": "Design, Implementierung und Optimierung für zuverlässige Leistung."
+      },
+      {
+        "title": "API-Integration",
+        "description": "Verbinden Sie Dienste und APIs von Drittanbietern, um Ihr Produkt zu erweitern."
+      },
+      {
+        "title": "Support und Wartung",
+        "description": "Kontinuierliche technische Unterstützung, um die Zuverlässigkeit der Software zu gewährleisten."
+      }
+    ]
+  },
+  "domains": {
+    "sectionEyebrow": "Domänen und Funktionen",
+    "sectionTitle": "Wenn jede Funktion dieselbe Datenstruktur nutzt",
+    "sectionSubtitle": "Wir denken intensiv über Domänenprobleme nach – indem wir Code mit Nutzungsmustern und messbaren Ergebnissen kombinieren.",
+    "linkHint": "Erkunden",
+    "items": [
+      {
+        "title": "Daten und Analysen",
+        "description": "Modelle, Dashboards und Ereignisverfolgung, die Entscheidungen beschleunigen.",
+        "href": "/services"
+      },
+      {
+        "title": "Kundenerlebnis",
+        "description": "Von der Landung bis zum Onboarding – Ton und Reibung aufeinander abgestimmt.",
+        "href": "/stories"
+      },
+      {
+        "title": "Arbeitsabläufe und Genehmigungen",
+        "description": "Mehrstufige Genehmigungen mit proaktiven Benachrichtigungen.",
+        "href": "/capabilities"
+      },
+      {
+        "title": "E-Commerce und Zahlungen",
+        "description": "Kataloge, Kasse und Abgleichsabläufe.",
+        "href": "/domains"
+      },
+      {
+        "title": "Integrationszentrum",
+        "description": "Ein einziges Gateway für mehrere Anbieter.",
+        "href": "/services"
+      },
+      {
+        "title": "Industriebetriebe",
+        "description": "Schichten, Inventar und Ticketing-Tools.",
+        "href": "/stories"
+      },
+      {
+        "title": "Team- und Projektorchestrierung",
+        "description": "Sichtbarkeit von Rollen, Aufgaben und Zeitleiste.",
+        "href": "/team"
+      },
+      {
+        "title": "Sicherheit und Compliance",
+        "description": "Protokollierung, RBAC und Aufbewahrungsrichtlinien.",
+        "href": "/capabilities"
+      }
+    ]
+  },
+  "capabilities": {
+    "sectionEyebrow": "Plattform-Denkweise",
+    "sectionTitle": "Wenn Technologie und Wirtschaft zusammenwachsen, ergibt sich ein positives Ergebnis",
+    "sectionSubtitle": "Gesunde Verbindung zwischen Daten, Apps und Teams – schnellere Wege von Entscheidungen bis zur ausgelieferten Software.",
+    "pillars": [
+      {
+        "title": "Planung & Architektur",
+        "description": "Skalierbare, sichere und wartbare Grundlagen vom ersten Tag an."
+      },
+      {
+        "title": "Lieferung & Qualität",
+        "description": "Iterative Veröffentlichungen mit Überprüfungen und automatisierten Tests."
+      },
+      {
+        "title": "Integration",
+        "description": "Brücke zwischen alten und modernen Stacks – APIs zuerst."
+      },
+      {
+        "title": "Betrieb und Support",
+        "description": "Überwachung, Patching und proaktive Pflege für langfristigen Mehrwert."
+      }
+    ]
+  },
+  "partners": {
+    "sectionEyebrow": "Ökosystem",
+    "sectionTitle": "Partnernetzwerk für schnellere Ergebnisse",
+    "sectionSubtitle": "Wir arbeiten gerne mit Design-, Infrastruktur- und Domänenspezialisten zusammen, damit Ihr Kernteam konzentriert bleibt.",
+    "items": [
+      {
+        "title": "Erweiterungen und Integratoren",
+        "description": "Vertriebspartner für Cloud, Zahlungen und Marketing-Stacks.",
+        "href": "/contact",
+        "linkLabel": "Besprechen Sie Integrationen"
+      },
+      {
+        "title": "Agenturen & Studios",
+        "description": "Wenn Marke und Bewegung bereit sind, implementieren und skalieren wir.",
+        "href": "/platform",
+        "linkLabel": "Kooperationsmodelle"
+      },
+      {
+        "title": "Möchten Sie Partner werden?",
+        "description": "Gemeinsame Markteinführung, Empfehlungen und technische Unterstützung – einfache Vereinbarungen.",
+        "href": "/contact",
+        "linkLabel": "Kontaktformular"
+      }
+    ]
+  },
+  "about": {
+    "sectionEyebrow": "Über uns",
+    "sectionTitle": "HimoSoft – gegründet im Jahr 2020",
+    "paragraphs": [
+      "HimoSoft wurde 2020 gegründet und unterstützt als fokussiertes Softwarestudio weiterhin Unternehmen bei der Neugestaltung ihrer digitalen Präsenz und Abläufe.",
+      "Entwickler, Designer und Projektmanager arbeiten eng zusammen, um hochwertige Lösungen zu liefern, die Wachstum und Effizienz ermöglichen.",
+      "Unser kundenorientierter Ansatz konzentriert sich auf Ihre individuellen Herausforderungen, sodass maßgeschneiderte Ergebnisse regelmäßig die Erwartungen übertreffen.",
+      "Wir engagieren uns langfristig – Dokumentation, Übergabe und Schulung gehören zu „erledigt“. Sicherheit und Benutzerfreundlichkeit sind nicht verhandelbar."
+    ]
+  },
+  "team": {
+    "sectionEyebrow": "Unser Team",
+    "sectionTitle": "Lernen Sie die Spezialisten hinter HimoSoft kennen",
+    "sectionSubtitle": "Talentierte Fachkräfte sorgen tagtäglich für die Lieferung.",
+    "members": [
+      {
+        "name": "Himel",
+        "role": "Direktor und Gründer"
+      },
+      {
+        "name": "Tosar Ahmed",
+        "role": "Programmierer"
+      },
+      {
+        "name": "Jahidul Islam",
+        "role": "Leitender Entwickler"
+      },
+      {
+        "name": "Nasir Hossain",
+        "role": "Business Development Executive"
+      },
+      {
+        "name": "Jubel Ahmed",
+        "role": "Backend Developer (Leave, UK)"
+      },
+      {
+        "name": "Shajib Ahmed",
+        "role": "Account Manager (Leave, Study Abroad)"
+      }
+    ]
+  },
+  "insights": {
+    "sectionEyebrow": "Was ist neu",
+    "sectionTitle": "Einblicke, Ereignisse und Vermögenswerte",
+    "sectionSubtitle": "Platzhalterthemen – Tauschen Sie jederzeit die URLs Ihres Blogs, YouTubes oder Live-Events aus.",
+    "items": [
+      {
+        "badge": "Werkstatt",
+        "title": "Produktentwicklungslabor – remote oder vor Ort",
+        "description": "Ein konzentrierter Tag, um Probleme zu formulieren und die Roadmap zu skizzieren.",
+        "href": "/contact",
+        "linkLabel": "Reservieren Sie einen Sitzplatz"
+      },
+      {
+        "badge": "Führung",
+        "title": "Checkliste für die mobile Veröffentlichung",
+        "description": "Store-Rezensionen, Crash-Analysen und Grundlagen zu Betatests.",
+        "href": "/insights",
+        "linkLabel": "Bald herunterladen"
+      },
+      {
+        "badge": "Artikel",
+        "title": "Altsysteme modernisieren – Risiken reduzieren",
+        "description": "Strangler-Muster und Migrationsfallen, auf die wir achten.",
+        "href": "/capabilities",
+        "linkLabel": "Lesefunktionen"
+      },
+      {
+        "badge": "Ereignis",
+        "title": "Entwicklertreffen – Dhaka / online",
+        "description": "Monatliche offene Diskussionen plus Live-Code-Review-Slots.",
+        "href": "/contact",
+        "linkLabel": "Benachrichtigen Sie mich"
+      },
+      {
+        "badge": "Newsletter",
+        "title": "Technik und Lieferscheine – monatlich",
+        "description": "Kurze Werkzeugtipps und Bibliotheksaktualisierungen.",
+        "href": "/contact",
+        "linkLabel": "Abonnieren"
+      }
+    ]
+  },
+  "ctaBand": {
+    "title": "Starten Sie Ihre nächste digitale Initiative",
+    "subtitle": "Sprechen Sie über Umfang, Zeitpläne und Budget – wir antworten mit einer genauen Roadmap, Risiken und Zeitplänen.",
+    "primaryCta": {
+      "label": "Sprechen Sie mit HimoSoft",
+      "href": "/contact"
+    }
+  },
+  "sitemap": {
+    "pageTitle": "Sitemap",
+    "metaDescription": "Alle HimoSoft-Seiten, Startseiten-Abschnitte, Rechtliches und externe Dienste.",
+    "intro": "Finden Sie alle Seiten und wichtigen Bereiche der HimoSoft-Website.",
+    "xmlNote": "Für Suchmaschinen ist unsere XML-Sitemap verfügbar unter",
+    "homeLabel": "Startseite",
+    "groupPages": "Seiten",
+    "groupSections": "Startseiten-Bereiche",
+    "groupLegal": "Rechtliches & Richtlinien",
+    "groupExternal": "Externe Dienste",
+    "privacyLabel": "Datenschutzerklärung",
+    "termsLabel": "Nutzungsbedingungen",
+    "cookiesLabel": "Cookie-Richtlinie"
+  },
+  "cookieConsent": {
+    "title": "Wir schätzen Ihre Privatsphäre",
+    "description": "HimoSoft verwendet auf dieser Website Cookies und ähnliche Technologien. Einige sind unbedingt erforderlich; andere sind optional und nur mit Ihrer Einwilligung. Sie können die Seite weiter nutzen — dieser Hinweis blockiert die Seite nicht.",
+    "categories": [
+      {
+        "title": "Notwendige Cookies (immer aktiv)",
+        "description": "Speichern Ihre Sprachwahl (himosoft.locale) und ob Sie optionale Cookies akzeptiert oder abgelehnt haben (himosoft.cookie-consent). Ohne diese kann die Website Ihre Einstellungen nicht merken."
+      },
+      {
+        "title": "Präferenz- & Analyse-Cookies (optional)",
+        "description": "Wenn Sie alle akzeptieren, können später zusätzliche Cookies genutzt werden, um die Nutzung der Website zu verstehen (z. B. besuchte Seiten). Bei Ablehnung nicht notwendiger Cookies werden diese nicht gesetzt."
+      },
+      {
+        "title": "Dienste Dritter",
+        "description": "Externe Links (Marktplatz, Rechnung bezahlen, Partnerseiten) können eigene Cookies setzen. Diese Dienste haben eigene Datenschutzrichtlinien."
+      }
+    ],
+    "necessaryNote": "Das Ablehnen nicht notwendiger Cookies schränkt die Nutzung dieser Website nicht ein. Nur notwendige Cookies bleiben aktiv.",
+    "rightsNote": "Sie können Ihre Einwilligung jederzeit widerrufen, indem Sie Cookies für himosoft.com.bd in Ihrem Browser löschen und die Seite neu laden.",
+    "retentionNote": "Ihre Wahl wird bis zu 12 Monate gespeichert; danach können Sie erneut gefragt werden.",
+    "acceptLabel": "Alle akzeptieren",
+    "rejectLabel": "Nicht notwendige ablehnen"
+  },
+  "footer": {
+    "tagline": "Softwareentwicklung und IT-Lösungen – weltweit disziplinierte Bereitstellung mit Sitz in Bangladesch.",
+    "registrationLicense": "Staatlich registrierte Lizenz: TRADE-16247-100-8113",
+    "contactEmailLabel": "E-Mail",
+    "contactPhoneLabel": "Telefon",
+    "contactMobileLabel": "Mobil",
+    "columns": [
+      {
+        "title": "Lösungen & Branchen",
+        "links": [
+          {
+            "label": "Fall-Highlights",
+            "href": "/stories"
+          },
+          {
+            "label": "Domänenraster",
+            "href": "/domains"
+          },
+          {
+            "label": "Plattform-Dreiklang",
+            "href": "/platform"
+          }
+        ]
+      },
+      {
+        "title": "Dienstleistungen und Lieferung",
+        "links": [
+          {
+            "label": "Dienstleistungen",
+            "href": "/services"
+          },
+          {
+            "label": "Lieferung & Qualität",
+            "href": "/capabilities"
+          },
+          {
+            "label": "Partner",
+            "href": "/partners"
+          }
+        ]
+      },
+      {
+        "title": "Unternehmen & Ressourcen",
+        "links": [
+          {
+            "label": "Um",
+            "href": "/about"
+          },
+          {
+            "label": "Team",
+            "href": "/team"
+          },
+          {
+            "label": "Einblicke",
+            "href": "/insights"
+          },
+          {
+            "label": "Kontakt",
+            "href": "/contact"
+          }
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          {
+            "label": "Datenschutzerklärung",
+            "href": "/privacy"
+          },
+          {
+            "label": "Nutzungsbedingungen",
+            "href": "/terms"
+          },
+          {
+            "label": "Cookie-Richtlinie",
+            "href": "/cookies"
+          }
+        ]
+      },
+      {
+        "title": "Kontakt",
+        "protectedContacts": true,
+        "links": []
+      }
+    ]
+  },
+  "floatingContact": {
+    "buttonLabel": "Kontakt",
+    "chatTitle": "HimoSoft",
+    "chatSubtitle": "Wir antworten in der Regel innerhalb eines Werktags.",
+    "welcomeMessage": "Hallo! Wie können wir Ihnen helfen? Tippen Sie unten, um uns per E-Mail oder Telefon zu erreichen.",
+    "onlineLabel": "Online",
+    "closeLabel": "Chat schließen",
+    "loadingLabel": "Kontaktdaten werden geladen…"
+  }
+}

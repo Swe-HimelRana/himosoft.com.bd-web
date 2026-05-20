@@ -1,0 +1,842 @@
+{
+  "meta": {
+    "siteTitle": "HimoSoft | Software Development & IT Solutions",
+    "siteDescription": "HimoSoft builds custom software, web and mobile apps, payment gateway integrations (Stripe, bKash, EPG), cloud deployment, and maintenance for businesses in Bangladesh and worldwide — GDPR-aware delivery since 2020.",
+    "locale": "en",
+    "copyright": "© 2026 HimoSoft. All rights reserved."
+  },
+  "nav": {
+    "brand": "HimoSoft",
+    "menuLabel": "Menu",
+    "ctaLabel": "Contact us",
+    "ctaHref": "/contact",
+    "items": [
+      {
+        "id": "mega-solutions",
+        "label": "Solutions & industries",
+        "mega": {
+          "featured": {
+            "eyebrow": "Featured",
+            "title": "From digital platforms to deep integrations",
+            "description": "Not industry templates — we shape product roadmaps and architecture together based on what you actually need.",
+            "href": "/stories",
+            "ctaLabel": "See success patterns"
+          },
+          "columns": [
+            {
+              "title": "Industries & use cases",
+              "links": [
+                {
+                  "label": "E‑commerce & retail",
+                  "href": "/ecommerce-retail",
+                  "description": "Catalogues, orders, and payment flows tuned for conversion."
+                },
+                {
+                  "label": "Education & training",
+                  "href": "/education-training",
+                  "description": "Learning portals and progress tracking."
+                },
+                {
+                  "label": "Healthcare & appointments",
+                  "href": "/healthcare",
+                  "description": "Affordable flows with safer data handling."
+                },
+                {
+                  "label": "Logistics & operations",
+                  "href": "/logistics-operations",
+                  "description": "Dashboards and near real‑time tracking."
+                }
+              ]
+            },
+            {
+              "title": "Delivery styles",
+              "links": [
+                {
+                  "label": "MVPs & fast launches",
+                  "href": "/mvps-launches",
+                  "description": "Something usable in weeks, not quarters."
+                },
+                {
+                  "label": "Legacy modernisation",
+                  "href": "/legacy-modernisation",
+                  "description": "Incremental rewrites and safer migrations."
+                },
+                {
+                  "label": "API‑first ecosystems",
+                  "href": "/api-first",
+                  "description": "Connect partners and internal tools cleanly."
+                },
+                {
+                  "label": "Design systems & UX",
+                  "href": "/design-systems-ux",
+                  "description": "Consistent UI that scales with your teams."
+                }
+              ]
+            },
+            {
+              "title": "Quick links",
+              "links": [
+                {
+                  "label": "Case highlights",
+                  "href": "/stories"
+                },
+                {
+                  "label": "Platform pillars",
+                  "href": "/platform"
+                },
+                {
+                  "label": "Services",
+                  "href": "/services"
+                },
+                {
+                  "label": "Contact",
+                  "href": "/contact"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "mega-services",
+        "label": "Services",
+        "mega": {
+          "featured": {
+            "eyebrow": "One team",
+            "title": "From product thinking to production",
+            "description": "Discovery, engineering, DevOps, and security — coordinated under one roof.",
+            "href": "/services",
+            "ctaLabel": "Browse services"
+          },
+          "columns": [
+            {
+              "title": "Engineering",
+              "links": [
+                {
+                  "label": "Custom software",
+                  "href": "/custom-software",
+                  "description": "Solutions anchored to your domain."
+                },
+                {
+                  "label": "Web applications",
+                  "href": "/web-applications",
+                  "description": "Responsive, fast, SEO‑friendly."
+                },
+                {
+                  "label": "Mobile (iOS / Android)",
+                  "href": "/mobile-apps",
+                  "description": "Native and cross‑platform."
+                },
+                {
+                  "label": "Databases & performance",
+                  "href": "/databases",
+                  "description": "Modelling, indexing, optimisation."
+                }
+              ]
+            },
+            {
+              "title": "Integration & platform",
+              "links": [
+                {
+                  "label": "APIs & webhooks",
+                  "href": "/apis-webhooks",
+                  "description": "Third‑party services wired cleanly."
+                },
+                {
+                  "label": "Cloud & deployment",
+                  "href": "/cloud-deployment",
+                  "description": "CI/CD, hosting, observability."
+                },
+                {
+                  "label": "Security & compliance",
+                  "href": "/security-compliance",
+                  "description": "Roles, audit trails, hardening."
+                },
+                {
+                  "label": "Support & SLA",
+                  "href": "/support-sla",
+                  "description": "Maintenance you can rely on."
+                }
+              ]
+            },
+            {
+              "title": "Explore",
+              "links": [
+                {
+                  "label": "Domain capability grid",
+                  "href": "/domains"
+                },
+                {
+                  "label": "Platform triad",
+                  "href": "/platform"
+                },
+                {
+                  "label": "Delivery capabilities",
+                  "href": "/capabilities"
+                },
+                {
+                  "label": "Partner network",
+                  "href": "/partners"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "mega-delivery",
+        "label": "Delivery & quality",
+        "mega": {
+          "featured": {
+            "eyebrow": "Process",
+            "title": "Clear roadmaps · weekly syncs · scalable architecture",
+            "description": "Lightweight workflows with stakeholders so decisions stay fast and shipping stays predictable.",
+            "href": "/capabilities",
+            "ctaLabel": "How we work"
+          },
+          "columns": [
+            {
+              "title": "Operating model",
+              "links": [
+                {
+                  "label": "Discovery & prototyping",
+                  "href": "/discovery",
+                  "description": "Sharpen requirements before code piles up."
+                },
+                {
+                  "label": "Sprints & releases",
+                  "href": "/sprints-releases",
+                  "description": "Small releases, controlled risk."
+                },
+                {
+                  "label": "QA & observability",
+                  "href": "/qa-observability",
+                  "description": "Test pyramid, logs, tracing."
+                },
+                {
+                  "label": "Post‑launch improvements",
+                  "href": "/post-launch",
+                  "description": "Iterate from real metrics."
+                }
+              ]
+            },
+            {
+              "title": "Resources",
+              "links": [
+                {
+                  "label": "Tech stack notes",
+                  "href": "/tech-stack"
+                },
+                {
+                  "label": "Project brief (PDF template)",
+                  "href": "/contact"
+                },
+                {
+                  "label": "Support plans",
+                  "href": "/support-plans"
+                },
+                {
+                  "label": "Become a partner",
+                  "href": "/partners"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "insights",
+        "label": "Insights",
+        "href": "/insights"
+      },
+      {
+        "id": "marketplace",
+        "label": "Marketplace",
+        "href": "https://apps.himosoft.com.bd",
+        "external": true
+      },
+      {
+        "id": "pay-bill",
+        "label": "Pay Bill",
+        "href": "https://pay.himosoft.com.bd",
+        "external": true
+      },
+      {
+        "id": "mega-company",
+        "label": "Company",
+        "mega": {
+          "featured": {
+            "eyebrow": "HimoSoft",
+            "title": "Client‑centric team · shipping since 2020",
+            "description": "Engineering, design, and project leadership under one roof. We speak your business language.",
+            "href": "/about",
+            "ctaLabel": "About HimoSoft"
+          },
+          "columns": [
+            {
+              "title": "Company",
+              "links": [
+                {
+                  "label": "Overview",
+                  "href": "/about",
+                  "description": "Mission and mindset."
+                },
+                {
+                  "label": "Team & leadership",
+                  "href": "/team",
+                  "description": "Who owns delivery."
+                },
+                {
+                  "label": "Contact & office",
+                  "href": "/contact",
+                  "description": "Start a project thread."
+                }
+              ]
+            },
+            {
+              "title": "Work with us",
+              "links": [
+                {
+                  "label": "Freelance & contract roles",
+                  "href": "/careers",
+                  "description": "Send portfolio + availability."
+                },
+                {
+                  "label": "Interns & learning",
+                  "href": "/insights",
+                  "description": "How we onboard newcomers."
+                },
+                {
+                  "label": "Media & partnerships",
+                  "href": "/partners",
+                  "description": "Joint campaigns and referrals."
+                }
+              ]
+            },
+            {
+              "title": "Legal & info",
+              "links": [
+                {
+                  "label": "Privacy Policy",
+                  "href": "/privacy"
+                },
+                {
+                  "label": "Terms of Service",
+                  "href": "/terms"
+                },
+                {
+                  "label": "Cookie Policy",
+                  "href": "/cookies"
+                },
+                {
+                  "label": "Site map",
+                  "href": "/sitemap"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "a11y": {
+      "mainNav": "Main navigation",
+      "mobileNav": "Mobile navigation",
+      "megaLinkGroup": "Links",
+      "closeMenuBackdrop": "Close menu"
+    }
+  },
+  "hero": {
+    "eyebrow": "Innovative solutions",
+    "title": "Turn your ideas into digital reality",
+    "subtitle": "HimoSoft delivers modern software development services to help your business thrive online — startup speed with enterprise discipline.",
+    "primaryCta": {
+      "label": "Start a project",
+      "href": "/contact"
+    },
+    "secondaryCta": {
+      "label": "Explore services",
+      "href": "/services"
+    },
+    "aside": {
+      "title": "Ready for what’s next?",
+      "body": "A short discovery call is enough — we bring clarity on stack, timelines, and risks.",
+      "cards": [
+        {
+          "label": "Focus",
+          "value": "Delivery"
+        },
+        {
+          "label": "Style",
+          "value": "Partnership"
+        }
+      ]
+    }
+  },
+  "trustStrip": {
+    "headline": "Trusted digital partner — same engineering rigour from founders to enterprises",
+    "stats": [
+      {
+        "value": "2020",
+        "label": "Founded"
+      },
+      {
+        "value": "6+",
+        "label": "Service pillars"
+      },
+      {
+        "value": "100%",
+        "label": "Client‑centric"
+      },
+      {
+        "value": "24/7",
+        "label": "Support mindset"
+      }
+    ]
+  },
+  "stories": {
+    "sectionEyebrow": "Cases & patterns",
+    "sectionTitle": "Where technology moves the needle — the HimoSoft lens",
+    "sectionSubtitle": "Teams and constraints much like yours. Short narratives of places we frequently add leverage.",
+    "items": [
+      {
+        "title": "Retail operations automation",
+        "description": "Inventory and orders in one operational dashboard for store managers.",
+        "href": "/contact",
+        "linkLabel": "Start a conversation"
+      },
+      {
+        "title": "Manufacturing flow digitisation",
+        "description": "From shift tracking to QC notes — less paper, more traceability.",
+        "href": "/contact",
+        "linkLabel": "Get a roadmap"
+      },
+      {
+        "title": "Services industry bookings & payments",
+        "description": "Mobile‑first bookings, reminders, and reporting in one stack.",
+        "href": "/services",
+        "linkLabel": "See services"
+      },
+      {
+        "title": "HR & procurement workflows",
+        "description": "Approval chains, audit trails, and multi‑branch sync.",
+        "href": "/domains",
+        "linkLabel": "Explore domains"
+      },
+      {
+        "title": "Logistics decision support",
+        "description": "Visualise routes and cargo signals for faster decisions.",
+        "href": "/stories",
+        "linkLabel": "Learn more"
+      },
+      {
+        "title": "Development velocity uplift",
+        "description": "CI, staging, and quality gates everyone follows.",
+        "href": "/platform",
+        "linkLabel": "Platform view"
+      }
+    ]
+  },
+  "spotlights": {
+    "sectionEyebrow": "What we excel at",
+    "sectionTitle": "Flexible tech, scalable outcomes",
+    "sectionSubtitle": "Your stakeholders, our engineering depth — together we ship products that satisfy users and revenue.",
+    "items": [
+      {
+        "title": "Custom software",
+        "description": "Solutions tailored to challenges generic tools simply ignore.",
+        "linkLabel": "Learn more",
+        "href": "/capabilities"
+      },
+      {
+        "title": "Web & cloud",
+        "description": "Responsive web apps built with performance and security upfront.",
+        "linkLabel": "Services",
+        "href": "/services"
+      },
+      {
+        "title": "Mobile experiences",
+        "description": "iOS & Android — native and cross‑platform — cohesive UX.",
+        "linkLabel": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "platformTriad": {
+    "sectionEyebrow": "Connected platform mindset",
+    "sectionTitle": "Build · Lean on design & data · Govern & run",
+    "sectionSubtitle": "Three vertical pillars inspired by enterprise homepages — our version for software delivery: engineering, experience, and safe operations.",
+    "items": [
+      {
+        "eyebrow": "Build",
+        "title": "Apps, integrations, and toolchain",
+        "description": "One squad owning frontend, backend, and DevOps with rapid iterations and testable releases.",
+        "href": "/services",
+        "linkLabel": "Engineering"
+      },
+      {
+        "eyebrow": "Design & data",
+        "title": "User context and data modelling",
+        "description": "UX/UI and data architecture stitched together so day‑one decisions scale to day thousand.",
+        "href": "/domains",
+        "linkLabel": "Domains & UX"
+      },
+      {
+        "eyebrow": "Govern & run",
+        "title": "Monitoring, security, and SLAs",
+        "description": "Production health, logs, and response playbooks that protect business hours.",
+        "href": "/capabilities",
+        "linkLabel": "Delivery model"
+      }
+    ]
+  },
+  "services": {
+    "sectionEyebrow": "Services",
+    "sectionTitle": "What we offer",
+    "sectionSubtitle": "Software development services you can engage end‑to‑end or as focused modules.",
+    "items": [
+      {
+        "title": "Software shaped around you",
+        "description": "Purpose‑built solutions for your unique challenges and requirements."
+      },
+      {
+        "title": "Web development",
+        "description": "Responsive, user‑friendly websites and web apps on modern stacks."
+      },
+      {
+        "title": "Mobile apps",
+        "description": "Native and cross‑platform applications for iOS and Android."
+      },
+      {
+        "title": "Database solutions",
+        "description": "Design, implementation, and optimisation for reliable performance."
+      },
+      {
+        "title": "API integration",
+        "description": "Connect third‑party services and APIs to extend your product."
+      },
+      {
+        "title": "Support & maintenance",
+        "description": "Ongoing technical assistance to keep software dependable."
+      }
+    ]
+  },
+  "domains": {
+    "sectionEyebrow": "Domains & functions",
+    "sectionTitle": "When every function shares the same data fabric",
+    "sectionSubtitle": "We think deeply about domain problems — pairing code with usage patterns and measurable outcomes.",
+    "linkHint": "Explore",
+    "items": [
+      {
+        "title": "Data & analytics",
+        "description": "Models, dashboards, and event tracking that accelerate decisions.",
+        "href": "/services"
+      },
+      {
+        "title": "Customer experience",
+        "description": "Landing to onboarding — tone and friction aligned.",
+        "href": "/stories"
+      },
+      {
+        "title": "Workflows & approvals",
+        "description": "Multi-step approvals with proactive notifications.",
+        "href": "/capabilities"
+      },
+      {
+        "title": "E-commerce & payments",
+        "description": "Catalogues, checkout, and reconciliation flows.",
+        "href": "/domains"
+      },
+      {
+        "title": "Integration hub",
+        "description": "Single gateway spanning multiple vendors.",
+        "href": "/services"
+      },
+      {
+        "title": "Industrial operations",
+        "description": "Shifts, inventory, and ticketing tooling.",
+        "href": "/stories"
+      },
+      {
+        "title": "Team & project orchestration",
+        "description": "Roles, tasks, and timeline visibility.",
+        "href": "/team"
+      },
+      {
+        "title": "Security & compliance",
+        "description": "Logging, RBAC, and retention policies.",
+        "href": "/capabilities"
+      }
+    ]
+  },
+  "capabilities": {
+    "sectionEyebrow": "Platform mindset",
+    "sectionTitle": "When technology and business move together, upside compounds",
+    "sectionSubtitle": "Healthy glue between data, apps, and teams — faster paths from decisions to shipped software.",
+    "pillars": [
+      {
+        "title": "Planning & architecture",
+        "description": "Scalable, secure, maintainable foundations from day zero."
+      },
+      {
+        "title": "Delivery & quality",
+        "description": "Iterative releases with reviews and automated testing."
+      },
+      {
+        "title": "Integration",
+        "description": "Bridging legacy and modern stacks — APIs first."
+      },
+      {
+        "title": "Operations & support",
+        "description": "Monitoring, patching, and proactive care for long-term value."
+      }
+    ]
+  },
+  "partners": {
+    "sectionEyebrow": "Ecosystem",
+    "sectionTitle": "Partner network for accelerated outcomes",
+    "sectionSubtitle": "We happily co-deliver with design, infra, and domain specialists so your core team stays focused.",
+    "items": [
+      {
+        "title": "Extensions & integrators",
+        "description": "Channel partners for cloud, payments, and marketing stacks.",
+        "href": "/contact",
+        "linkLabel": "Discuss integrations"
+      },
+      {
+        "title": "Agencies & studios",
+        "description": "When brand and motion are ready, we implement and scale.",
+        "href": "/platform",
+        "linkLabel": "Collaboration models"
+      },
+      {
+        "title": "Want to partner?",
+        "description": "Joint go-to-market, referrals, and technical backing — lightweight agreements.",
+        "href": "/contact",
+        "linkLabel": "Contact form"
+      }
+    ]
+  },
+  "about": {
+    "sectionEyebrow": "About us",
+    "sectionTitle": "HimoSoft — founded in 2020",
+    "paragraphs": [
+      "Founded in 2020, HimoSoft continues to help organisations reshape digital presence and operations as a focused software studio.",
+      "Developers, designers, and project managers collaborate tightly to ship high-quality solutions that unlock growth and efficiency.",
+      "Our client-centric approach zeroes in on your unique challenges so customised outcomes routinely exceed expectations.",
+      "We commit for the long haul — documentation, handover, and training are part of “done”. Security and usability are non-negotiable."
+    ]
+  },
+  "team": {
+    "sectionEyebrow": "Our team",
+    "sectionTitle": "Meet the specialists behind HimoSoft",
+    "sectionSubtitle": "Talented professionals powering delivery day to day.",
+    "members": [
+      {
+        "name": "Himel",
+        "role": "Director & Founder"
+      },
+      {
+        "name": "Tosar Ahmed",
+        "role": "Programmer"
+      },
+      {
+        "name": "Jahidul Islam",
+        "role": "Lead Developer"
+      },
+      {
+        "name": "Nasir Hossain",
+        "role": "Business Development Executive"
+      },
+      {
+        "name": "Jubel Ahmed",
+        "role": "Backend Developer (Leave, UK)"
+      },
+      {
+        "name": "Shajib Ahmed",
+        "role": "Account Manager (Leave, Study Abroad)"
+      }
+    ]
+  },
+  "insights": {
+    "sectionEyebrow": "What's new",
+    "sectionTitle": "Insights, events, and assets",
+    "sectionSubtitle": "Placeholder topics — swap in your blog, YouTube, or live event URLs anytime.",
+    "items": [
+      {
+        "badge": "Workshop",
+        "title": "Product discovery lab — remote or onsite",
+        "description": "A focused day to frame problems and sketch the roadmap.",
+        "href": "/contact",
+        "linkLabel": "Reserve a seat"
+      },
+      {
+        "badge": "Guide",
+        "title": "Mobile release checklist",
+        "description": "Store reviews, crash analytics, and beta testing essentials.",
+        "href": "/insights",
+        "linkLabel": "Download soon"
+      },
+      {
+        "badge": "Article",
+        "title": "Modernising legacy systems — reducing risk",
+        "description": "Strangler patterns and migration pitfalls we watch for.",
+        "href": "/capabilities",
+        "linkLabel": "Read capabilities"
+      },
+      {
+        "badge": "Event",
+        "title": "Dev meetup — Dhaka / online",
+        "description": "Monthly open discussions plus live code review slots.",
+        "href": "/contact",
+        "linkLabel": "Notify me"
+      },
+      {
+        "badge": "Newsletter",
+        "title": "Tech & delivery notes — monthly",
+        "description": "Short tooling tips and library updates.",
+        "href": "/contact",
+        "linkLabel": "Subscribe"
+      }
+    ]
+  },
+  "ctaBand": {
+    "title": "Kick off your next digital initiative",
+    "subtitle": "Talk scope, timelines, and budget — we respond with roadmap, risks, and timelines spelled out.",
+    "primaryCta": {
+      "label": "Talk to HimoSoft",
+      "href": "/contact"
+    }
+  },
+  "sitemap": {
+    "pageTitle": "Site map",
+    "metaDescription": "Browse all HimoSoft website pages, homepage sections, legal policies, and external services.",
+    "intro": "Find every page and major section on the HimoSoft website. Links below help visitors and search engines discover our content.",
+    "xmlNote": "For search engines, our machine-readable XML sitemap is available at",
+    "homeLabel": "Home",
+    "groupPages": "Pages",
+    "groupSections": "Homepage sections",
+    "groupLegal": "Legal & policies",
+    "groupExternal": "External services",
+    "privacyLabel": "Privacy Policy",
+    "termsLabel": "Terms of Service",
+    "cookiesLabel": "Cookie Policy"
+  },
+  "floatingContact": {
+    "buttonLabel": "Contact Us",
+    "chatTitle": "HimoSoft",
+    "chatSubtitle": "We typically reply within one business day.",
+    "welcomeMessage": "Hello! How can we help you today? Tap below to email or call our team.",
+    "onlineLabel": "Online",
+    "closeLabel": "Close chat",
+    "loadingLabel": "Loading contact details…"
+  },
+  "cookieConsent": {
+    "title": "We value your privacy",
+    "description": "HimoSoft uses cookies and similar technologies on this website. Some are strictly necessary; others are optional and only used if you consent. You can browse the site while you decide — this notice does not block the page.",
+    "categories": [
+      {
+        "title": "Essential cookies (always active)",
+        "description": "Store your language preference (himosoft.locale) and record whether you accepted or rejected optional cookies (himosoft.cookie-consent). Without these, the site cannot remember your settings."
+      },
+      {
+        "title": "Preference & analytics cookies (optional)",
+        "description": "If you accept all cookies, we may later use additional cookies to understand how visitors use the site (e.g. pages viewed, approximate region) so we can improve content and performance. These are not placed if you reject non-essential cookies."
+      },
+      {
+        "title": "Third-party services",
+        "description": "External links (Marketplace, Pay Bill, partner sites) may set their own cookies when you visit them. Those services have separate privacy policies — we do not control cookies on third-party domains."
+      }
+    ],
+    "necessaryNote": "Rejecting non-essential cookies still allows full use of this website. Only essential cookies remain active.",
+    "rightsNote": "You may withdraw consent at any time by clearing cookies for himosoft.com.bd in your browser settings and reloading the page.",
+    "retentionNote": "Your cookie choice is stored for up to 12 months, after which you may be asked again.",
+    "acceptLabel": "Accept all",
+    "rejectLabel": "Reject non-essential"
+  },
+  "footer": {
+    "tagline": "Software development & IT solutions — Bangladesh-based, globally disciplined delivery.",
+    "registrationLicense": "Government Registered License: TRADE-16247-100-8113",
+    "contactEmailLabel": "Email",
+    "contactPhoneLabel": "Phone",
+    "contactMobileLabel": "Mobile",
+    "columns": [
+      {
+        "title": "Solutions & industries",
+        "links": [
+          {
+            "label": "Case highlights",
+            "href": "/stories"
+          },
+          {
+            "label": "Domain grid",
+            "href": "/domains"
+          },
+          {
+            "label": "Platform triad",
+            "href": "/platform"
+          }
+        ]
+      },
+      {
+        "title": "Services & delivery",
+        "links": [
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "Delivery & quality",
+            "href": "/capabilities"
+          },
+          {
+            "label": "Partners",
+            "href": "/partners"
+          }
+        ]
+      },
+      {
+        "title": "Company & resources",
+        "links": [
+          {
+            "label": "About",
+            "href": "/about"
+          },
+          {
+            "label": "Team",
+            "href": "/team"
+          },
+          {
+            "label": "Insights",
+            "href": "/insights"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          {
+            "label": "Privacy Policy",
+            "href": "/privacy"
+          },
+          {
+            "label": "Terms of Service",
+            "href": "/terms"
+          },
+          {
+            "label": "Cookie Policy",
+            "href": "/cookies"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "protectedContacts": true,
+        "links": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "Cookie Policy",
+    "description": "How HimoSoft uses cookies and similar technologies on its websites and services.",
+    "lastUpdated": "20 May 2026"
+  },
+  "nav": {
+    "backLabel": "Back to home",
+    "onThisPageLabel": "On this page"
+  },
+  "intro": "This Cookie Policy explains how HimoSoft (\"we\", \"us\", \"our\") uses cookies and similar technologies on himosoft.com.bd and related sites. It should be read with our Terms of Service. We design our practices to align with common requirements in Bangladesh, the European Union (ePrivacy Directive and GDPR), the United States (including state privacy laws), and other markets where our clients operate.",
+  "sections": [
+    {
+      "id": "what",
+      "title": "1. What are cookies and similar technologies?",
+      "paragraphs": [
+        "Cookies are small text files stored on your device when you visit a website. Similar technologies include local storage, session storage, pixels, tags, and software development kits (SDKs) in mobile apps.",
+        "Cookies may be \"first-party\" (set by HimoSoft) or \"third-party\" (set by payment processors, analytics providers, embedded widgets, or partner platforms you navigate to)."
+      ]
+    },
+    {
+      "id": "controller",
+      "title": "2. Who is responsible?",
+      "paragraphs": [
+        "For this corporate website, HimoSoft acts as the data controller for cookie-related personal data we determine. When we build client applications, the client may be the controller; a separate privacy notice will apply to those products.",
+        "Contact: hello@himosoft.com.bd (see Contact on our homepage for phone options)."
+      ]
+    },
+    {
+      "id": "legal-bases",
+      "title": "3. Legal bases (EU/EEA and UK visitors)",
+      "paragraphs": [
+        "Where GDPR or UK GDPR applies, we rely on:",
+        "Essential cookies: legitimate interests and/or necessity to perform a service you request (e.g. remembering language).",
+        "Non-essential cookies (e.g. analytics): your consent, which you may withdraw at any time via browser controls or our cookie banner.",
+        "We do not use non-essential cookies until you accept them in our banner, except where exempted by law."
+      ]
+    },
+    {
+      "id": "cookies-we-use",
+      "title": "4. Cookies we use on this website",
+      "paragraphs": [
+        "The following describes cookies commonly used on this site:"
+      ],
+      "list": [
+        "himosoft.locale — stores your selected language (essential, ~12 months)",
+        "himosoft.cookie-consent — stores whether you accepted or rejected non-essential cookies (essential for compliance, ~12 months)",
+        "Session identifiers — may be used temporarily for security or load balancing where hosting provides them (essential, session)"
+      ]
+    },
+    {
+      "id": "optional",
+      "title": "5. Optional cookies if you accept all",
+      "paragraphs": [
+        "If you click \"Accept all\" in our cookie banner, we may later enable additional cookies such as privacy-friendly analytics to understand aggregated traffic (pages viewed, approximate region, device type). We will update this policy before activating new optional categories.",
+        "If you reject non-essential cookies, only essential cookies described above remain active."
+      ]
+    },
+    {
+      "id": "payment",
+      "title": "6. Payment portals and checkout cookies",
+      "paragraphs": [
+        "When you visit HimoSoft payment pages (e.g. pay.himosoft.com.bd) or complete checkout on client solutions we host, payment partners may set cookies required for fraud prevention, session continuity, and transaction processing.",
+        "Examples of categories used in integrations we support include card acquirers (e.g. Stripe), mobile financial services (e.g. bKash), regional gateways (e.g. Easy Payment Gateway), and cryptocurrency processors (e.g. NOWPayments). Each provider publishes its own cookie and privacy documentation.",
+        "HimoSoft does not control third-party payment cookies. Review the applicable processor policy before paying."
+      ]
+    },
+    {
+      "id": "marketplace",
+      "title": "7. Marketplace, partners, and external links",
+      "paragraphs": [
+        "Our site links to external services such as apps.himosoft.com.bd (Marketplace), partner payment brands, Envato/CodeCanyon, ThemeForest, and client projects. Those sites may set their own cookies when you leave our domain.",
+        "Embedded content (videos, maps, chat widgets) may set cookies if enabled on a page. We minimize third-party embeds on this corporate site."
+      ]
+    },
+    {
+      "id": "retention",
+      "title": "8. Retention",
+      "paragraphs": [
+        "Essential cookies persist up to approximately twelve (12) months unless you clear them sooner. Session cookies expire when you close your browser.",
+        "Retention schedules for optional analytics cookies will be listed here when activated, typically not exceeding thirteen (13) months for analytics under EU guidance."
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "9. Your rights",
+      "paragraphs": [
+        "Depending on your location, you may have rights to access, correct, delete, restrict, object to processing, withdraw consent, and data portability regarding personal data collected via cookies.",
+        "EU/EEA and UK residents may lodge complaints with their supervisory authority. Bangladesh users may contact relevant authorities under applicable digital security and data protection frameworks as they evolve.",
+        "US residents in states with privacy laws (e.g. California, Virginia, Colorado) may have additional rights regarding sale/share of personal information; HimoSoft does not sell personal data collected through this corporate site for money.",
+        "To exercise rights, contact hello@himosoft.com.bd with sufficient detail to identify your request."
+      ]
+    },
+    {
+      "id": "manage",
+      "title": "10. How to manage cookies",
+      "paragraphs": [
+        "Use our cookie banner to accept or reject non-essential cookies on first visit.",
+        "You may withdraw consent by clearing site cookies in your browser and reloading the page.",
+        "Most browsers let you block or delete cookies via settings. Blocking all cookies may break language preference and consent memory.",
+        "Mobile devices may offer advertising or tracking controls in OS settings."
+      ]
+    },
+    {
+      "id": "transfers",
+      "title": "11. International transfers",
+      "paragraphs": [
+        "Cookie data may be processed in Bangladesh and, where we use global hosting or analytics subprocessors, in other countries. When required, we implement appropriate safeguards such as Standard Contractual Clauses for transfers from the EEA/UK.",
+        "A list of material subprocessors is available on request for enterprise clients."
+      ]
+    },
+    {
+      "id": "children",
+      "title": "12. Children",
+      "paragraphs": [
+        "This corporate website is directed at businesses and professionals. We do not knowingly collect personal data from children under 16 through cookies without appropriate parental authority. Contact us if you believe a child provided data."
+      ]
+    },
+    {
+      "id": "updates",
+      "title": "13. Updates to this policy",
+      "paragraphs": [
+        "We may update this Cookie Policy when we add features, processors, or legal requirements. The \"Last updated\" date will change accordingly. Material changes may be communicated via the website or banner.",
+        "Related documents: Privacy Policy at /privacy, Terms of Service at /terms."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "14. Contact",
+      "paragraphs": [
+        "Cookie and privacy questions: hello@himosoft.com.bd or the Contact section on our homepage.",
+        "For client-specific applications we build, refer to the privacy notice provided with that product."
+      ]
+    }
+  ]
+}

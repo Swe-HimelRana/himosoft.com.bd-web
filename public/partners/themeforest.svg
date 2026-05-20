@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 40" role="img" aria-label="ThemeForest">
+  <rect width="155" height="40" fill="none"/>
+  <path fill="#81B441" d="M20 30c-6 0-10-4.5-10-10.5C10 13.5 14 9 20 9c2.2 0 4.2.8 5.7 2.2L22 18h6.5l-1.2-5.5C29.5 15.5 32 17 35 17c5 0 8.5 3.5 8.5 8.5S40 34 35 34c-3.2 0-6-1.8-7.5-4.5L26 34h-6z"/>
+  <text x="48" y="18" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#3D4C41">Theme</text>
+  <text x="48" y="30" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#81B441">Forest</text>
+</svg>
