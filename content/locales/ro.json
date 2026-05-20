@@ -723,7 +723,7 @@
   },
   "cookieConsent": {
     "title": "Prețuim confidențialitatea dvs.",
-    "description": "HimoSoft folosește cookie-uri și tehnologii similare pe acest site. Unele sunt strict necesare; altele sunt opționale și doar cu consimțământul dvs. Puteți naviga în timp ce decideți — acest mesaj nu blochează pagina.",
+    "description": "Folosim cookie-uri esențiale pentru limbă și preferințe. Analitice doar dacă acceptați.",
     "categories": [
       {
         "title": "Cookie-uri esențiale (mereu active)",
@@ -742,7 +742,9 @@
     "rightsNote": "Puteți retrage consimțământul ștergând cookie-urile pentru himosoft.com.bd din browser și reîncărcând pagina.",
     "retentionNote": "Alegerea dvs. este stocată până la 12 luni; apoi vi se poate cere din nou.",
     "acceptLabel": "Acceptă toate",
-    "rejectLabel": "Respinge neesențiale"
+    "rejectLabel": "Respinge neesențiale",
+    "detailsLabel": "Mai multe detalii",
+    "privacyLinkLabel": "Politica cookie"
   },
   "footer": {
     "tagline": "Dezvoltare software și soluții IT — livrare disciplinată la nivel global, bazată în Bangladesh.",

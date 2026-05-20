@@ -723,7 +723,7 @@
   },
   "cookieConsent": {
     "title": "Wir schätzen Ihre Privatsphäre",
-    "description": "HimoSoft verwendet auf dieser Website Cookies und ähnliche Technologien. Einige sind unbedingt erforderlich; andere sind optional und nur mit Ihrer Einwilligung. Sie können die Seite weiter nutzen — dieser Hinweis blockiert die Seite nicht.",
+    "description": "Wir nutzen notwendige Cookies für Sprache und Ihre Wahl. Analyse-Cookies nur bei Zustimmung.",
     "categories": [
       {
         "title": "Notwendige Cookies (immer aktiv)",
@@ -742,7 +742,9 @@
     "rightsNote": "Sie können Ihre Einwilligung jederzeit widerrufen, indem Sie Cookies für himosoft.com.bd in Ihrem Browser löschen und die Seite neu laden.",
     "retentionNote": "Ihre Wahl wird bis zu 12 Monate gespeichert; danach können Sie erneut gefragt werden.",
     "acceptLabel": "Alle akzeptieren",
-    "rejectLabel": "Nicht notwendige ablehnen"
+    "rejectLabel": "Nicht notwendige ablehnen",
+    "detailsLabel": "Mehr Details",
+    "privacyLinkLabel": "Cookie-Richtlinie"
   },
   "footer": {
     "tagline": "Softwareentwicklung und IT-Lösungen – weltweit disziplinierte Bereitstellung mit Sitz in Bangladesch.",

@@ -206,6 +206,8 @@ export type SiteContent = {
   cookieConsent: {
     title: string;
     description: string;
+    detailsLabel: string;
+    privacyLinkLabel: string;
     categories: { title: string; description: string }[];
     necessaryNote: string;
     rightsNote: string;

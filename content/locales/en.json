@@ -732,7 +732,9 @@
   },
   "cookieConsent": {
     "title": "We value your privacy",
-    "description": "HimoSoft uses cookies and similar technologies on this website. Some are strictly necessary; others are optional and only used if you consent. You can browse the site while you decide — this notice does not block the page.",
+    "description": "We use essential cookies for language and your choice. Optional analytics cookies are only set if you accept.",
+    "detailsLabel": "More details",
+    "privacyLinkLabel": "Cookie Policy",
     "categories": [
       {
         "title": "Essential cookies (always active)",
