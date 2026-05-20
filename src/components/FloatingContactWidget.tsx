@@ -101,7 +101,11 @@ export function FloatingContactWidget({ copy, labels }: Props) {
               <div className="flex justify-start">
                 <div className="w-full max-w-[92%]">
                   <ContactInfoLinks
-                    labels={labels}
+                    labels={{
+                      emailLabel: labels.contactEmailLabel,
+                      phoneLabel: labels.contactPhoneLabel,
+                      mobileLabel: labels.contactMobileLabel,
+                    }}
                     loadingLabel={copy.loadingLabel}
                     variant="chat"
                   />
