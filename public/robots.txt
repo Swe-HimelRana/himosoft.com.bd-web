@@ -1,6 +1,13 @@
-User-Agent: *
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
 Allow: /
 Disallow: /api/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
 
 Host: https://himosoft.com.bd
 Sitemap: https://himosoft.com.bd/sitemap.xml

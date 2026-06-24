@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { AboutSection } from "@/components/AboutSection";
+import { FaqSection } from "@/components/FaqSection";
 import { JsonLd } from "@/components/JsonLd";
 import { CapabilitiesSection } from "@/components/CapabilitiesSection";
 import { CtaBand } from "@/components/CtaBand";
@@ -21,7 +22,12 @@ import { TeamSection } from "@/components/TeamSection";
 import { TrustStrip } from "@/components/TrustStrip";
 import { getLocale } from "@/lib/getLocale";
 import { getPaymentPartners } from "@/lib/paymentPartners";
-import { buildRootMetadata, professionalServiceJsonLd, webSiteJsonLd } from "@/lib/seo";
+import {
+  buildRootMetadata,
+  faqPageJsonLd,
+  professionalServiceJsonLd,
+  servicesItemListJsonLd,
+} from "@/lib/seo";
 import { getSiteContent } from "@/lib/siteContent";
 
 export const dynamic = "force-dynamic";
@@ -45,7 +51,13 @@ export default async function Home() {
 
   return (
     <>
-      <JsonLd data={[webSiteJsonLd(locale), professionalServiceJsonLd()]} />
+      <JsonLd
+        data={[
+          professionalServiceJsonLd(),
+          servicesItemListJsonLd(site.services.items),
+          faqPageJsonLd(site.faq.items),
+        ]}
+      />
       <div className="relative min-h-screen">
         <HomePageBackdrop />
         <SiteHeader locale={locale} nav={site.nav} />
@@ -62,6 +74,7 @@ export default async function Home() {
           <CapabilitiesSection capabilities={site.capabilities} />
           <PartnersSection partners={site.partners} />
           <AboutSection about={site.about} />
+          <FaqSection faq={site.faq} />
           <TeamSection team={site.team} />
           <InsightsSection insights={site.insights} />
           <CtaBand ctaBand={site.ctaBand} />

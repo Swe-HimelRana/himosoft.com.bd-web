@@ -707,6 +707,37 @@
       "href": "/contact"
     }
   },
+  "faq": {
+    "sectionEyebrow": "FAQ",
+    "sectionTitle": "Common questions",
+    "sectionSubtitle": "Quick answers about how HimoSoft works, what we build, and how to start a project.",
+    "items": [
+      {
+        "question": "What services does HimoSoft provide?",
+        "answer": "We deliver custom software, web and mobile applications, database design, API and webhook integrations, payment gateway setup (Stripe, bKash, EPG, and others), cloud deployment, security hardening, and ongoing support with clear SLAs."
+      },
+      {
+        "question": "Where is HimoSoft based and who do you work with?",
+        "answer": "HimoSoft is based in Dhaka, Bangladesh, and has shipped products for clients in Bangladesh, Europe, and North America since 2020. We work with startups, SMEs, and established teams that need a disciplined engineering partner."
+      },
+      {
+        "question": "Do you integrate payment gateways like Stripe and bKash?",
+        "answer": "Yes. We integrate Stripe, bKash, Easy Payment Gateway, NOWPayments, and other providers — including checkout flows, webhooks, reconciliation, and failure handling tuned for your market."
+      },
+      {
+        "question": "How does HimoSoft start a new project?",
+        "answer": "Engagements begin with discovery: scope, constraints, success metrics, and delivery style. We then propose a roadmap with honest estimates, staff a squad across design and engineering, and ship in small releases with QA and observability built in."
+      },
+      {
+        "question": "Can HimoSoft maintain software after launch?",
+        "answer": "Yes. We offer post-launch support, incident response, performance tuning, and iterative improvements backed by support plans and SLAs so your product stays dependable as usage grows."
+      },
+      {
+        "question": "Is HimoSoft suitable for GDPR-aware international work?",
+        "answer": "We follow privacy-by-design practices, data minimisation, and clear access controls — and align delivery with GDPR expectations when handling personal data for EU-facing products."
+      }
+    ]
+  },
   "sitemap": {
     "pageTitle": "Site map",
     "metaDescription": "Browse all HimoSoft website pages, homepage sections, legal policies, and external services.",
@@ -851,6 +882,24 @@
       "name": "Mikrotik Connect",
       "description": "Access your local MikroTik router remotely from anywhere. Features include secure backup, remote terminal access, port forwarding, and many more tools for network administrators.",
       "href": "https://mikrotikconnect.com"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "eyebrow": "404",
+      "title": "This page doesn't exist",
+      "description": "The link may be outdated, mistyped, or the page may have moved. Head back home, browse the site map, or contact us if you need help finding something.",
+      "homeLabel": "Back to home",
+      "sitemapLabel": "Browse site map",
+      "contactLabel": "Contact us"
+    },
+    "server": {
+      "eyebrow": "Error",
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred while loading this page. Try again, return home, or reach out if the problem keeps happening.",
+      "retryLabel": "Try again",
+      "homeLabel": "Back to home",
+      "contactLabel": "Contact us"
     }
   }
 }

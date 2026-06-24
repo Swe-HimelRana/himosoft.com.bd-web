@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteTitle": "HimoSoft | Tworzenie oprogramowania i rozwiązania IT",
-    "siteDescription": "HimoSoft pomaga firmom odnieść sukces w cyfrowym świecie dzięki nowoczesnemu oprogramowaniu, rozwiązaniom internetowym i mobilnym — dostarczaniu na poziomie korporacyjnym.",
+    "siteDescription": "HimoSoft tworzy oprogramowanie na zamówienie, aplikacje webowe i mobilne, integracje płatności (Stripe, bKash, EPG), wdrożenia chmurowe i utrzymanie dla firm w Bangladeszu i na świecie — dostawa zgodna z RODO od 2020 roku.",
     "locale": "pl",
     "copyright": "© 2026 HimoSoft. Wszelkie prawa zastrzeżone."
   },
@@ -707,6 +707,37 @@
       "href": "/contact"
     }
   },
+  "faq": {
+    "sectionEyebrow": "FAQ",
+    "sectionTitle": "Najczęstsze pytania",
+    "sectionSubtitle": "Krótkie odpowiedzi o tym, jak działa HimoSoft, co budujemy i jak rozpocząć projekt.",
+    "items": [
+      {
+        "question": "Jakie usługi świadczy HimoSoft?",
+        "answer": "Dostarczamy oprogramowanie na zamówienie, aplikacje webowe i mobilne, projektowanie baz danych, integracje API i webhooków, konfigurację bramek płatności (Stripe, bKash, EPG i inne), wdrożenia chmurowe, hardening bezpieczeństwa oraz stałe wsparcie z jasnymi SLA."
+      },
+      {
+        "question": "Gdzie mieści się HimoSoft i z kim współpracujecie?",
+        "answer": "HimoSoft ma siedzibę w Dhace w Bangladeszu i od 2020 roku dostarcza produkty klientom w Bangladeszu, Europie i Ameryce Północnej. Współpracujemy ze startupami, MŚP i dojrzałymi zespołami jako zdyscyplinowany partner inżynieryjny."
+      },
+      {
+        "question": "Czy integrujecie bramki płatności takie jak Stripe i bKash?",
+        "answer": "Tak. Integrujemy Stripe, bKash, Easy Payment Gateway, NOWPayments i innych dostawców — w tym checkout, webhooki, uzgadnianie i obsługę błędów dopasowaną do rynku."
+      },
+      {
+        "question": "Jak HimoSoft rozpoczyna nowy projekt?",
+        "answer": "Od discovery: zakres, ograniczenia, metryki sukcesu i styl dostarczania. Następnie proponujemy roadmapę z uczciwymi szacunkami, squad design-inżynieria i małe release'y z QA i observability."
+      },
+      {
+        "question": "Czy HimoSoft utrzymuje oprogramowanie po wdrożeniu?",
+        "answer": "Tak. Oferujemy wsparcie po wdrożeniu, reakcję na incydenty, tuning wydajności i iteracyjne ulepszenia w ramach planów wsparcia i SLA."
+      },
+      {
+        "question": "Czy HimoSoft nadaje się do międzynarodowych projektów zgodnych z RODO?",
+        "answer": "Stosujemy privacy-by-design, minimalizację danych i jasne kontrole dostępu — dostosowując dostarczanie do oczekiwań RODO przy przetwarzaniu danych osobowych dla produktów skierowanych do UE."
+      }
+    ]
+  },
   "sitemap": {
     "pageTitle": "Mapa serwisu",
     "metaDescription": "Wszystkie strony HimoSoft, sekcje strony głównej, polityki prawne i usługi zewnętrzne.",
@@ -851,6 +882,24 @@
       "name": "Mikrotik Connect",
       "description": "Uzyskaj dostęp do lokalnego routera MikroTik z dowolnego miejsca.",
       "href": "https://mikrotikconnect.com"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "eyebrow": "404",
+      "title": "Nie znaleziono strony",
+      "description": "Link może być nieaktualny, wpisany błędnie lub strona została przeniesiona. Wróć na stronę główną, przejrzyj mapę witryny lub skontaktuj się z nami.",
+      "homeLabel": "Strona główna",
+      "sitemapLabel": "Mapa witryny",
+      "contactLabel": "Kontakt"
+    },
+    "server": {
+      "eyebrow": "Błąd",
+      "title": "Coś poszło nie tak",
+      "description": "Podczas ładowania tej strony wystąpił nieoczekiwany błąd. Spróbuj ponownie, wróć na stronę główną lub skontaktuj się z nami, jeśli problem się powtarza.",
+      "retryLabel": "Spróbuj ponownie",
+      "homeLabel": "Strona główna",
+      "contactLabel": "Kontakt"
     }
   }
 }

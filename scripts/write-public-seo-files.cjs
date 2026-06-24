@@ -32,6 +32,51 @@ const paths = [
   ...marketingSlugs.map((slug) => `/${slug}`),
 ];
 
+const HIGH_PRIORITY_PATHS = new Set([
+  "/",
+  "/contact",
+  "/services",
+  "/solutions",
+  "/about",
+]);
+
+const LEGAL_PATHS = new Set(["/privacy", "/terms", "/cookies"]);
+
+const SERVICE_SLUGS = new Set([
+  "services",
+  "custom-software",
+  "web-applications",
+  "mobile-apps",
+  "databases",
+  "apis-webhooks",
+  "cloud-deployment",
+  "security-compliance",
+  "support-sla",
+  "support-plans",
+  "discovery",
+  "sprints-releases",
+  "qa-observability",
+  "post-launch",
+  "ecommerce-retail",
+  "education-training",
+  "healthcare",
+  "logistics-operations",
+  "mvps-launches",
+  "legacy-modernisation",
+  "api-first",
+  "design-systems-ux",
+]);
+
+function sitemapEntryMeta(routePath) {
+  if (routePath === "/") return { priority: "1.0", changefreq: "weekly" };
+  if (HIGH_PRIORITY_PATHS.has(routePath)) return { priority: "0.9", changefreq: "monthly" };
+  if (routePath === "/sitemap") return { priority: "0.7", changefreq: "monthly" };
+  if (LEGAL_PATHS.has(routePath)) return { priority: "0.3", changefreq: "yearly" };
+  const slug = routePath.replace(/^\//, "");
+  if (SERVICE_SLUGS.has(slug)) return { priority: "0.8", changefreq: "monthly" };
+  return { priority: "0.6", changefreq: "monthly" };
+}
+
 function escapeXml(value) {
   return value
     .replace(/&/g, "&amp;")
@@ -42,29 +87,47 @@ function escapeXml(value) {
 }
 
 const lastModified = new Date().toISOString();
+const ogImageUrl = `${siteUrl}/og-image.png`;
+
 const urls = paths
   .map((p) => {
     const loc = `${siteUrl}${p}`;
-    const priority = p === "/" ? "1.0" : p === "/sitemap" ? "0.6" : "0.5";
-    const changefreq = p === "/" ? "weekly" : "monthly";
+    const { priority, changefreq } = sitemapEntryMeta(p);
+    const imageBlock =
+      p === "/"
+        ? `
+    <image:image>
+      <image:loc>${escapeXml(ogImageUrl)}</image:loc>
+      <image:title>${escapeXml("HimoSoft — Software Development &amp; IT Solutions")}</image:title>
+    </image:image>`
+        : "";
+
     return `  <url>
     <loc>${escapeXml(loc)}</loc>
     <lastmod>${lastModified}</lastmod>
     <changefreq>${changefreq}</changefreq>
-    <priority>${priority}</priority>
+    <priority>${priority}</priority>${imageBlock}
   </url>`;
   })
   .join("\n");
 
 const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${urls}
 </urlset>
 `;
 
-const robotsTxt = `User-Agent: *
+const robotsTxt = `# https://www.robotstxt.org/robotstxt.html
+User-agent: *
 Allow: /
 Disallow: /api/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
 
 Host: ${siteUrl}
 Sitemap: ${siteUrl}/sitemap.xml

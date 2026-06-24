@@ -3,7 +3,7 @@ import { MarketingPage } from "@/components/MarketingPage";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import type { Locale } from "@/lib/locale";
-import { breadcrumbJsonLd } from "@/lib/seo";
+import { marketingPageJsonLd } from "@/lib/seo";
 import { getSiteContent } from "@/lib/siteContent";
 import type { MarketingPageContent } from "@/types/marketingPage";
 
@@ -19,10 +19,12 @@ export async function MarketingPageShell({ locale, page, slug }: Props) {
   return (
     <>
       <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: page.title, path: `/${slug}` },
-        ])}
+        data={marketingPageJsonLd({
+          slug,
+          title: page.meta.title,
+          description: page.meta.description,
+          locale,
+        })}
       />
       <SiteHeader locale={locale} nav={site.nav} />
       <main id="main-content" className="min-h-[60vh] py-12 sm:py-16 lg:py-20">

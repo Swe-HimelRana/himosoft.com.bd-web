@@ -5,11 +5,15 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "HimoSoft — Software Development & IT Solutions",
     short_name: "HimoSoft",
     description:
-      "Custom software, web and mobile apps, payment integrations, deployment, and maintenance.",
+      "Custom software, web and mobile apps, payment integrations, deployment, and maintenance — Bangladesh-based, globally disciplined delivery.",
     start_url: "/",
     display: "standalone",
-    background_color: "#f4f6f8",
-    theme_color: "#26c6da",
+    background_color: "#050608",
+    theme_color: "#1fd9ca",
+    orientation: "portrait-primary",
+    categories: ["business", "productivity", "technology"],
+    lang: "en",
+    dir: "ltr",
     icons: [
       {
         src: "/icon.svg",

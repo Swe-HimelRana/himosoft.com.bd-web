@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteTitle": "HimoSoft | Dezvoltare software și soluții IT",
-    "siteDescription": "HimoSoft ajută companiile să reușească în lumea digitală cu soluții moderne de software, web și mobile — livrare la nivel de întreprindere.",
+    "siteDescription": "HimoSoft livrează software personalizat, aplicații web și mobile, integrări de plăți (Stripe, bKash, EPG), deployment cloud și mentenanță pentru companii din Bangladesh și din lume — livrare conștientă GDPR din 2020.",
     "locale": "ro",
     "copyright": "© 2026 HimoSoft. Toate drepturile rezervate."
   },
@@ -707,6 +707,37 @@
       "href": "/contact"
     }
   },
+  "faq": {
+    "sectionEyebrow": "Întrebări",
+    "sectionTitle": "Întrebări frecvente",
+    "sectionSubtitle": "Răspunsuri rapide despre cum lucrează HimoSoft, ce construim și cum începe un proiect.",
+    "items": [
+      {
+        "question": "Ce servicii oferă HimoSoft?",
+        "answer": "Livăm software personalizat, aplicații web și mobile, design de baze de date, integrări API și webhook, configurare gateway de plăți (Stripe, bKash, EPG și altele), deployment cloud, hardening de securitate și suport continuu cu SLA clare."
+      },
+      {
+        "question": "Unde este HimoSoft și cu cine colaborați?",
+        "answer": "HimoSoft are sediul în Dhaka, Bangladesh, și livrează produse pentru clienți din Bangladesh, Europa și America de Nord din 2020. Colaborăm cu startup-uri, IMM-uri și echipe stabilite ca partener de inginerie disciplinat."
+      },
+      {
+        "question": "Integrați gateway-uri de plăți precum Stripe și bKash?",
+        "answer": "Da. Integrăm Stripe, bKash, Easy Payment Gateway, NOWPayments și alți furnizori — inclusiv fluxuri de checkout, webhook-uri, reconciliere și gestionarea erorilor adaptată pieței dvs."
+      },
+      {
+        "question": "Cum începe un proiect nou cu HimoSoft?",
+        "answer": "Cu discovery: scop, constrângeri, metrici de succes și stil de livrare. Apoi propunem o foaie de parcurs cu estimări oneste, un squad design-inginerie și release-uri mici cu QA și observability."
+      },
+      {
+        "question": "Puteți menține software-ul după lansare?",
+        "answer": "Da. Oferim suport post-lansare, răspuns la incidente, optimizare de performanță și îmbunătățiri iterative cu planuri de suport și SLA."
+      },
+      {
+        "question": "Este HimoSoft potrivit pentru proiecte internaționale conștiente de GDPR?",
+        "answer": "Urmăm privacy-by-design, minimizarea datelor și controale clare de acces — aliniind livrarea la așteptările GDPR când gestionăm date personale pentru produse orientate spre UE."
+      }
+    ]
+  },
   "sitemap": {
     "pageTitle": "Harta site-ului",
     "metaDescription": "Toate paginile HimoSoft, secțiunile homepage, politici legale și servicii externe.",
@@ -851,6 +882,24 @@
       "name": "Mikrotik Connect",
       "description": "Accesați routerul MikroTik local de oriunde.",
       "href": "https://mikrotikconnect.com"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "eyebrow": "404",
+      "title": "Pagina negăsită",
+      "description": "Linkul poate fi vechi, introdus greșit sau pagina a fost mutată. Reveniți acasă, consultați harta site-ului sau contactați-ne.",
+      "homeLabel": "Înapoi acasă",
+      "sitemapLabel": "Harta site-ului",
+      "contactLabel": "Contactați-ne"
+    },
+    "server": {
+      "eyebrow": "Eroare",
+      "title": "Ceva nu a funcționat",
+      "description": "A apărut o eroare neașteptată la încărcarea acestei pagini. Încercați din nou, reveniți acasă sau contactați-ne dacă problema persistă.",
+      "retryLabel": "Încercați din nou",
+      "homeLabel": "Înapoi acasă",
+      "contactLabel": "Contactați-ne"
     }
   }
 }

@@ -12,7 +12,7 @@
     },
     "meta": {
       "title": "Soluzioni e settori | HimoSoft",
-      "description": "Soluzioni software settoriali, stili di delivery e piattaforme digitali di HimoSoft."
+      "description": "Non vendiamo template standard. HimoSoft definisce roadmap di prodotto e architettura insieme a te — dal retail all'istruzione, dalla sanità alla logistica…"
     },
     "eyebrow": "Soluzioni",
     "title": "Soluzioni e settori",
@@ -121,7 +121,7 @@
     },
     "meta": {
       "title": "Servizi | HimoSoft",
-      "description": "Software personalizzato, app web e mobile, API, cloud, sicurezza e supporto da HimoSoft."
+      "description": "Impega HimoSoft end-to-end o come moduli focalizzati — dalla product discovery all'ingegneria, integrazione, deployment e manutenzione a lungo termine."
     },
     "eyebrow": "Servizi",
     "title": "Servizi di sviluppo software",
@@ -230,7 +230,7 @@
     },
     "meta": {
       "title": "Delivery e qualità | HimoSoft",
-      "description": "Discovery, sprint, QA, observability e miglioramenti post-lancio presso HimoSoft."
+      "description": "Roadmap chiare, sync settimanali e architettura scalabile — workflow leggeri che mantengono gli stakeholder allineati e permettono delivery prevedibili."
     },
     "eyebrow": "Delivery",
     "title": "Delivery e qualità",
@@ -319,7 +319,7 @@
     },
     "meta": {
       "title": "Casi e pattern | HimoSoft",
-      "description": "Dove la tecnologia fa la differenza — brevi racconti di ambiti in cui frequentemente aggiungiamo valore per retail, manifattura, servizi, HR, logistica e velocità di engineering."
+      "description": "Dove la tecnologia fa la differenza — brevi racconti di ambiti in cui frequentemente aggiungiamo valore per retail, manifattura, servizi, HR, logistica e…"
     },
     "eyebrow": "Casi",
     "title": "Casi e pattern",
@@ -558,7 +558,7 @@
     },
     "meta": {
       "title": "Chi è HimoSoft | HimoSoft",
-      "description": "Studio software client-centric — shipping di engineering disciplinato dal 2020."
+      "description": "Chi è HimoSoft — Studio software client-centric — shipping di engineering disciplinato dal 2020."
     },
     "eyebrow": "Chi è HimoSoft",
     "title": "Chi è HimoSoft",
@@ -601,7 +601,7 @@
     },
     "meta": {
       "title": "Team e leadership | HimoSoft",
-      "description": "Incontra gli specialisti dietro il delivery di HimoSoft."
+      "description": "Team e leadership — Incontra gli specialisti dietro il delivery di HimoSoft."
     },
     "eyebrow": "Team",
     "title": "Team e leadership",
@@ -636,7 +636,7 @@
     },
     "meta": {
       "title": "Insights e risorse | HimoSoft",
-      "description": "Workshop, guide, articoli ed eventi — note pratiche dalla nostra pratica di delivery."
+      "description": "Insights e risorse — Workshop, guide, articoli ed eventi — note pratiche dalla nostra pratica di delivery."
     },
     "eyebrow": "Insights",
     "title": "Insights e risorse",
@@ -689,7 +689,7 @@
     },
     "meta": {
       "title": "Contatta HimoSoft | HimoSoft",
-      "description": "Avvia un thread di progetto — scope, timeline, budget e prossimi passi."
+      "description": "Contatta HimoSoft — Avvia un thread di progetto — scope, timeline, budget e prossimi passi."
     },
     "eyebrow": "Contatta HimoSoft",
     "title": "Contatta HimoSoft",
@@ -1373,7 +1373,7 @@
     },
     "meta": {
       "title": "API e webhook | HimoSoft",
-      "description": "Integrazioni REST, GraphQL e event-driven con versionamento, auth e observability."
+      "description": "API e webhook — Integrazioni REST, GraphQL e event-driven con versionamento, auth e observability."
     },
     "eyebrow": "Servizio",
     "title": "API e webhook",
@@ -1421,7 +1421,7 @@
     },
     "meta": {
       "title": "Cloud e deployment | HimoSoft",
-      "description": "CI/CD, infrastructure as code, ambienti e scelte di hosting consapevoli sui costi."
+      "description": "Cloud e deployment — CI/CD, infrastructure as code, ambienti e scelte di hosting consapevoli sui costi."
     },
     "eyebrow": "Servizio",
     "title": "Cloud e deployment",
@@ -1517,7 +1517,7 @@
     },
     "meta": {
       "title": "Supporto e SLA | HimoSoft",
-      "description": "Risposta agli incidenti, patching e manutenzione proattiva con tempi di risposta chiari."
+      "description": "Supporto e SLA — Risposta agli incidenti, patching e manutenzione proattiva con tempi di risposta chiari."
     },
     "eyebrow": "Servizio",
     "title": "Supporto e SLA",
@@ -1612,7 +1612,7 @@
     },
     "meta": {
       "title": "Sprint e rilasci | HimoSoft",
-      "description": "Delivery time-boxed con incrementi dimostrabili e rischio di rilascio controllato."
+      "description": "Sprint e rilasci — Delivery time-boxed con incrementi dimostrabili e rischio di rilascio controllato."
     },
     "eyebrow": "Delivery",
     "title": "Sprint e rilasci",
@@ -1706,7 +1706,7 @@
     },
     "meta": {
       "title": "Miglioramenti post-lancio | HimoSoft",
-      "description": "Iterazione da analytics, ticket di supporto e interviste utente — non da supposizioni."
+      "description": "Miglioramenti post-lancio — Iterazione da analytics, ticket di supporto e interviste utente — non da supposizioni."
     },
     "eyebrow": "Delivery",
     "title": "Miglioramenti post-lancio",
@@ -1753,7 +1753,7 @@
     },
     "meta": {
       "title": "Tech stack | HimoSoft",
-      "description": "Linguaggi, framework e infrastruttura che HimoSoft usa per delivery pragmatico."
+      "description": "Scegliamo tecnologia noiosa dove possibile e tecnologia eccitante dove si merita il suo posto. Gli stack variano per progetto; sotto c'è un set…"
     },
     "eyebrow": "Risorse",
     "title": "Note tech stack",
@@ -1801,7 +1801,7 @@
     },
     "meta": {
       "title": "Piani di supporto | HimoSoft",
-      "description": "Opzioni di manutenzione e SLA dopo il go-live con HimoSoft."
+      "description": "Il valore del software cresce quando la produzione resta sana. Offriamo supporto tiered dopo il lancio — dall'assistenza in orari d'ufficio alla risposta…"
     },
     "eyebrow": "Risorse",
     "title": "Piani di supporto",
@@ -1848,7 +1848,7 @@
     },
     "meta": {
       "title": "Carriere | HimoSoft",
-      "description": "Opportunità freelance, contract e collaborazione con HimoSoft."
+      "description": "HimoSoft lavora con specialisti fidati su scope definiti. Se hai un portfolio forte e disponibilità chiara, ci piacerebbe sentirti."
     },
     "eyebrow": "Lavora con noi",
     "title": "Ruoli freelance e contract",

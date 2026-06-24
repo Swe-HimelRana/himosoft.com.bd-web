@@ -180,6 +180,12 @@ export type SiteContent = {
     subtitle: string;
     primaryCta: Cta;
   };
+  faq: {
+    sectionEyebrow: string;
+    sectionTitle: string;
+    sectionSubtitle: string;
+    items: { question: string; answer: string }[];
+  };
   sitemap: {
     pageTitle: string;
     metaDescription: string;
@@ -239,6 +245,24 @@ export type SiteContent = {
       name: string;
       description: string;
       href: string;
+    };
+  };
+  errors: {
+    notFound: {
+      eyebrow: string;
+      title: string;
+      description: string;
+      homeLabel: string;
+      sitemapLabel: string;
+      contactLabel: string;
+    };
+    server: {
+      eyebrow: string;
+      title: string;
+      description: string;
+      retryLabel: string;
+      homeLabel: string;
+      contactLabel: string;
     };
   };
 };

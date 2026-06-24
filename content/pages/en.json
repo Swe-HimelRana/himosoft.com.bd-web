@@ -12,7 +12,7 @@
     },
     "meta": {
       "title": "Solutions & industries | HimoSoft",
-      "description": "Industry-focused software solutions, delivery styles, and digital platforms from HimoSoft."
+      "description": "We do not sell one-size templates. HimoSoft shapes product roadmaps and architecture with you — from retail and education to healthcare and logistics —…"
     },
     "eyebrow": "Solutions",
     "title": "Solutions & industries",
@@ -121,7 +121,7 @@
     },
     "meta": {
       "title": "Services | HimoSoft",
-      "description": "Custom software, web and mobile apps, APIs, cloud, security, and support from HimoSoft."
+      "description": "Engage HimoSoft end‑to‑end or as focused modules — from product discovery through engineering, integration, deployment, and long-term maintenance."
     },
     "eyebrow": "Services",
     "title": "Software development services",
@@ -230,7 +230,7 @@
     },
     "meta": {
       "title": "Delivery & quality | HimoSoft",
-      "description": "Discovery, sprints, QA, observability, and post-launch improvement at HimoSoft."
+      "description": "Clear roadmaps, weekly syncs, and scalable architecture — lightweight workflows that keep stakeholders aligned and shipping predictable."
     },
     "eyebrow": "Delivery",
     "title": "Delivery & quality",
@@ -319,7 +319,7 @@
     },
     "meta": {
       "title": "Cases & patterns | HimoSoft",
-      "description": "Where technology moves the needle — short narratives of places we frequently add leverage for retail, manufacturing, services, HR, logistics, and engineeri"
+      "description": "Where technology moves the needle — short narratives of places we frequently add leverage for retail, manufacturing, services, HR, logistics, and…"
     },
     "eyebrow": "Cases",
     "title": "Cases & patterns",
@@ -512,7 +512,7 @@
     },
     "meta": {
       "title": "Partner network | HimoSoft",
-      "description": "Co-deliver with design, infra, and domain specialists so your core team stays focused."
+      "description": "Partner network — Co-deliver with design, infra, and domain specialists so your core team stays focused."
     },
     "eyebrow": "Partner network",
     "title": "Partner network",
@@ -558,7 +558,7 @@
     },
     "meta": {
       "title": "About HimoSoft | HimoSoft",
-      "description": "Client‑centric software studio — shipping disciplined engineering since 2020."
+      "description": "About HimoSoft — Client‑centric software studio — shipping disciplined engineering since 2020."
     },
     "eyebrow": "About HimoSoft",
     "title": "About HimoSoft",
@@ -601,7 +601,7 @@
     },
     "meta": {
       "title": "Team & leadership | HimoSoft",
-      "description": "Meet the specialists behind HimoSoft delivery."
+      "description": "Team & leadership — Meet the specialists behind HimoSoft delivery."
     },
     "eyebrow": "Team",
     "title": "Team & leadership",
@@ -636,7 +636,7 @@
     },
     "meta": {
       "title": "Insights & resources | HimoSoft",
-      "description": "Workshops, guides, articles, and events — practical notes from our delivery practice."
+      "description": "Insights & resources — Workshops, guides, articles, and events — practical notes from our delivery practice."
     },
     "eyebrow": "Insights",
     "title": "Insights & resources",
@@ -689,7 +689,7 @@
     },
     "meta": {
       "title": "Contact HimoSoft | HimoSoft",
-      "description": "Start a project thread — scope, timelines, budget, and next steps."
+      "description": "Contact HimoSoft — Start a project thread — scope, timelines, budget, and next steps."
     },
     "eyebrow": "Contact HimoSoft",
     "title": "Contact HimoSoft",
@@ -1133,7 +1133,7 @@
     },
     "meta": {
       "title": "Design systems & UX | HimoSoft",
-      "description": "Reusable components and guidelines so product and engineering scale without visual drift."
+      "description": "Design systems & UX — Reusable components and guidelines so product and engineering scale without visual drift."
     },
     "eyebrow": "Delivery style",
     "title": "Design systems & UX",
@@ -1373,7 +1373,7 @@
     },
     "meta": {
       "title": "APIs & webhooks | HimoSoft",
-      "description": "REST, GraphQL, and event-driven integrations with versioning, auth, and observability."
+      "description": "APIs & webhooks — REST, GraphQL, and event-driven integrations with versioning, auth, and observability."
     },
     "eyebrow": "Service",
     "title": "APIs & webhooks",
@@ -1421,7 +1421,7 @@
     },
     "meta": {
       "title": "Cloud & deployment | HimoSoft",
-      "description": "CI/CD, infrastructure as code, environments, and cost-aware hosting choices."
+      "description": "Cloud & deployment — CI/CD, infrastructure as code, environments, and cost-aware hosting choices."
     },
     "eyebrow": "Service",
     "title": "Cloud & deployment",
@@ -1517,7 +1517,7 @@
     },
     "meta": {
       "title": "Support & SLA | HimoSoft",
-      "description": "Incident response, patching, and proactive maintenance with clear response times."
+      "description": "Support & SLA — Incident response, patching, and proactive maintenance with clear response times."
     },
     "eyebrow": "Service",
     "title": "Support & SLA",
@@ -1612,7 +1612,7 @@
     },
     "meta": {
       "title": "Sprints & releases | HimoSoft",
-      "description": "Time-boxed delivery with demoable increments and controlled release risk."
+      "description": "Sprints & releases — Time-boxed delivery with demoable increments and controlled release risk."
     },
     "eyebrow": "Delivery",
     "title": "Sprints & releases",
@@ -1706,7 +1706,7 @@
     },
     "meta": {
       "title": "Post‑launch improvements | HimoSoft",
-      "description": "Iterate from analytics, support tickets, and user interviews — not guesswork."
+      "description": "Post‑launch improvements — Iterate from analytics, support tickets, and user interviews — not guesswork."
     },
     "eyebrow": "Delivery",
     "title": "Post‑launch improvements",
@@ -1753,7 +1753,7 @@
     },
     "meta": {
       "title": "Tech stack | HimoSoft",
-      "description": "Languages, frameworks, and infrastructure HimoSoft uses for pragmatic delivery."
+      "description": "We choose boring technology where possible and exciting technology where it earns its keep. Stacks vary by project; below is a representative set."
     },
     "eyebrow": "Resources",
     "title": "Tech stack notes",
@@ -1801,7 +1801,7 @@
     },
     "meta": {
       "title": "Support plans | HimoSoft",
-      "description": "Maintenance and SLA options after go-live with HimoSoft."
+      "description": "Software value compounds when production stays healthy. We offer tiered support after launch — from business-hours assistance to 24/7 critical incident…"
     },
     "eyebrow": "Resources",
     "title": "Support plans",
@@ -1848,7 +1848,7 @@
     },
     "meta": {
       "title": "Careers | HimoSoft",
-      "description": "Freelance, contract, and collaboration opportunities with HimoSoft."
+      "description": "HimoSoft works with trusted specialists on defined scopes. If you have a strong portfolio and clear availability, we would like to hear from you."
     },
     "eyebrow": "Work with us",
     "title": "Freelance & contract roles",

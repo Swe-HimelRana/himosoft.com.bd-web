@@ -8,7 +8,7 @@ import { FloatingContactWidget } from "@/components/FloatingContactWidget";
 import { JsonLd } from "@/components/JsonLd";
 import { getLocale } from "@/lib/getLocale";
 import { localeHtmlLang } from "@/lib/locale-options";
-import { buildRootMetadata, organizationJsonLd } from "@/lib/seo";
+import { buildRootMetadata, organizationJsonLd, webSiteJsonLd } from "@/lib/seo";
 import { getSiteContent } from "@/lib/siteContent";
 
 const inter = Inter({
@@ -50,7 +50,7 @@ export default async function RootLayout({
         className="min-h-full bg-background text-foreground"
         suppressHydrationWarning
       >
-        <JsonLd data={organizationJsonLd()} />
+        <JsonLd data={[organizationJsonLd(), webSiteJsonLd(locale)]} />
         {children}
         <FloatingContactWidget
           copy={site.floatingContact}
