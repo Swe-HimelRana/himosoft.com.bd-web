@@ -1,6 +1,6 @@
 /**
- * Encode email/phones for obfuscatedContact.ts
- * Run: node scripts/encode-contact.cjs
+ * Encode email/phone for obfuscatedContact.ts
+ * Run: node scripts/encode-contact.cjs [email] [phone]
  */
 const CIPHER_KEY = 0x5a;
 
@@ -14,12 +14,11 @@ function encode(plain) {
 }
 
 const email = process.argv[2] ?? "hello@himosoft.com.bd";
-const phone1 = process.argv[3] ?? "+8809644342003";
-const phone2 = process.argv[4] ?? "+8809658231357";
+const phone = process.argv[3] ?? "+8801870955054";
 
 console.log(
   JSON.stringify(
-    { email: encode(email), phones: [encode(phone1), encode(phone2)] },
+    { email: encode(email), phone: encode(phone) },
     null,
     2,
   ),

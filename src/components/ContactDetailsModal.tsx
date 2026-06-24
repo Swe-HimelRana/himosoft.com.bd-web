@@ -13,7 +13,6 @@ export type ContactModalCopy = {
 type ContactLabels = {
   emailLabel: string;
   phoneLabel: string;
-  mobileLabel: string;
 };
 
 type Props = {

@@ -7,7 +7,7 @@ import { decodeContactPayload } from "@/lib/contactCipher";
 
 export type RevealedContact = {
   email: string;
-  phones: readonly [string, string];
+  phone: string;
 };
 
 const SERVER_SNAPSHOT = null;
@@ -22,10 +22,7 @@ function getClientSnapshot(): RevealedContact {
   if (clientSnapshot === null) {
     clientSnapshot = {
       email: decodeContactPayload(OBFUSCATED_CONTACT.email),
-      phones: [
-        decodeContactPayload(OBFUSCATED_CONTACT.phones[0]),
-        decodeContactPayload(OBFUSCATED_CONTACT.phones[1]),
-      ],
+      phone: decodeContactPayload(OBFUSCATED_CONTACT.phone),
     };
   }
   return clientSnapshot;

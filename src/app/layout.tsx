@@ -57,7 +57,6 @@ export default async function RootLayout({
           labels={{
             contactEmailLabel: site.footer.contactEmailLabel,
             contactPhoneLabel: site.footer.contactPhoneLabel,
-            contactMobileLabel: site.footer.contactMobileLabel,
           }}
         />
         <CookieConsentBanner copy={site.cookieConsent} />

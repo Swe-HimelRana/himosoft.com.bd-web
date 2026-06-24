@@ -13,7 +13,6 @@ import type { MarketingPageContent } from "@/types/marketingPage";
 type ContactLabels = {
   emailLabel: string;
   phoneLabel: string;
-  mobileLabel: string;
 };
 
 type Props = {

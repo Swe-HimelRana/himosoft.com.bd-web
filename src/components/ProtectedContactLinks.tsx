@@ -5,13 +5,12 @@ import { useRevealedContact } from "@/hooks/useRevealedContact";
 type Props = {
   emailLabel: string;
   phoneLabel: string;
-  mobileLabel: string;
 };
 
 const linkClass =
   "text-left text-sm font-semibold text-white/85 transition hover:text-white";
 
-export function ProtectedContactLinks({ emailLabel, phoneLabel, mobileLabel }: Props) {
+export function ProtectedContactLinks({ emailLabel, phoneLabel }: Props) {
   const revealed = useRevealedContact();
 
   if (!revealed) {
@@ -28,11 +27,6 @@ export function ProtectedContactLinks({ emailLabel, phoneLabel, mobileLabel }: P
             ••••••••
           </span>
         </div>
-        <div>
-          <span className="text-sm text-white/40" aria-hidden>
-            ••••••••
-          </span>
-        </div>
       </>
     );
   }
@@ -41,8 +35,8 @@ export function ProtectedContactLinks({ emailLabel, phoneLabel, mobileLabel }: P
     window.location.href = `mailto:${revealed.email}`;
   };
 
-  const call = (phone: string) => {
-    window.location.href = `tel:${phone}`;
+  const call = () => {
+    window.location.href = `tel:${revealed.phone}`;
   };
 
   return (
@@ -53,13 +47,8 @@ export function ProtectedContactLinks({ emailLabel, phoneLabel, mobileLabel }: P
         </button>
       </div>
       <div>
-        <button type="button" onClick={() => call(revealed.phones[0])} className={linkClass}>
-          {phoneLabel}: {revealed.phones[0]}
-        </button>
-      </div>
-      <div>
-        <button type="button" onClick={() => call(revealed.phones[1])} className={linkClass}>
-          {mobileLabel}: {revealed.phones[1]}
+        <button type="button" onClick={call} className={linkClass}>
+          {phoneLabel}: {revealed.phone}
         </button>
       </div>
     </>

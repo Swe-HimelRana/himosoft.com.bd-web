@@ -5,7 +5,6 @@ import { useRevealedContact } from "@/hooks/useRevealedContact";
 export type ContactLabels = {
   emailLabel: string;
   phoneLabel: string;
-  mobileLabel: string;
 };
 
 type Props = {
@@ -45,8 +44,7 @@ export function ContactInfoLinks({ labels, loadingLabel, variant = "cards" }: Pr
 
   const items = [
     { key: "email", label: labels.emailLabel, value: revealed.email, href: `mailto:${revealed.email}`, Icon: MailIcon },
-    { key: "phone", label: labels.phoneLabel, value: revealed.phones[0], href: `tel:${revealed.phones[0]}`, Icon: PhoneIcon },
-    { key: "mobile", label: labels.mobileLabel, value: revealed.phones[1], href: `tel:${revealed.phones[1]}`, Icon: PhoneIcon },
+    { key: "phone", label: labels.phoneLabel, value: revealed.phone, href: `tel:${revealed.phone}`, Icon: PhoneIcon },
   ] as const;
 
   if (variant === "chat") {

@@ -13,7 +13,7 @@ type Props = {
   slug?: string;
   contactLabels?: Pick<
     SiteContent["footer"],
-    "contactEmailLabel" | "contactPhoneLabel" | "contactMobileLabel"
+    "contactEmailLabel" | "contactPhoneLabel"
   >;
 };
 
@@ -133,7 +133,6 @@ export function MarketingPage({ page, team, slug, contactLabels }: Props) {
           contactLabels={{
             emailLabel: contactLabels.contactEmailLabel,
             phoneLabel: contactLabels.contactPhoneLabel,
-            mobileLabel: contactLabels.contactMobileLabel,
           }}
         />
       ) : null}

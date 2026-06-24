@@ -9,7 +9,7 @@ type Props = {
   copy: SiteContent["floatingContact"];
   labels: Pick<
     SiteContent["footer"],
-    "contactEmailLabel" | "contactPhoneLabel" | "contactMobileLabel"
+    "contactEmailLabel" | "contactPhoneLabel"
   >;
 };
 
@@ -104,7 +104,6 @@ export function FloatingContactWidget({ copy, labels }: Props) {
                     labels={{
                       emailLabel: labels.contactEmailLabel,
                       phoneLabel: labels.contactPhoneLabel,
-                      mobileLabel: labels.contactMobileLabel,
                     }}
                     loadingLabel={copy.loadingLabel}
                     variant="chat"

@@ -150,7 +150,6 @@ export function SiteFooter({ footer, meta, nav }: Props) {
                       <ProtectedContactLinks
                         emailLabel={footer.contactEmailLabel}
                         phoneLabel={footer.contactPhoneLabel}
-                        mobileLabel={footer.contactMobileLabel}
                       />
                     </li>
                   ) : null}
