@@ -4,7 +4,7 @@ type Props = Pick<SiteContent, "ctaBand">;
 
 export function CtaBand({ ctaBand }: Props) {
   return (
-    <section id="contact" className="scroll-mt-28 border-t border-[var(--glass-border)] bg-[var(--background)]">
+    <section id="contact" className="scroll-mt-28">
       <div className="relative mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
         {/* Card with gradient background */}
         <div className="group relative overflow-hidden rounded-3xl border border-brand/30 p-10 sm:p-14">

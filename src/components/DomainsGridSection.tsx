@@ -6,7 +6,7 @@ type Props = Pick<SiteContent, "domains">;
 
 export function DomainsGridSection({ domains }: Props) {
   return (
-    <section id="domains" className="scroll-mt-28 bg-[var(--background)] py-16 sm:py-20 lg:py-24">
+    <section id="domains" className="scroll-mt-28 py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <SectionEyebrow>{domains.sectionEyebrow}</SectionEyebrow>

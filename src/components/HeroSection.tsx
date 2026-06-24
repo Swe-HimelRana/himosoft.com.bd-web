@@ -7,12 +7,9 @@ type Props = Pick<SiteContent, "hero">;
 
 export function HeroSection({ hero }: Props) {
   return (
-    <section className="relative -mt-px isolate overflow-hidden text-white">
-      <div className="hero-grid pointer-events-none absolute inset-0 opacity-30" />
-      <div className="hero-ambient pointer-events-none absolute inset-0" />
-
-      <div className="relative mx-auto flex max-w-7xl flex-col gap-10 px-4 pb-20 pt-0 sm:px-6 lg:grid lg:grid-cols-12 lg:items-center lg:gap-10 lg:px-8 lg:pb-28 lg:pt-0 xl:gap-12">
-        <div className="space-y-6 lg:col-span-6 lg:min-w-0 lg:pr-2 xl:pr-4">
+    <section className="relative -mt-[4.5rem] overflow-hidden text-white sm:-mt-20">
+      <div className="relative mx-auto flex max-w-7xl flex-col gap-8 px-4 pb-20 pt-24 sm:px-6 sm:pt-32 lg:grid lg:grid-cols-12 lg:items-center lg:gap-8 lg:px-8 lg:pb-28 lg:pt-36 xl:gap-10">
+        <div className="space-y-5 lg:col-span-6 lg:min-w-0 lg:pr-2 xl:pr-4">
           <SectionEyebrow tone="light">{hero.eyebrow}</SectionEyebrow>
           <h1 className="max-w-3xl text-balance text-4xl font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:max-w-none lg:text-[2.75rem] lg:leading-[1.06] xl:text-6xl">
             {hero.title}
@@ -38,7 +35,7 @@ export function HeroSection({ hero }: Props) {
         </div>
 
         <div className="relative w-full lg:col-span-6 lg:min-w-0">
-          <div className="glass-card relative aspect-video w-full min-h-[220px] overflow-hidden rounded-2xl sm:min-h-[280px] lg:min-h-[340px] xl:min-h-[400px]">
+          <div className="relative aspect-video w-full min-h-[220px] overflow-hidden rounded-2xl sm:min-h-[280px] lg:min-h-[340px] xl:min-h-[400px]">
             <div className="absolute inset-0">
               <HeroLifecycleVisual />
             </div>

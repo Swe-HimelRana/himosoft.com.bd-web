@@ -6,6 +6,7 @@ import { CapabilitiesSection } from "@/components/CapabilitiesSection";
 import { CtaBand } from "@/components/CtaBand";
 import { DomainsGridSection } from "@/components/DomainsGridSection";
 import { HeroSection } from "@/components/HeroSection";
+import { HomePageBackdrop } from "@/components/HomePageBackdrop";
 import { PaymentPartnersMarquee } from "@/components/PaymentPartnersMarquee";
 import { InsightsSection } from "@/components/InsightsSection";
 import { NewProductsSection } from "@/components/NewProductsSection";
@@ -45,25 +46,28 @@ export default async function Home() {
   return (
     <>
       <JsonLd data={[webSiteJsonLd(locale), professionalServiceJsonLd()]} />
-      <SiteHeader locale={locale} nav={site.nav} />
-      <main id="main-content">
-        <HeroSection hero={site.hero} />
-        <NewProductsSection products={site.newProducts} />
-        <PaymentPartnersMarquee data={paymentPartners} />
-        <TrustStrip trustStrip={site.trustStrip} />
-        <StoriesSection stories={site.stories} />
-        <SpotlightSection spotlights={site.spotlights} />
-        <PlatformTriadSection platformTriad={site.platformTriad} />
-        <ServicesSection services={site.services} />
-        <DomainsGridSection domains={site.domains} />
-        <CapabilitiesSection capabilities={site.capabilities} />
-        <PartnersSection partners={site.partners} />
-        <AboutSection about={site.about} />
-        <TeamSection team={site.team} />
-        <InsightsSection insights={site.insights} />
-        <CtaBand ctaBand={site.ctaBand} />
-      </main>
-      <SiteFooter footer={site.footer} meta={site.meta} nav={site.nav} />
+      <div className="relative min-h-screen">
+        <HomePageBackdrop />
+        <SiteHeader locale={locale} nav={site.nav} />
+        <main id="main-content">
+          <HeroSection hero={site.hero} />
+          <NewProductsSection products={site.newProducts} />
+          <PaymentPartnersMarquee data={paymentPartners} />
+          <TrustStrip trustStrip={site.trustStrip} />
+          <StoriesSection stories={site.stories} />
+          <SpotlightSection spotlights={site.spotlights} />
+          <PlatformTriadSection platformTriad={site.platformTriad} />
+          <ServicesSection services={site.services} />
+          <DomainsGridSection domains={site.domains} />
+          <CapabilitiesSection capabilities={site.capabilities} />
+          <PartnersSection partners={site.partners} />
+          <AboutSection about={site.about} />
+          <TeamSection team={site.team} />
+          <InsightsSection insights={site.insights} />
+          <CtaBand ctaBand={site.ctaBand} />
+        </main>
+        <SiteFooter footer={site.footer} meta={site.meta} nav={site.nav} />
+      </div>
     </>
   );
 }

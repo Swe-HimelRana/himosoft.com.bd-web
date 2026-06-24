@@ -8,10 +8,8 @@ export function CapabilitiesSection({ capabilities }: Props) {
   return (
     <section
       id="capabilities"
-      className="relative isolate scroll-mt-28 overflow-hidden py-16 text-white sm:py-20 lg:py-24"
+      className="relative scroll-mt-28 overflow-hidden py-16 text-white sm:py-20 lg:py-24"
     >
-      <div className="hero-grid pointer-events-none absolute inset-0 opacity-20" />
-
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <SectionEyebrow tone="light">{capabilities.sectionEyebrow}</SectionEyebrow>

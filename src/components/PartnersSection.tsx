@@ -8,7 +8,7 @@ export function PartnersSection({ partners }: Props) {
   return (
     <section
       id="partners"
-      className="scroll-mt-28 border-t border-[var(--glass-border)] bg-[var(--background)] py-16 sm:py-20 lg:py-24"
+      className="scroll-mt-28 py-16 sm:py-20 lg:py-24"
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">

@@ -4,7 +4,7 @@ type Props = Pick<SiteContent, "trustStrip">;
 
 export function TrustStrip({ trustStrip }: Props) {
   return (
-    <section className="border-b border-[var(--glass-border)] bg-[var(--background)]">
+    <section>
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="max-w-4xl text-balance text-xl font-semibold leading-snug tracking-tight text-white sm:text-2xl">
           {trustStrip.headline}

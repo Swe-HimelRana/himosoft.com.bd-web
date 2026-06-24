@@ -6,7 +6,7 @@ type Props = Pick<SiteContent, "spotlights">;
 
 export function SpotlightSection({ spotlights }: Props) {
   return (
-    <section className="bg-[var(--background)] py-16 sm:py-20 lg:py-24">
+    <section className="py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <SectionEyebrow>{spotlights.sectionEyebrow}</SectionEyebrow>

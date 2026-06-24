@@ -155,8 +155,9 @@ export function SiteHeader({ locale, nav }: Props) {
   );
 
   return (
-    <header className="sticky top-0 z-50">
-      <div className="glass-nav relative mx-auto max-w-7xl border border-emerald-500/20 bg-gradient-to-b from-emerald-950/90 via-emerald-900/85 to-emerald-950/90 backdrop-blur-xl shadow-[0_8px_40px_-10px_rgba(0,0,0,0.5)]">
+    <>
+      <header className="fixed inset-x-0 top-0 z-50 px-4 pt-4 sm:px-6 sm:pt-5">
+        <div className="glass-nav relative mx-auto max-w-7xl rounded-2xl border border-emerald-500/20 bg-gradient-to-b from-emerald-950/90 via-emerald-900/85 to-emerald-950/90 backdrop-blur-xl shadow-[0_8px_40px_-10px_rgba(0,0,0,0.5)]">
         <div className="mx-auto grid max-w-7xl grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-x-2 px-4 py-2 sm:gap-x-3 sm:px-6 lg:px-8">
           <Link
             href="/"
@@ -263,7 +264,9 @@ export function SiteHeader({ locale, nav }: Props) {
             </div>
           </div>
         ) : null}
-      </div>
-    </header>
+        </div>
+      </header>
+      <div aria-hidden className="pointer-events-none h-[4.5rem] shrink-0 sm:h-20" />
+    </>
   );
 }

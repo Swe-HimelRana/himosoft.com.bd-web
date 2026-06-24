@@ -42,12 +42,12 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
           <button
             type="button"
             aria-label={a11y.closeMenuBackdrop}
-            className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm lg:hidden"
+            className="fixed inset-0 z-40 bg-black/60 lg:hidden"
             onClick={() => setMenuOpen(false)}
           />
           <div
             id="mobile-nav-sheet"
-            className="glass-card fixed inset-x-0 top-[52px] z-50 max-h-[min(82vh,calc(100dvh-52px))] overflow-y-auto border-b border-white/10 shadow-xl lg:hidden backdrop-blur-xl"
+            className="mobile-nav-sheet fixed inset-x-0 top-[52px] z-50 max-h-[min(82vh,calc(100dvh-52px))] overflow-y-auto border-b border-white/15 shadow-xl lg:hidden"
           >
             <nav className="space-y-1 px-4 py-4" aria-label={a11y.mobileNav}>
               {items.map((item) => {
@@ -55,7 +55,7 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
                   const expanded = expandedId === item.id;
 
                   return (
-                    <div key={item.id} className="rounded-2xl border border-white/10 bg-white/5">
+                    <div key={item.id} className="rounded-2xl border border-white/15 bg-slate-800/90">
                       <button
                         type="button"
                         className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left text-sm font-semibold text-white"
@@ -76,23 +76,23 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
                       </button>
 
                       {expanded ? (
-                        <div className="space-y-5 border-t border-white/10 px-4 py-4">
+                        <div className="space-y-5 border-t border-white/15 px-4 py-4">
                           {item.mega.featured ? (
-                            <div className="glass-card rounded-2xl p-4">
+                            <div className="rounded-2xl border border-white/10 bg-slate-900/90 p-4">
                               {item.mega.featured.eyebrow ? (
-                                <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-brand">
+                                <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--logo-teal)]">
                                   {item.mega.featured.eyebrow}
                                 </p>
                               ) : null}
                               <p className="mt-2 text-base font-semibold text-white">
                                 {item.mega.featured.title}
                               </p>
-                              <p className="mt-2 text-xs leading-relaxed text-white/60">
+                              <p className="mt-2 text-xs leading-relaxed text-white/75">
                                 {item.mega.featured.description}
                               </p>
                               <a
                                 href={item.mega.featured.href}
-                                className="mt-3 inline-flex text-sm font-semibold text-brand"
+                                className="mt-3 inline-flex text-sm font-semibold text-[var(--logo-cyan)]"
                                 onClick={() => setMenuOpen(false)}
                               >
                                 {item.mega.featured.ctaLabel} →
@@ -103,7 +103,7 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
                           {item.mega.columns.map((column) => (
                             <div key={column.title ?? column.links[0]?.href}>
                               {column.title ? (
-                                <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-white/50">
+                                <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-white/65">
                                   {column.title}
                                 </p>
                               ) : null}
@@ -112,12 +112,12 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
                                   <li key={`${link.href}-${link.label}`}>
                                     <a
                                       href={link.href}
-                                      className="block rounded-xl px-3 py-2 text-sm font-semibold text-white hover:bg-white/5"
+                                      className="block rounded-xl px-3 py-2 text-sm font-semibold text-white hover:bg-white/10"
                                       onClick={() => setMenuOpen(false)}
                                     >
                                       {link.label}
                                       {link.description ? (
-                                        <span className="mt-1 block text-xs font-normal leading-relaxed text-white/50">
+                                        <span className="mt-1 block text-xs font-normal leading-relaxed text-white/70">
                                           {link.description}
                                         </span>
                                       ) : null}
@@ -138,7 +138,7 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
                     key={item.id}
                     href={item.href}
                     {...externalNavLinkProps(item.href, item.external)}
-                    className="block rounded-2xl px-4 py-3 text-sm font-semibold text-white hover:bg-white/5"
+                    className="block rounded-2xl px-4 py-3 text-sm font-semibold text-white hover:bg-white/10"
                     onClick={() => setMenuOpen(false)}
                   >
                     {item.label}
@@ -148,7 +148,7 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
 
               <a
                 href={ctaHref}
-                className="mt-3 flex items-center justify-center rounded-full bg-brand/80 backdrop-blur-sm px-4 py-3 text-sm font-semibold text-white hover:bg-brand"
+                className="mt-3 flex items-center justify-center rounded-full bg-brand px-4 py-3 text-sm font-semibold text-white shadow-md hover:bg-brand/90"
                 onClick={() => setMenuOpen(false)}
               >
                 {ctaLabel}

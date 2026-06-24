@@ -10,6 +10,9 @@
   --brand: #667eea;
   --brand-deep: #764ba2;
   --brand-accent: #43a047;
+  --logo-teal: #1fd9ca;
+  --logo-green: #18a260;
+  --logo-cyan: #21e8e6;
   --hero-from: #0f172a;
   --hero-via: #0f172a;
   --hero-to: #064e3b;
@@ -37,11 +40,16 @@
     sans-serif;
 }
 
+html {
+  background-color: var(--hero-from);
+}
+
 body {
-  background: 
+  background:
     radial-gradient(ellipse 80% 60% at 90% 10%, rgba(16, 185, 129, 0.12), transparent 50%),
     radial-gradient(ellipse 70% 50% at 10% 90%, rgba(102, 126, 234, 0.08), transparent 50%),
     linear-gradient(135deg, #0f172a 0%, #0f172a 40%, #064e3b 100%);
+  background-attachment: fixed;
   color: var(--foreground);
   font-family: var(--font-sans);
   min-height: 100vh;
@@ -76,12 +84,20 @@ body::before {
   border-color: rgba(255, 255, 255, 0.15);
 }
 
+/* Mobile nav sheet — solid panel for readable text over page content */
+.mobile-nav-sheet {
+  background: linear-gradient(
+    180deg,
+    rgba(6, 47, 43, 0.98) 0%,
+    rgba(15, 23, 42, 0.98) 100%
+  );
+}
+
 /* Glass nav style */
 .glass-nav {
   background: var(--glass-bg);
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
-  border-bottom: 1px solid var(--glass-border);
 }
 
 /* Desktop nav: scroll in the middle column instead of overlapping language switcher */
@@ -120,9 +136,55 @@ body::before {
   mask-image: radial-gradient(ellipse at top, black 30%, transparent 70%);
 }
 
+/* Full-page homepage backdrop — fixed to viewport, matches body gradient */
+.home-page-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 90% 70% at 15% 0%, rgba(38, 198, 218, 0.1), transparent 58%),
+    radial-gradient(ellipse 80% 60% at 85% 20%, rgba(67, 160, 71, 0.08), transparent 55%),
+    linear-gradient(rgba(38, 198, 218, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(67, 160, 71, 0.03) 1px, transparent 1px);
+  background-size: auto, auto, 56px 56px, 56px 56px;
+}
+
+/* Legacy hero grid helpers */
+.hero-grid-page {
+  background-image:
+    linear-gradient(rgba(38, 198, 218, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(67, 160, 71, 0.04) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.hero-ambient-page {
+  background:
+    radial-gradient(ellipse 90% 70% at 15% 0%, rgba(38, 198, 218, 0.12), transparent 58%),
+    radial-gradient(ellipse 80% 60% at 85% 20%, rgba(67, 160, 71, 0.1), transparent 55%);
+}
+
 /* Hero software lifecycle animation */
 .hero-lifecycle {
   isolation: isolate;
+  background:
+    radial-gradient(ellipse 85% 65% at 100% 0%, rgba(31, 217, 202, 0.28), transparent 55%),
+    radial-gradient(ellipse 75% 55% at 0% 100%, rgba(24, 162, 96, 0.22), transparent 55%),
+    radial-gradient(ellipse 60% 45% at 50% 50%, rgba(33, 232, 230, 0.12), transparent 60%),
+    linear-gradient(145deg, rgba(8, 28, 32, 0.98) 0%, rgba(10, 52, 48, 0.94) 42%, rgba(8, 62, 42, 0.9) 100%);
+  border-color: rgba(31, 217, 202, 0.35);
+  box-shadow:
+    0 24px 64px -20px rgba(0, 0, 0, 0.55),
+    0 0 48px -12px rgba(31, 217, 202, 0.35),
+    0 0 32px -8px rgba(24, 162, 96, 0.25);
+}
+
+.lifecycle-screen {
+  background:
+    radial-gradient(ellipse 70% 55% at 90% 10%, rgba(33, 232, 230, 0.16), transparent 52%),
+    radial-gradient(ellipse 60% 50% at 10% 90%, rgba(24, 162, 96, 0.16), transparent 50%),
+    linear-gradient(160deg, rgba(8, 28, 32, 0.9) 0%, rgba(10, 45, 42, 0.82) 50%, rgba(8, 55, 38, 0.86) 100%);
+  border-color: rgba(31, 217, 202, 0.25);
 }
 
 .lifecycle-recording {
@@ -135,7 +197,7 @@ body::before {
 
 .lifecycle-typing {
   animation: lifecycle-blink 1s step-end infinite;
-  border-right: 2px solid var(--hero-cyan);
+  border-right: 2px solid var(--logo-teal);
   width: fit-content;
   padding-right: 2px;
 }
@@ -179,11 +241,11 @@ body::before {
   0%,
   100% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(38, 198, 218, 0.35);
+    box-shadow: 0 0 0 0 rgba(31, 217, 202, 0.35);
   }
   50% {
     transform: scale(1.04);
-    box-shadow: 0 0 24px 4px rgba(38, 198, 218, 0.25);
+    box-shadow: 0 0 24px 4px rgba(33, 232, 230, 0.3);
   }
 }
 
@@ -237,6 +299,19 @@ body::before {
   direction: ltr;
   animation: payment-partners-marquee 40s linear infinite;
   will-change: transform;
+}
+
+.payment-partners-marquee {
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+
+.payment-partner-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 250, 252, 0.95) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
 }
 
 .payment-partners-marquee:hover .payment-partners-track {
@@ -307,7 +382,8 @@ body::before {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-ambient {
+  .hero-ambient,
+  .hero-ambient-page {
     animation: none;
   }
 

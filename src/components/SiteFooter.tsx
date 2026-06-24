@@ -50,16 +50,8 @@ export function SiteFooter({ footer, meta, nav }: Props) {
   return (
     <footer
       id="footer"
-      className="relative overflow-hidden border-t border-white/10 text-white"
+      className="relative overflow-hidden text-white"
     >
-      {/* Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#0f172a] via-[#0f172a] to-[#064e3b] pointer-events-none" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(16,185,129,0.15),transparent_50%)] pointer-events-none" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(102,126,234,0.1),transparent_50%)] pointer-events-none" />
-
-      {/* Animated Border Top */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-emerald-500/50 to-transparent animate-pulse" />
-
       <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="flex flex-col gap-14 lg:flex-row lg:items-start lg:justify-between">
@@ -170,8 +162,6 @@ export function SiteFooter({ footer, meta, nav }: Props) {
 
         {/* Bottom Bar */}
         <div className="mt-16 relative">
-          <div className="absolute -top-8 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-
           <div className="flex flex-col items-center justify-between gap-4 rounded-2xl border border-white/5 bg-white/[0.02] px-6 py-5 sm:flex-row">
             <div className="flex items-center gap-3">
               <div className="flex h-2 w-2 items-center justify-center">

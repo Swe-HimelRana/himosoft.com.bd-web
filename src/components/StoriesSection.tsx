@@ -6,7 +6,7 @@ type Props = Pick<SiteContent, "stories">;
 
 export function StoriesSection({ stories }: Props) {
   return (
-    <section id="stories" className="scroll-mt-28 border-b border-[var(--glass-border)] bg-[var(--background)] py-16 sm:py-20 lg:py-24">
+    <section id="stories" className="scroll-mt-28 py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <SectionEyebrow>{stories.sectionEyebrow}</SectionEyebrow>
