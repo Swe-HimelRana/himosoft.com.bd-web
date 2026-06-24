@@ -1,0 +1,1883 @@
+{
+  "solutions": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Lösungen & Branchen | HimoSoft",
+      "description": "Branchenorientierte Softwarelösungen, Delivery-Stile und digitale Plattformen von HimoSoft."
+    },
+    "eyebrow": "Lösungen",
+    "title": "Lösungen & Branchen",
+    "intro": "Wir verkaufen keine Einheitsvorlagen. HimoSoft gestaltet mit Ihnen Produkt-Roadmaps und Architektur — von Einzelhandel und Bildung bis Healthcare und Logistik — mit Delivery-Stilen, die zu Ihrer Risikobereitschaft und Ihrem Zeitplan passen.",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "So gehen wir an Lösungen heran",
+        "paragraphs": [
+          "Jedes Engagement beginnt mit Ihren Einschränkungen: Budget, Teamfähigkeiten, regulatorischer Kontext und was \"Erfolg\" in sechs Monaten versus zwei Jahren bedeutet.",
+          "Wir ordnen diese Einschränkungen einer Lösungsform zu — MVP, Modernisierung, API-Ökosystem oder Design-System-gesteuertes Produkt — und besetzen dann ein einzelnes Squad über Discovery, Build und Run."
+        ]
+      },
+      {
+        "id": "industries",
+        "title": "Branchen & Anwendungsfälle",
+        "paragraphs": [
+          "Erkunden Sie vertikale Muster, die wir am häufigsten implementieren:"
+        ],
+        "cards": [
+          {
+            "title": "E-Commerce & Einzelhandel",
+            "description": "Kataloge, Bestellungen und Zahlungsabläufe für Conversion optimiert.",
+            "href": "/ecommerce-retail",
+            "linkLabel": "Mehr erfahren"
+          },
+          {
+            "title": "Bildung & Training",
+            "description": "Lernportale, Kohorten und Fortschrittsverfolgung.",
+            "href": "/education-training",
+            "linkLabel": "Mehr erfahren"
+          },
+          {
+            "title": "Healthcare & Termine",
+            "description": "Erschwingliche Patientenabläufe mit sichererer Datenverarbeitung.",
+            "href": "/healthcare",
+            "linkLabel": "Mehr erfahren"
+          },
+          {
+            "title": "Logistik & Operations",
+            "description": "Dashboards und Near-Realtime-Tracking für Ops-Teams.",
+            "href": "/logistics-operations",
+            "linkLabel": "Mehr erfahren"
+          }
+        ]
+      },
+      {
+        "id": "styles",
+        "title": "Delivery-Stile",
+        "paragraphs": [
+          "Passen Sie Tempo und Risiko an Ihre Phase an:"
+        ],
+        "cards": [
+          {
+            "title": "MVPs & schnelle Launches",
+            "description": "Etwas Nutzbares in Wochen, nicht Quartalen.",
+            "href": "/mvps-launches",
+            "linkLabel": "Mehr erfahren"
+          },
+          {
+            "title": "Legacy-Modernisierung",
+            "description": "Inkrementelle Neuschreibungen und sicherere Migrationen.",
+            "href": "/legacy-modernisation",
+            "linkLabel": "Mehr erfahren"
+          },
+          {
+            "title": "API-First-Ökosysteme",
+            "description": "Partner und interne Tools sauber verbinden.",
+            "href": "/api-first",
+            "linkLabel": "Mehr erfahren"
+          },
+          {
+            "title": "Design Systems & UX",
+            "description": "Konsistente UI, die mit Ihren Teams skaliert.",
+            "href": "/design-systems-ux",
+            "linkLabel": "Mehr erfahren"
+          }
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Services",
+        "href": "/services"
+      },
+      {
+        "label": "Case-Highlights",
+        "href": "/stories"
+      },
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
+    ]
+  },
+  "services": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Services | HimoSoft",
+      "description": "Individualsoftware, Web- und Mobile-Apps, APIs, Cloud, Security und Support von HimoSoft."
+    },
+    "eyebrow": "Services",
+    "title": "Softwareentwicklungs-Services",
+    "intro": "Beauftragen Sie HimoSoft end-to-end oder als fokussierte Module — von der Produktentdeckung über Engineering, Integration, Deployment bis zur langfristigen Wartung.",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Was wir bieten",
+        "paragraphs": [
+          "Unsere Service-Säulen decken den gesamten Produktlebenszyklus ab: Individualanwendungen, moderne Web-Stacks, Mobile-Erlebnisse, Datenschichten, Integrationen, Cloud-Betrieb, Security-Hardening und SLA-gestützter Support.",
+          "Jede Säule kann einzeln erworben oder unter einer gemeinsamen Roadmap mit geteilter Architektur und Dokumentation kombiniert werden."
+        ]
+      },
+      {
+        "id": "engineering",
+        "title": "Engineering",
+        "paragraphs": [
+          "Kern-Build-Fähigkeiten:"
+        ],
+        "cards": [
+          {
+            "title": "Individualsoftware",
+            "description": "Lösungen, die auf Ihre Domain-Regeln und Workflows abgestimmt sind.",
+            "href": "/custom-software",
+            "linkLabel": "Details"
+          },
+          {
+            "title": "Web-Anwendungen",
+            "description": "Responsive, schnelle, SEO-freundliche Sites und Apps.",
+            "href": "/web-applications",
+            "linkLabel": "Details"
+          },
+          {
+            "title": "Mobile (iOS / Android)",
+            "description": "Nativ und plattformübergreifend mit kohärenter UX.",
+            "href": "/mobile-apps",
+            "linkLabel": "Details"
+          },
+          {
+            "title": "Datenbanken & Performance",
+            "description": "Modellierung, Indizierung und Query-Optimierung.",
+            "href": "/databases",
+            "linkLabel": "Details"
+          }
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Integration & Plattform",
+        "paragraphs": [
+          "Verbinden und in Produktion betreiben:"
+        ],
+        "cards": [
+          {
+            "title": "APIs & Webhooks",
+            "description": "Drittanbieter-Services mit klaren Verträgen verdrahtet.",
+            "href": "/apis-webhooks",
+            "linkLabel": "Details"
+          },
+          {
+            "title": "Cloud & Deployment",
+            "description": "CI/CD, Hosting und Observability.",
+            "href": "/cloud-deployment",
+            "linkLabel": "Details"
+          },
+          {
+            "title": "Security & Compliance",
+            "description": "Rollen, Audit-Trails und Hardening.",
+            "href": "/security-compliance",
+            "linkLabel": "Details"
+          },
+          {
+            "title": "Support & SLA",
+            "description": "Wartung und Incident-Response, auf die Sie sich verlassen können.",
+            "href": "/support-sla",
+            "linkLabel": "Details"
+          }
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Delivery-Prozess",
+        "href": "/delivery"
+      },
+      {
+        "label": "Capabilities",
+        "href": "/capabilities"
+      },
+      {
+        "label": "Domains",
+        "href": "/domains"
+      }
+    ]
+  },
+  "delivery": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Delivery & Qualität | HimoSoft",
+      "description": "Discovery, Sprints, QA, Observability und Post-Launch-Verbesserungen bei HimoSoft."
+    },
+    "eyebrow": "Delivery",
+    "title": "Delivery & Qualität",
+    "intro": "Klare Roadmaps, wöchentliche Synchs und skalierbare Architektur — schlanke Workflows, die Stakeholder ausrichten und vorhersehbare Releases ermöglichen.",
+    "sections": [
+      {
+        "id": "model",
+        "title": "Operating Model",
+        "paragraphs": [
+          "Wir bevorzugen kleine, releasbare Inkremente gegenüber Big-Bang-Launches. Jeder Sprint endet mit etwas Demonstrierbarem — auch wenn es hinter einem Feature-Flag versteckt ist.",
+          "Architekturentscheidungen werden als ADRs dokumentiert, damit zukünftige Teams Trade-offs verstehen, nicht nur Ergebnisse."
+        ]
+      },
+      {
+        "id": "phases",
+        "title": "Phasen der Lieferung",
+        "paragraphs": [
+          "Typischer Ablauf von der Idee zum stabilen Betrieb:"
+        ],
+        "cards": [
+          {
+            "title": "Discovery & Prototyping",
+            "description": "Anforderungen schärfen, bevor Code sich anhäuft.",
+            "href": "/discovery",
+            "linkLabel": "Mehr lesen"
+          },
+          {
+            "title": "Sprints & Releases",
+            "description": "Kontrolliertes Risiko durch häufige Releases.",
+            "href": "/sprints-releases",
+            "linkLabel": "Mehr lesen"
+          },
+          {
+            "title": "QA & Observability",
+            "description": "Testpyramide, Logs, Tracing und Alerts.",
+            "href": "/qa-observability",
+            "linkLabel": "Mehr lesen"
+          },
+          {
+            "title": "Post-Launch-Verbesserungen",
+            "description": "Aus echten Nutzungsmetriken iterieren.",
+            "href": "/post-launch",
+            "linkLabel": "Mehr lesen"
+          }
+        ]
+      },
+      {
+        "id": "resources",
+        "title": "Ressourcen",
+        "paragraphs": [
+          "Unterstützendes Material und laufende Engagement-Optionen:"
+        ],
+        "list": [
+          "Tech-Stack-Notizen und Referenzarchitekturen — see Insights und Tech-Stack-Seite",
+          "Projekt-Brief-Template auf Anfrage via Kontakt verfügbar",
+          "Support-Pläne, maßgeschneidert auf Ihre Uptime- und Response-Bedürfnisse",
+          "Partner- und Referral-Programme für Agenturen und Integratoren"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Support-Pläne",
+        "href": "/support-plans"
+      },
+      {
+        "label": "Tech Stack",
+        "href": "/tech-stack"
+      },
+      {
+        "label": "Capabilities",
+        "href": "/capabilities"
+      }
+    ]
+  },
+  "stories": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Cases & Muster | HimoSoft",
+      "description": "Wo Technologie den Unterschied macht — kurze Narrative über Bereiche, in denen wir regelmäßig Hebelwirkung erzielen für Einzelhandel, Fertigung, Services, HR, Logistik und Engineering-Velocity."
+    },
+    "eyebrow": "Cases",
+    "title": "Cases & Muster",
+    "intro": "Wo Technologie den Unterschied macht — kurze Narrative über Bereiche, in denen wir regelmäßig Hebelwirkung erzielen für Einzelhandel, Fertigung, Services, HR, Logistik und Engineering-Velocity.",
+    "sections": [
+      {
+        "id": "patterns",
+        "title": "Erfolgsmuster",
+        "paragraphs": [
+          "Kunden kommen zu HimoSoft, wenn Tabellen, unverbundene Tools oder Legacy-Monolithen das Wachstum bremsen. Wir dokumentieren das Vorher/Nachher: weniger manuelle Schritte, klarere Verantwortlichkeiten und Metriken, die das Management tatsächlich beobachtet."
+        ]
+      },
+      {
+        "id": "examples",
+        "title": "Beispiel-Fokusbereiche",
+        "paragraphs": [
+          "Representative Problemräume:"
+        ],
+        "list": [
+          "Retail-Operations-Automatisierung — Bestand und Bestellungen in einem Dashboard",
+          "Fertigungsdigitalisierung — Schichtverfolgung und QC-Rückverfolgbarkeit",
+          "Service-Buchungen & Zahlungen — Mobile-First-Terminplanung und Erinnerungen",
+          "HR- & Beschaffungsworkflows — Genehmigungen mit Audit-Trails",
+          "Logistik-Entscheidungsunterstützung — Routen und Cargo-Signale visualisiert",
+          "Development Velocity — CI, Staging und Quality Gates, die das ganze Team befolgt"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
+    ]
+  },
+  "platform": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Plattform-Mindset | HimoSoft",
+      "description": "Build · Auf Design & Data aufbauen · Govern & Run — drei Säulen für nachhaltige Software-Lieferung."
+    },
+    "eyebrow": "Plattform-Mindset",
+    "title": "Plattform-Mindset",
+    "intro": "Build · Auf Design & Data aufbauen · Govern & Run — drei Säulen für nachhaltige Software-Lieferung.",
+    "sections": [
+      {
+        "id": "build",
+        "title": "Build",
+        "paragraphs": [
+          "Apps, Integrationen und Toolchain in Besitz eines Squads — Frontend, Backend und DevOps mit schnellen Iterationen und testbaren Releases."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design & Data",
+        "paragraphs": [
+          "UX/UI und Datenarchitektur gemeinsam entworfen, damit Tag-1-Entscheidungen auch am Tag tausend noch Sinn ergeben."
+        ]
+      },
+      {
+        "id": "govern",
+        "title": "Govern & Run",
+        "paragraphs": [
+          "Monitoring, Security-Playbooks und SLAs, die Geschäftszeiten und Kundenvertrauen schützen."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
+    ]
+  },
+  "domains": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Domains & Funktionen | HimoSoft",
+      "description": "Wenn jede Funktion dasselbe Datenfundament teilt — wir verbinden Code mit Nutzungsmustern und messbaren Ergebnissen."
+    },
+    "eyebrow": "Domains",
+    "title": "Domains & Funktionen",
+    "intro": "Wenn jede Funktion dasselbe Datenfundament teilt — wir verbinden Code mit Nutzungsmustern und messbaren Ergebnissen.",
+    "sections": [
+      {
+        "id": "grid",
+        "title": "Capability-Grid",
+        "paragraphs": [
+          "Domänenübergreifende Bereiche, die wir in Produkten implementieren:"
+        ],
+        "list": [
+          "Data & Analytics — Modelle, Dashboards, Event-Tracking",
+          "Customer Experience — von Landing bis Onboarding",
+          "Workflows & Genehmigungen — mehrstufige Ketten mit Benachrichtigungen",
+          "E-Commerce & Zahlungen — Kataloge, Checkout, Abstimmung",
+          "Integration Hub — einheitliches Gateway über Anbieter hinweg",
+          "Industrielle Operations — Schichten, Bestand, Ticketing",
+          "Team-Orchestrierung — Rollen, Aufgaben, Zeitpläne",
+          "Security & Compliance — RBAC, Logging, Aufbewahrung"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
+    ]
+  },
+  "capabilities": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Plattform-Capabilities | HimoSoft",
+      "description": "Gesunde Verbindung zwischen Daten, Apps und Teams — schnellere Wege von Entscheidungen zu ausgelieferter Software."
+    },
+    "eyebrow": "Plattform-Capabilities",
+    "title": "Plattform-Capabilities",
+    "intro": "Gesunde Verbindung zwischen Daten, Apps und Teams — schnellere Wege von Entscheidungen zu ausgelieferter Software.",
+    "sections": [
+      {
+        "id": "pillars",
+        "title": "Vier Säulen",
+        "paragraphs": [
+          "Wie wir langlaufende Programme strukturieren:"
+        ],
+        "cards": [
+          {
+            "title": "Planung & Architektur",
+            "description": "Skalierbare, sichere, wartbare Grundlagen von Tag null an."
+          },
+          {
+            "title": "Delivery & Qualität",
+            "description": "Iterative Releases mit Reviews und automatisierten Tests."
+          },
+          {
+            "title": "Integration",
+            "description": "Legacy und moderne Stacks überbrücken — APIs zuerst."
+          },
+          {
+            "title": "Operations & Support",
+            "description": "Monitoring, Patching und proaktive Pflege."
+          }
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
+    ]
+  },
+  "partners": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Partner-Netzwerk | HimoSoft",
+      "description": "Gemeinsam liefern mit Design-, Infra- und Domain-Spezialisten, damit Ihr Kernteam fokussiert bleibt."
+    },
+    "eyebrow": "Partner-Netzwerk",
+    "title": "Partner-Netzwerk",
+    "intro": "Gemeinsam liefern mit Design-, Infra- und Domain-Spezialisten, damit Ihr Kernteam fokussiert bleibt.",
+    "sections": [
+      {
+        "id": "network",
+        "title": "Ökosystem",
+        "paragraphs": [
+          "HimoSoft arbeitet mit Extension-Integratoren, Agenturen und Technologieanbietern zusammen. Gemeinsame Go-to-Market- und Referral-Modelle bleiben schlank — klare Scopes und geteilte Erfolgsmetriken für den Kunden."
+        ]
+      },
+      {
+        "id": "types",
+        "title": "Partner-Typen",
+        "paragraphs": [
+          "Mit wem wir zusammenarbeiten:"
+        ],
+        "list": [
+          "Cloud-, Zahlungs- und Marketing-Stack-Integratoren",
+          "Agenturen und Studios, bereit für Implementierung in großem Maßstab",
+          "Referral-Partner mit passenden Qualitätsstandards"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
+    ]
+  },
+  "about": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Über HimoSoft | HimoSoft",
+      "description": "Kundenzentriertes Software-Studio — disciplined Engineering seit 2020."
+    },
+    "eyebrow": "Über HimoSoft",
+    "title": "Über HimoSoft",
+    "intro": "Kundenzentriertes Software-Studio — disciplined Engineering seit 2020.",
+    "sections": [
+      {
+        "id": "story",
+        "title": "Unsere Geschichte",
+        "paragraphs": [
+          "Gegründet 2020, hilft HimoSoft Organisationen, ihre digitale Präsenz und Operations als fokussiertes Software-Studio neu zu gestalten.",
+          "Entwickler, Designer und Projektmanager arbeiten eng zusammen, um hochqualitative Lösungen zu liefern, die Wachstum und Effizienz freisetzen."
+        ]
+      },
+      {
+        "id": "approach",
+        "title": "Wie wir arbeiten",
+        "paragraphs": [
+          "Wir konzentrieren uns auf Ihre einzigartigen Herausforderungen, damit maßgeschneiderte Ergebnisse regelmäßig die Erwartungen übertreffen.",
+          "Dokumentation, Übergabe und Training sind Teil von \"Done\". Security und Usability sind nicht verhandelbar."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
+    ]
+  },
+  "team": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Team & Führung | HimoSoft",
+      "description": "Lernen Sie die Spezialisten hinter der HimoSoft-Lieferung kennen."
+    },
+    "eyebrow": "Team",
+    "title": "Team & Führung",
+    "intro": "Lernen Sie die Spezialisten hinter der HimoSoft-Lieferung kennen.",
+    "sections": [
+      {
+        "id": "leadership",
+        "title": "Wer die Lieferung verantwortet",
+        "paragraphs": [
+          "Eine kompakte Führungsschicht hält die Architektur kohärent und Kommunikation direkt. Das Tagesgeschäft der Lieferung wird von Engineers und PMs abgewickelt, die Ihren Produktkontext kennen."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
+    ],
+    "showTeam": true
+  },
+  "insights": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Insights & Ressourcen | HimoSoft",
+      "description": "Workshops, Guides, Artikel und Events — praktische Notizen aus unserer Delivery-Praxis."
+    },
+    "eyebrow": "Insights",
+    "title": "Insights & Ressourcen",
+    "intro": "Workshops, Guides, Artikel und Events — praktische Notizen aus unserer Delivery-Praxis.",
+    "sections": [
+      {
+        "id": "content",
+        "title": "Was Sie hier finden",
+        "paragraphs": [
+          "Platzhalter-Themen heute — tauschen Sie jederzeit Ihre Blog-, YouTube- oder Live-Event-URLs ein. Wir veröffentlichen über Discovery Labs, Mobile-Release-Checklisten, Legacy-Modernisierung, Dhaka/Online-Meetups und monatliche Delivery-Notizen."
+        ]
+      },
+      {
+        "id": "topics",
+        "title": "Aktuelle Themen",
+        "paragraphs": [
+          "Representative Assets:"
+        ],
+        "list": [
+          "Product Discovery Lab — remote oder vor Ort",
+          "Mobile-Release-Checkliste für Store- und Beta-Qualität",
+          "Legacy-Systeme modernisieren — Strangler-Patterns und Fallstricke",
+          "Dev Meetup — Dhaka / Online mit Live-Code-Review",
+          "Monatlicher Tech- & Delivery-Newsletter"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
+    ]
+  },
+  "contact": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "contactModal": {
+      "title": "Kontakt aufnehmen",
+      "description": "Wählen Sie E-Mail oder Telefon — wir antworten typischerweise innerhalb eines Werktages.",
+      "closeLabel": "Schließen"
+    },
+    "meta": {
+      "title": "HimoSoft kontaktieren | HimoSoft",
+      "description": "Starten Sie einen Projekt-Thread — Umfang, Zeitpläne, Budget und nächste Schritte."
+    },
+    "eyebrow": "HimoSoft kontaktieren",
+    "title": "HimoSoft kontaktieren",
+    "intro": "Starten Sie einen Projekt-Thread — Umfang, Zeitpläne, Budget und nächste Schritte.",
+    "sections": [
+      {
+        "id": "start",
+        "title": "Gespräch starten",
+        "paragraphs": [
+          "Verwenden Sie den Button \"HimoSoft kontaktieren\" unten, um unsere E-Mail und Telefonnummern zu sehen. Ein kurzes Discovery-Call genügt — wir bringen Klarheit über Stack, Zeitpläne und Risiken.",
+          "Für Karriere und Partnerschaften erwähnen Sie Ihre Absicht in der Betreffzeile, damit wir Sie schnell zur richtigen Person weiterleiten."
+        ]
+      },
+      {
+        "id": "expect",
+        "title": "Was Sie erwartet",
+        "paragraphs": [
+          "Nach Ihrer Kontaktaufnahme:"
+        ],
+        "list": [
+          "Bestätigung innerhalb eines Werktages",
+          "Optionales NDA und kurzes Template für sensible Scopes",
+          "Vorschlag mit Phasen, Annahmen und Aufwandsschätzung",
+          "Kein Druck — wir gehen nur vor, wenn die Passung gegenseitig ist"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
+    ]
+  },
+  "ecommerce-retail": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "E-Commerce & Einzelhandel | HimoSoft",
+      "description": "Kataloge, Checkout, Bestand und Zahlungsabläufe optimiert für Conversion und operative Klarheit."
+    },
+    "eyebrow": "Branche",
+    "title": "E-Commerce & Einzelhandel",
+    "intro": "Kataloge, Checkout, Bestand und Zahlungsabläufe optimiert für Conversion und operative Klarheit.",
+    "sections": [
+      {
+        "id": "challenges",
+        "title": "Typische Herausforderungen",
+        "paragraphs": [
+          "Teams in diesem Bereich jonglieren mit Legacy-Tools, manueller Abstimmung und Kanälen, die ihre erste Plattform überwachsen haben. Wir beginnen mit dem Mapping kritischer User Journeys — nicht jede Funktion einer Competitor-Site."
+        ]
+      },
+      {
+        "id": "solutions",
+        "title": "Wie HimoSoft hilft",
+        "paragraphs": [
+          "Typische Liefergegenstände umfassen:"
+        ],
+        "list": [
+          "Einheitliches Admin für Katalog, Preise und Promotionen",
+          "Bestell- und Fulfillment-Sichtbarkeit mit Exception-Handling",
+          "Payment-Gateway-Integration (lokale und internationale Anbieter)",
+          "Reporting abgestimmt auf Finance- und Operations-Rhythmen",
+          "Rollenbasierter Zugriff für Filialen, HQ und Partner"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Ziele, die wir anstreben",
+        "paragraphs": [
+          "Schnellerer Checkout, weniger Support-Tickets und Dashboards, denen das Management vertraut. Wir messen Erfolg mit Ihren KPIs — Conversion, Marge, SLA oder Abschlussquoten — nicht Vanity-Releases."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Alle Lösungen",
+        "href": "/solutions"
+      },
+      {
+        "label": "Services",
+        "href": "/services"
+      },
+      {
+        "label": "Stories",
+        "href": "/stories"
+      }
+    ]
+  },
+  "education-training": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Bildung & Training | HimoSoft",
+      "description": "Lernportale, Kohortenmanagement, Assessments und Fortschrittsverfolgung für Institutionen und Trainer."
+    },
+    "eyebrow": "Branche",
+    "title": "Bildung & Training",
+    "intro": "Lernportale, Kohortenmanagement, Assessments und Fortschrittsverfolgung für Institutionen und Trainer.",
+    "sections": [
+      {
+        "id": "challenges",
+        "title": "Typische Herausforderungen",
+        "paragraphs": [
+          "Teams in diesem Bereich jonglieren mit Legacy-Tools, manueller Abstimmung und Kanälen, die ihre erste Plattform überwachsen haben. Wir beginnen mit dem Mapping kritischer User Journeys — nicht jede Funktion einer Competitor-Site."
+        ]
+      },
+      {
+        "id": "solutions",
+        "title": "Wie HimoSoft hilft",
+        "paragraphs": [
+          "Typische Liefergegenstände umfassen:"
+        ],
+        "list": [
+          "Einheitliches Admin für Katalog, Preise und Promotionen",
+          "Bestell- und Fulfillment-Sichtbarkeit mit Exception-Handling",
+          "Payment-Gateway-Integration (lokale und internationale Anbieter)",
+          "Reporting abgestimmt auf Finance- und Operations-Rhythmen",
+          "Rollenbasierter Zugriff für Filialen, HQ und Partner"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Ziele, die wir anstreben",
+        "paragraphs": [
+          "Schnellerer Checkout, weniger Support-Tickets und Dashboards, denen das Management vertraut. Wir messen Erfolg mit Ihren KPIs — Conversion, Marge, SLA oder Abschlussquoten — nicht Vanity-Releases."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Alle Lösungen",
+        "href": "/solutions"
+      },
+      {
+        "label": "Services",
+        "href": "/services"
+      },
+      {
+        "label": "Stories",
+        "href": "/stories"
+      }
+    ]
+  },
+  "healthcare": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Healthcare & Termine | HimoSoft",
+      "description": "Patientenbuchung, Erinnerungen und Staff-Workflows mit Fokus auf Datenminimierung und Zugriffskontrolle."
+    },
+    "eyebrow": "Branche",
+    "title": "Healthcare & Termine",
+    "intro": "Patientenbuchung, Erinnerungen und Staff-Workflows mit Fokus auf Datenminimierung und Zugriffskontrolle.",
+    "sections": [
+      {
+        "id": "challenges",
+        "title": "Typische Herausforderungen",
+        "paragraphs": [
+          "Teams in diesem Bereich jonglieren mit Legacy-Tools, manueller Abstimmung und Kanälen, die ihre erste Plattform überwachsen haben. Wir beginnen mit dem Mapping kritischer User Journeys — nicht jede Funktion einer Competitor-Site."
+        ]
+      },
+      {
+        "id": "solutions",
+        "title": "Wie HimoSoft hilft",
+        "paragraphs": [
+          "Typische Liefergegenstände umfassen:"
+        ],
+        "list": [
+          "Einheitliches Admin für Katalog, Preise und Promotionen",
+          "Bestell- und Fulfillment-Sichtbarkeit mit Exception-Handling",
+          "Payment-Gateway-Integration (lokale und internationale Anbieter)",
+          "Reporting abgestimmt auf Finance- und Operations-Rhythmen",
+          "Rollenbasierter Zugriff für Filialen, HQ und Partner"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Ziele, die wir anstreben",
+        "paragraphs": [
+          "Schnellerer Checkout, weniger Support-Tickets und Dashboards, denen das Management vertraut. Wir messen Erfolg mit Ihren KPIs — Conversion, Marge, SLA oder Abschlussquoten — nicht Vanity-Releases."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Alle Lösungen",
+        "href": "/solutions"
+      },
+      {
+        "label": "Services",
+        "href": "/services"
+      },
+      {
+        "label": "Stories",
+        "href": "/stories"
+      }
+    ]
+  },
+  "logistics-operations": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Logistik & Operations | HimoSoft",
+      "description": "Dashboards, Dispatch und Near-Realtime-Tracking für Flotten, Lager und Außendienstteams."
+    },
+    "eyebrow": "Branche",
+    "title": "Logistik & Operations",
+    "intro": "Dashboards, Dispatch und Near-Realtime-Tracking für Flotten, Lager und Außendienstteams.",
+    "sections": [
+      {
+        "id": "challenges",
+        "title": "Typische Herausforderungen",
+        "paragraphs": [
+          "Teams in diesem Bereich jonglieren mit Legacy-Tools, manueller Abstimmung und Kanälen, die ihre erste Plattform überwachsen haben. Wir beginnen mit dem Mapping kritischer User Journeys — nicht jede Funktion einer Competitor-Site."
+        ]
+      },
+      {
+        "id": "solutions",
+        "title": "Wie HimoSoft hilft",
+        "paragraphs": [
+          "Typische Liefergegenstände umfassen:"
+        ],
+        "list": [
+          "Einheitliches Admin für Katalog, Preise und Promotionen",
+          "Bestell- und Fulfillment-Sichtbarkeit mit Exception-Handling",
+          "Payment-Gateway-Integration (lokale und internationale Anbieter)",
+          "Reporting abgestimmt auf Finance- und Operations-Rhythmen",
+          "Rollenbasierter Zugriff für Filialen, HQ und Partner"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Ziele, die wir anstreben",
+        "paragraphs": [
+          "Schnellerer Checkout, weniger Support-Tickets und Dashboards, denen das Management vertraut. Wir messen Erfolg mit Ihren KPIs — Conversion, Marge, SLA oder Abschlussquoten — nicht Vanity-Releases."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Alle Lösungen",
+        "href": "/solutions"
+      },
+      {
+        "label": "Services",
+        "href": "/services"
+      },
+      {
+        "label": "Stories",
+        "href": "/stories"
+      }
+    ]
+  },
+  "mvps-launches": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "MVPs & schnelle Launches | HimoSoft",
+      "description": "Etwas Nutzbares in Wochen ausliefern — Annahmen validieren, bevor ein vollständiger Plattform-Build zugesagt wird."
+    },
+    "eyebrow": "Delivery-Stil",
+    "title": "MVPs & schnelle Launches",
+    "intro": "Etwas Nutzbares in Wochen ausliefern — Annahmen validieren, bevor ein vollständiger Plattform-Build zugesagt wird.",
+    "sections": [
+      {
+        "id": "when",
+        "title": "Wann dies passt",
+        "paragraphs": [
+          "Etwas Nutzbares in Wochen ausliefern — Annahmen validieren, bevor ein vollständiger Plattform-Build zugesagt wird.",
+          "Wir passen Scope an Lernziele an — was muss wahr sein, bevor das nächste Funding-Gate, die nächste Saison oder Compliance-Frist erreicht wird."
+        ]
+      },
+      {
+        "id": "process",
+        "title": "Unser Prozess",
+        "paragraphs": [
+          "Typische Schritte:"
+        ],
+        "list": [
+          "Stakeholder-Workshops und Journey-Mapping",
+          "Dünner vertikaler Slice zu Produktion oder Staging",
+          "Instrumentierung für die Metriken, die wichtig sind",
+          "Retrospektive und Roadmap für das nächste Increment"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Delivery-Übersicht",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "legacy-modernisation": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Legacy-Modernisierung | HimoSoft",
+      "description": "Inkrementelle Neuschreibungen, Strangler-Patterns und sicherere Migrationen, ohne das Geschäft einzufrieren."
+    },
+    "eyebrow": "Delivery-Stil",
+    "title": "Legacy-Modernisierung",
+    "intro": "Inkrementelle Neuschreibungen, Strangler-Patterns und sicherere Migrationen, ohne das Geschäft einzufrieren.",
+    "sections": [
+      {
+        "id": "when",
+        "title": "Wann dies passt",
+        "paragraphs": [
+          "Inkrementelle Neuschreibungen, Strangler-Patterns und sicherere Migrationen, ohne das Geschäft einzufrieren.",
+          "Wir passen Scope an Lernziele an — was muss wahr sein, bevor das nächste Funding-Gate, die nächste Saison oder Compliance-Frist erreicht wird."
+        ]
+      },
+      {
+        "id": "process",
+        "title": "Unser Prozess",
+        "paragraphs": [
+          "Typische Schritte:"
+        ],
+        "list": [
+          "Stakeholder-Workshops und Journey-Mapping",
+          "Dünner vertikaler Slice zu Produktion oder Staging",
+          "Instrumentierung für die Metriken, die wichtig sind",
+          "Retrospektive und Roadmap für das nächste Increment"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Delivery-Übersicht",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "api-first": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "API-First-Ökosysteme | HimoSoft",
+      "description": "Klare Verträge für Partner, Mobile Apps und interne Tools — eine Quelle der Wahrheit hinter vielen Oberflächen."
+    },
+    "eyebrow": "Delivery-Stil",
+    "title": "API-First-Ökosysteme",
+    "intro": "Klare Verträge für Partner, Mobile Apps und interne Tools — eine Quelle der Wahrheit hinter vielen Oberflächen.",
+    "sections": [
+      {
+        "id": "when",
+        "title": "Wann dies passt",
+        "paragraphs": [
+          "Klare Verträge für Partner, Mobile Apps und interne Tools — eine Quelle der Wahrheit hinter vielen Oberflächen.",
+          "Wir passen Scope an Lernziele an — was muss wahr sein, bevor das nächste Funding-Gate, die nächste Saison oder Compliance-Frist erreicht wird."
+        ]
+      },
+      {
+        "id": "process",
+        "title": "Unser Prozess",
+        "paragraphs": [
+          "Typische Schritte:"
+        ],
+        "list": [
+          "Stakeholder-Workshops und Journey-Mapping",
+          "Dünner vertikaler Slice zu Produktion oder Staging",
+          "Instrumentierung für die Metriken, die wichtig sind",
+          "Retrospektive und Roadmap für das nächste Increment"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Delivery-Übersicht",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "design-systems-ux": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Design Systems & UX | HimoSoft",
+      "description": "Wiederverwendbare Komponenten und Richtlinien, damit Produkt und Engineering skalieren, ohne visuellen Drift."
+    },
+    "eyebrow": "Delivery-Stil",
+    "title": "Design Systems & UX",
+    "intro": "Wiederverwendbare Komponenten und Richtlinien, damit Produkt und Engineering skalieren, ohne visuellen Drift.",
+    "sections": [
+      {
+        "id": "when",
+        "title": "Wann dies passt",
+        "paragraphs": [
+          "Wiederverwendbare Komponenten und Richtlinien, damit Produkt und Engineering skalieren, ohne visuellen Drift.",
+          "Wir passen Scope an Lernziele an — was muss wahr sein, bevor das nächste Funding-Gate, die nächste Saison oder Compliance-Frist erreicht wird."
+        ]
+      },
+      {
+        "id": "process",
+        "title": "Unser Prozess",
+        "paragraphs": [
+          "Typische Schritte:"
+        ],
+        "list": [
+          "Stakeholder-Workshops und Journey-Mapping",
+          "Dünner vertikaler Slice zu Produktion oder Staging",
+          "Instrumentierung für die Metriken, die wichtig sind",
+          "Retrospektive und Roadmap für das nächste Increment"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Delivery-Übersicht",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "custom-software": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Individualsoftware | HimoSoft",
+      "description": "Zweckgebundene Anwendungen, verankert in Ihren Domain-Regeln, Integrationen und Genehmigungsabläufen."
+    },
+    "eyebrow": "Service",
+    "title": "Individualsoftware",
+    "intro": "Zweckgebundene Anwendungen, verankert in Ihren Domain-Regeln, Integrationen und Genehmigungsabläufen.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "Zweckgebundene Anwendungen, verankert in Ihren Domain-Regeln, Integrationen und Genehmigungsabläufen.",
+          "Wir dokumentieren Grenzen, Schnittstellen und Akzeptanzkriterien vor großen Build-Phasen, damit Erwartungen aligniert bleiben."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Typische Liefergegenstände",
+        "paragraphs": [
+          "Je nach Engagement-Größe:"
+        ],
+        "list": [
+          "Technische Spezifikation und Architektur-Übersicht",
+          "Implementierung mit automatisierten Tests auf kritischen Pfaden",
+          "Deployment-Runbooks und Umgebungskonfiguration",
+          "Übergabe-Session und schriftlicher Operations-Guide"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Alle Services",
+        "href": "/services"
+      }
+    ]
+  },
+  "web-applications": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Web-Anwendungen | HimoSoft",
+      "description": "Responsive Websites und Web-Apps auf modernen Stacks — Performance, Accessibility und SEO von Anfang an berücksichtigt."
+    },
+    "eyebrow": "Service",
+    "title": "Web-Anwendungen",
+    "intro": "Responsive Websites und Web-Apps auf modernen Stacks — Performance, Accessibility und SEO von Anfang an berücksichtigt.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "Responsive Websites und Web-Apps auf modernen Stacks — Performance, Accessibility und SEO von Anfang an berücksichtigt.",
+          "Wir dokumentieren Grenzen, Schnittstellen und Akzeptanzkriterien vor großen Build-Phasen, damit Erwartungen aligniert bleiben."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Typische Liefergegenstände",
+        "paragraphs": [
+          "Je nach Engagement-Größe:"
+        ],
+        "list": [
+          "Technische Spezifikation und Architektur-Übersicht",
+          "Implementierung mit automatisierten Tests auf kritischen Pfaden",
+          "Deployment-Runbooks und Umgebungskonfiguration",
+          "Übergabe-Session und schriftlicher Operations-Guide"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Alle Services",
+        "href": "/services"
+      }
+    ]
+  },
+  "mobile-apps": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Mobile Apps (iOS / Android) | HimoSoft",
+      "description": "Native und plattformübergreifende Mobile-Erlebnisse mit geteilter Design-Sprache und zuverlässigen Release-Pipelines."
+    },
+    "eyebrow": "Service",
+    "title": "Mobile Apps (iOS / Android)",
+    "intro": "Native und plattformübergreifende Mobile-Erlebnisse mit geteilter Design-Sprache und zuverlässigen Release-Pipelines.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "Native und plattformübergreifende Mobile-Erlebnisse mit geteilter Design-Sprache und zuverlässigen Release-Pipelines.",
+          "Wir dokumentieren Grenzen, Schnittstellen und Akzeptanzkriterien vor großen Build-Phasen, damit Erwartungen aligniert bleiben."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Typische Liefergegenstände",
+        "paragraphs": [
+          "Je nach Engagement-Größe:"
+        ],
+        "list": [
+          "Technische Spezifikation und Architektur-Übersicht",
+          "Implementierung mit automatisierten Tests auf kritischen Pfaden",
+          "Deployment-Runbooks und Umgebungskonfiguration",
+          "Übergabe-Session und schriftlicher Operations-Guide"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Alle Services",
+        "href": "/services"
+      }
+    ]
+  },
+  "databases": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Datenbanken & Performance | HimoSoft",
+      "description": "Schema-Design, Migrationen, Indizierung und Query-Tuning für zuverlässige Performance unter realer Last."
+    },
+    "eyebrow": "Service",
+    "title": "Datenbanken & Performance",
+    "intro": "Schema-Design, Migrationen, Indizierung und Query-Tuning für zuverlässige Performance unter realer Last.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "Schema-Design, Migrationen, Indizierung und Query-Tuning für zuverlässige Performance unter realer Last.",
+          "Wir dokumentieren Grenzen, Schnittstellen und Akzeptanzkriterien vor großen Build-Phasen, damit Erwartungen aligniert bleiben."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Typische Liefergegenstände",
+        "paragraphs": [
+          "Je nach Engagement-Größe:"
+        ],
+        "list": [
+          "Technische Spezifikation und Architektur-Übersicht",
+          "Implementierung mit automatisierten Tests auf kritischen Pfaden",
+          "Deployment-Runbooks und Umgebungskonfiguration",
+          "Übergabe-Session und schriftlicher Operations-Guide"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Alle Services",
+        "href": "/services"
+      }
+    ]
+  },
+  "apis-webhooks": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "APIs & Webhooks | HimoSoft",
+      "description": "REST, GraphQL und eventgetriebene Integrationen mit Versionierung, Auth und Observability."
+    },
+    "eyebrow": "Service",
+    "title": "APIs & Webhooks",
+    "intro": "REST, GraphQL und eventgetriebene Integrationen mit Versionierung, Auth und Observability.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "REST, GraphQL und eventgetriebene Integrationen mit Versionierung, Auth und Observability.",
+          "Wir dokumentieren Grenzen, Schnittstellen und Akzeptanzkriterien vor großen Build-Phasen, damit Erwartungen aligniert bleiben."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Typische Liefergegenstände",
+        "paragraphs": [
+          "Je nach Engagement-Größe:"
+        ],
+        "list": [
+          "Technische Spezifikation und Architektur-Übersicht",
+          "Implementierung mit automatisierten Tests auf kritischen Pfaden",
+          "Deployment-Runbooks und Umgebungskonfiguration",
+          "Übergabe-Session und schriftlicher Operations-Guide"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Alle Services",
+        "href": "/services"
+      }
+    ]
+  },
+  "cloud-deployment": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Cloud & Deployment | HimoSoft",
+      "description": "CI/CD, Infrastructure as Code, Umgebungen und kostenbewusste Hosting-Entscheidungen."
+    },
+    "eyebrow": "Service",
+    "title": "Cloud & Deployment",
+    "intro": "CI/CD, Infrastructure as Code, Umgebungen und kostenbewusste Hosting-Entscheidungen.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "CI/CD, Infrastructure as Code, Umgebungen und kostenbewusste Hosting-Entscheidungen.",
+          "Wir dokumentieren Grenzen, Schnittstellen und Akzeptanzkriterien vor großen Build-Phasen, damit Erwartungen aligniert bleiben."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Typische Liefergegenstände",
+        "paragraphs": [
+          "Je nach Engagement-Größe:"
+        ],
+        "list": [
+          "Technische Spezifikation und Architektur-Übersicht",
+          "Implementierung mit automatisierten Tests auf kritischen Pfaden",
+          "Deployment-Runbooks und Umgebungskonfiguration",
+          "Übergabe-Session und schriftlicher Operations-Guide"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Alle Services",
+        "href": "/services"
+      }
+    ]
+  },
+  "security-compliance": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Security & Compliance | HimoSoft",
+      "description": "Authentication, Authorisierung, Audit-Trails, Verschlüsselung und Praktiken aligniert zu GDPR-bewusster Lieferung."
+    },
+    "eyebrow": "Service",
+    "title": "Security & Compliance",
+    "intro": "Authentication, Authorisierung, Audit-Trails, Verschlüsselung und Praktiken aligniert zu GDPR-bewusster Lieferung.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "Authentication, Authorisierung, Audit-Trails, Verschlüsselung und Praktiken aligniert zu GDPR-bewusster Lieferung.",
+          "Wir dokumentieren Grenzen, Schnittstellen und Akzeptanzkriterien vor großen Build-Phasen, damit Erwartungen aligniert bleiben."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Typische Liefergegenstände",
+        "paragraphs": [
+          "Je nach Engagement-Größe:"
+        ],
+        "list": [
+          "Technische Spezifikation und Architektur-Übersicht",
+          "Implementierung mit automatisierten Tests auf kritischen Pfaden",
+          "Deployment-Runbooks und Umgebungskonfiguration",
+          "Übergabe-Session und schriftlicher Operations-Guide"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Alle Services",
+        "href": "/services"
+      }
+    ]
+  },
+  "support-sla": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Support & SLA | HimoSoft",
+      "description": "Incident-Response, Patching und proaktive Wartung mit klaren Response-Zeiten."
+    },
+    "eyebrow": "Service",
+    "title": "Support & SLA",
+    "intro": "Incident-Response, Patching und proaktive Wartung mit klaren Response-Zeiten.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "Incident-Response, Patching und proaktive Wartung mit klaren Response-Zeiten.",
+          "Wir dokumentieren Grenzen, Schnittstellen und Akzeptanzkriterien vor großen Build-Phasen, damit Erwartungen aligniert bleiben."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Typische Liefergegenstände",
+        "paragraphs": [
+          "Je nach Engagement-Größe:"
+        ],
+        "list": [
+          "Technische Spezifikation und Architektur-Übersicht",
+          "Implementierung mit automatisierten Tests auf kritischen Pfaden",
+          "Deployment-Runbooks und Umgebungskonfiguration",
+          "Übergabe-Session und schriftlicher Operations-Guide"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Alle Services",
+        "href": "/services"
+      }
+    ]
+  },
+  "discovery": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Discovery & Prototyping | HimoSoft",
+      "description": "Anforderungen schärfen, UX validieren und technische Entscheidungen de-risken, bevor große Code-Investitionen getätigt werden."
+    },
+    "eyebrow": "Delivery",
+    "title": "Discovery & Prototyping",
+    "intro": "Anforderungen schärfen, UX validieren und technische Entscheidungen de-risken, bevor große Code-Investitionen getätigt werden.",
+    "sections": [
+      {
+        "id": "activities",
+        "title": "Schlüssel-Aktivitäten",
+        "paragraphs": [
+          "Anforderungen schärfen, UX validieren und technische Entscheidungen de-risken, bevor große Code-Investitionen getätigt werden."
+        ]
+      },
+      {
+        "id": "artifacts",
+        "title": "Artefakte, die Sie erhalten",
+        "paragraphs": [
+          "Beispiele beinhalten:"
+        ],
+        "list": [
+          "Workshop-Notizen und priorisierter Backlog",
+          "Release-Notes und Deployment-Checkliste",
+          "Testberichte und Monitoring-Dashboards",
+          "Verbesserungs-Backlog nach Impact gerankt"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Delivery-Übersicht",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "sprints-releases": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Sprints & Releases | HimoSoft",
+      "description": "Zeitlich begrenzte Lieferung mit demonstrierbaren Inkrementen und kontrolliertem Release-Risiko."
+    },
+    "eyebrow": "Delivery",
+    "title": "Sprints & Releases",
+    "intro": "Zeitlich begrenzte Lieferung mit demonstrierbaren Inkrementen und kontrolliertem Release-Risiko.",
+    "sections": [
+      {
+        "id": "activities",
+        "title": "Schlüssel-Aktivitäten",
+        "paragraphs": [
+          "Zeitlich begrenzte Lieferung mit demonstrierbaren Inkrementen und kontrolliertem Release-Risiko."
+        ]
+      },
+      {
+        "id": "artifacts",
+        "title": "Artefakte, die Sie erhalten",
+        "paragraphs": [
+          "Beispiele beinhalten:"
+        ],
+        "list": [
+          "Workshop-Notizen und priorisierter Backlog",
+          "Release-Notes und Deployment-Checkliste",
+          "Testberichte und Monitoring-Dashboards",
+          "Verbesserungs-Backlog nach Impact gerankt"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Delivery-Übersicht",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "qa-observability": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "QA & Observability | HimoSoft",
+      "description": "Automatisierte Tests, Logging, Metriken und Tracing, damit Produktionsverhalten verständlich ist."
+    },
+    "eyebrow": "Delivery",
+    "title": "QA & Observability",
+    "intro": "Automatisierte Tests, Logging, Metriken und Tracing, damit Produktionsverhalten verständlich ist.",
+    "sections": [
+      {
+        "id": "activities",
+        "title": "Schlüssel-Aktivitäten",
+        "paragraphs": [
+          "Automatisierte Tests, Logging, Metriken und Tracing, damit Produktionsverhalten verständlich ist."
+        ]
+      },
+      {
+        "id": "artifacts",
+        "title": "Artefakte, die Sie erhalten",
+        "paragraphs": [
+          "Beispiele beinhalten:"
+        ],
+        "list": [
+          "Workshop-Notizen und priorisierter Backlog",
+          "Release-Notes und Deployment-Checkliste",
+          "Testberichte und Monitoring-Dashboards",
+          "Verbesserungs-Backlog nach Impact gerankt"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Delivery-Übersicht",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "post-launch": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Post-Launch-Verbesserungen | HimoSoft",
+      "description": "Iterieren aus Analytics, Support-Tickets und User-Interviews — nicht aus Vermutungen."
+    },
+    "eyebrow": "Delivery",
+    "title": "Post-Launch-Verbesserungen",
+    "intro": "Iterieren aus Analytics, Support-Tickets und User-Interviews — nicht aus Vermutungen.",
+    "sections": [
+      {
+        "id": "activities",
+        "title": "Schlüssel-Aktivitäten",
+        "paragraphs": [
+          "Iterieren aus Analytics, Support-Tickets und User-Interviews — nicht aus Vermutungen."
+        ]
+      },
+      {
+        "id": "artifacts",
+        "title": "Artefakte, die Sie erhalten",
+        "paragraphs": [
+          "Beispiele beinhalten:"
+        ],
+        "list": [
+          "Workshop-Notizen und priorisierter Backlog",
+          "Release-Notes und Deployment-Checkliste",
+          "Testberichte und Monitoring-Dashboards",
+          "Verbesserungs-Backlog nach Impact gerankt"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Delivery-Übersicht",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "tech-stack": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Tech Stack | HimoSoft",
+      "description": "Sprachen, Frameworks und Infrastruktur, die HimoSoft für pragmatische Lieferung verwendet."
+    },
+    "eyebrow": "Ressourcen",
+    "title": "Tech-Stack-Notizen",
+    "intro": "Wir wählen langweilige Technologie, wo möglich, und aufregende Technologie, wo sie sich lohnt. Stacks variieren nach Projekt; unten ist ein repräsentativer Satz.",
+    "sections": [
+      {
+        "id": "frontend",
+        "title": "Frontend",
+        "paragraphs": [
+          "TypeScript, React, Next.js und modernes CSS. Wir bevorzugen Component-Libraries und Design-Tokens, wenn Produkte langfristige UI-Konsistenz benötigen."
+        ]
+      },
+      {
+        "id": "backend",
+        "title": "Backend",
+        "paragraphs": [
+          "Node.js, Python und PHP, wo Legacy es erfordert. APIs werden mit OpenAPI oder Äquivalent dokumentiert; Auth verwendet branchenübliche Patterns."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Data & Infra",
+        "paragraphs": [
+          "PostgreSQL, MySQL, Redis und Cloud-Object-Storage. Deployments auf AWS, Azure, GCP oder VPS-Anbietern, die in Bangladesh üblich sind — mit CI/CD via GitHub Actions oder Ähnlichem."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Insights",
+        "href": "/insights"
+      }
+    ]
+  },
+  "support-plans": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Support-Pläne | HimoSoft",
+      "description": "Wartungs- und SLA-Optionen nach Go-Live mit HimoSoft."
+    },
+    "eyebrow": "Ressourcen",
+    "title": "Support-Pläne",
+    "intro": "Softwarewert steigt, wenn Produktion gesund bleibt. Wir bieten gestaffelte Support-Optionen nach dem Launch an — von Geschäftszeiten-Assistenz bis 24/7 kritische Incident-Response.",
+    "sections": [
+      {
+        "id": "tiers",
+        "title": "Plan-Stufen",
+        "paragraphs": [
+          "Pläne werden maßgeschneidert; typische Dimensionen umfassen:"
+        ],
+        "list": [
+          "Response-Zeit-Ziele (z.B. 4h / 1h für kritische)",
+          "Enthaltene Stunden für kleine Erweiterungen",
+          "Security-Patch-Cadence und Dependency-Updates",
+          "Monatlicher Health-Report und Uptime-Zusammenfassung"
+        ]
+      },
+      {
+        "id": "engage",
+        "title": "Wie Sie einsteigen",
+        "paragraphs": [
+          "Support kann bei Übergabe starten oder nach einer Garantiefrist. Wir prüfen Logs und Incident-Historie, um eine realistische Stufe zu empfehlen."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Support & SLA-Service",
+        "href": "/support-sla"
+      }
+    ]
+  },
+  "careers": {
+    "nav": {
+      "backLabel": "Zurück zur Startseite",
+      "onThisPageLabel": "Auf dieser Seite"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "subtitle": "Erzählen Sie uns von Umfang, Zeitplan und Einschränkungen — wir reagieren mit einer klaren Roadmap und ehrlichen Schätzungen.",
+      "label": "HimoSoft kontaktieren",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Karriere | HimoSoft",
+      "description": "Freelance-, Vertrags- und Kollaborationsmöglichkeiten mit HimoSoft."
+    },
+    "eyebrow": "Mit uns arbeiten",
+    "title": "Freelance- & Vertragsrollen",
+    "intro": "HimoSoft arbeitet mit vertrauenswürdigen Spezialisten an definierten Scopes. Wenn Sie ein starkes Portfolio und klare Verfügbarkeit haben, würden wir gerne von Ihnen hören.",
+    "sections": [
+      {
+        "id": "roles",
+        "title": "Was wir suchen",
+        "paragraphs": [
+          "Wir benötigen periodisch Hilfe in Engineering, QA, Design und spezialisierten Domains (Zahlungen, Mobile, DevOps). Engagements sind projektbasiert mit schriftlichen Vereinbarungen."
+        ]
+      },
+      {
+        "id": "apply",
+        "title": "Wie Sie sich bewerben",
+        "paragraphs": [
+          "E-Mail via Kontakt mit Betreff \"Karriere\", Portfolio oder GitHub anhängen und Zeitzone sowie hourly oder Fixed-Engagement-Präferenz angeben. Wir antworten, wenn Bedarf aktiv besteht."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      },
+      {
+        "label": "Praktikanten & Lernen",
+        "href": "/insights"
+      }
+    ]
+  }
+}

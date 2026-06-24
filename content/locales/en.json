@@ -840,5 +840,17 @@
         "links": []
       }
     ]
+  },
+  "newProducts": {
+    "playProtect": {
+      "name": "HimoSoft Play Protect",
+      "description": "Video hosting solution for creators, teachers, and businesses. Secure and protected video hosting with advanced features like Protected Playback, Watermarking, custom player, analytics, and more.",
+      "href": "https://playprotect.net"
+    },
+    "mikrotikConnect": {
+      "name": "Mikrotik Connect",
+      "description": "Access your local MikroTik router remotely from anywhere. Features include secure backup, remote terminal access, port forwarding, and many more tools for network administrators.",
+      "href": "https://mikrotikconnect.com"
+    }
   }
 }

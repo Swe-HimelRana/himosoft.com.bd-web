@@ -23,7 +23,7 @@ export async function LegalPageShell({ locale, children, breadcrumb }: Props) {
         ])}
       />
       <SiteHeader locale={locale} nav={site.nav} />
-      <main id="main-content" className="min-h-[60vh] bg-background py-12 sm:py-16 lg:py-20">
+      <main id="main-content" className="min-h-[60vh] py-12 sm:py-16 lg:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">{children}</div>
       </main>
       <SiteFooter footer={site.footer} meta={site.meta} nav={site.nav} />

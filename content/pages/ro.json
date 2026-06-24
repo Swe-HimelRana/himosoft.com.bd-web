@@ -1,0 +1,1883 @@
+{
+  "solutions": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Soluții și industrii | HimoSoft",
+      "description": "Soluții software orientate pe industrii, stiluri de livrare și platforme digitale de la HimoSoft."
+    },
+    "eyebrow": "Soluții",
+    "title": "Soluții și industrii",
+    "intro": "Nu vindem șabloane universale. HimoSoft modelează împreună cu dvs. foile de parcurs ale produselor și arhitectura — de la retail și educație până la sănătate și logistică — folosind stiluri de livrare care se potrivesc toleranței dvs. la risc și calendarului.",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Cum abordăm soluțiile",
+        "paragraphs": [
+          "Fiecare angajament începe cu constrângerile dvs.: buget, competențe ale echipei, context de reglementare și ce înseamnă „succes\" în șase luni versus doi ani.",
+          "Mapăm aceste constrângeri la o formă de soluție — MVP, modernizare, ecosistem API sau produs condus de sistem de design — apoi formăm o singură echipă pe parcursul descoperirii, construirii și operării."
+        ]
+      },
+      {
+        "id": "industries",
+        "title": "Industrii și cazuri de utilizare",
+        "paragraphs": [
+          "Explorați modelele verticale pe care le implementăm cel mai des:"
+        ],
+        "cards": [
+          {
+            "title": "E-commerce și retail",
+            "description": "Cataloguri, comenzi și fluxuri de plată optimizate pentru conversie.",
+            "href": "/ecommerce-retail",
+            "linkLabel": "Aflați mai multe"
+          },
+          {
+            "title": "Educație și formare",
+            "description": "Portaluri de învățare, cohorte și urmărirea progresului.",
+            "href": "/education-training",
+            "linkLabel": "Aflați mai multe"
+          },
+          {
+            "title": "Sănătate și programări",
+            "description": "Fluxuri de pacienți accesibile cu manipulare sigură a datelor.",
+            "href": "/healthcare",
+            "linkLabel": "Aflați mai multe"
+          },
+          {
+            "title": "Logistică și operațiuni",
+            "description": "Dashboards și urmărire în timp aproape real pentru echipele de operațiuni.",
+            "href": "/logistics-operations",
+            "linkLabel": "Aflați mai multe"
+          }
+        ]
+      },
+      {
+        "id": "styles",
+        "title": "Stiluri de livrare",
+        "paragraphs": [
+          "Potriviți ritmul și riscul cu etapa dvs.:"
+        ],
+        "cards": [
+          {
+            "title": "MVP-uri și lansări rapide",
+            "description": "Ceva utilizabil în săptămâni, nu în trimestre.",
+            "href": "/mvps-launches",
+            "linkLabel": "Aflați mai multe"
+          },
+          {
+            "title": "Modernizare legacy",
+            "description": "Rescrieri incrementale și migrații mai sigure.",
+            "href": "/legacy-modernisation",
+            "linkLabel": "Aflați mai multe"
+          },
+          {
+            "title": "Ecosisteme API-first",
+            "description": "Conectați parteneri și instrumente interne curat.",
+            "href": "/api-first",
+            "linkLabel": "Aflați mai multe"
+          },
+          {
+            "title": "Sisteme de design și UX",
+            "description": "UI consistent care se scalează cu echipele dvs.",
+            "href": "/design-systems-ux",
+            "linkLabel": "Aflați mai multe"
+          }
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servicii",
+        "href": "/services"
+      },
+      {
+        "label": "Exemple de proiecte",
+        "href": "/stories"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "services": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Servicii | HimoSoft",
+      "description": "Software personalizat, aplicații web și mobile, API-uri, cloud, securitate și suport de la HimoSoft."
+    },
+    "eyebrow": "Servicii",
+    "title": "Servicii de dezvoltare software",
+    "intro": "Angajați HimoSoft de la un capăt la altul sau ca module focalizate — de la descoperirea produsului prin inginerie, integrare, deployment și mentenanță pe termen lung.",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Ce oferim",
+        "paragraphs": [
+          "Pilonii noștri de servicii acoperă întregul ciclu de viață al produsului: aplicații personalizate, stive web moderne, experiențe mobile, straturi de date, integrări, operațiuni cloud, consolidare securitate și suport bazat pe SLA.",
+          "Fiecare pilon poate fi achiziționat separat sau combinat sub o foaie de parcurs cu arhitectură și documentație partajate."
+        ]
+      },
+      {
+        "id": "engineering",
+        "title": "Inginerie",
+        "paragraphs": [
+          "Capacități principale de construire:"
+        ],
+        "cards": [
+          {
+            "title": "Software personalizat",
+            "description": "Soluții ancorate în regulile domeniului dvs. și fluxuri de lucru.",
+            "href": "/custom-software",
+            "linkLabel": "Detalii"
+          },
+          {
+            "title": "Aplicații web",
+            "description": "Site-uri și aplicații responsive, rapide și prietenoase cu SEO.",
+            "href": "/web-applications",
+            "linkLabel": "Detalii"
+          },
+          {
+            "title": "Mobile (iOS / Android)",
+            "description": "Native și cross-platform cu UX coerent.",
+            "href": "/mobile-apps",
+            "linkLabel": "Detalii"
+          },
+          {
+            "title": "Baze de date și performanță",
+            "description": "Modelare, indexare și optimizare interogări.",
+            "href": "/databases",
+            "linkLabel": "Detalii"
+          }
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Integrare și platformă",
+        "paragraphs": [
+          "Conectați și operați în producție:"
+        ],
+        "cards": [
+          {
+            "title": "API-uri și webhook-uri",
+            "description": "Servicii terțe conectate cu contracte clare.",
+            "href": "/apis-webhooks",
+            "linkLabel": "Detalii"
+          },
+          {
+            "title": "Cloud și deployment",
+            "description": "CI/CD, găzduire și observabilitate.",
+            "href": "/cloud-deployment",
+            "linkLabel": "Detalii"
+          },
+          {
+            "title": "Securitate și conformitate",
+            "description": "Roluri, audit trails și consolidare.",
+            "href": "/security-compliance",
+            "linkLabel": "Detalii"
+          },
+          {
+            "title": "Suport și SLA",
+            "description": "Mentenanță și răspuns la incidente pe care vă puteți baza.",
+            "href": "/support-sla",
+            "linkLabel": "Detalii"
+          }
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Procesul de livrare",
+        "href": "/delivery"
+      },
+      {
+        "label": "Capabilități",
+        "href": "/capabilities"
+      },
+      {
+        "label": "Domenii",
+        "href": "/domains"
+      }
+    ]
+  },
+  "delivery": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Livrare și calitate | HimoSoft",
+      "description": "Descoperire, sprinturi, QA, observabilitate și îmbunătățiri post-lansare la HimoSoft."
+    },
+    "eyebrow": "Livrare",
+    "title": "Livrare și calitate",
+    "intro": "Foi de parcurs clare, sincronizări săptămânale și arhitectură scalabilă — fluxuri de lucru ușoare care mențin părțile interesate aliniate și livrările previzibile.",
+    "sections": [
+      {
+        "id": "model",
+        "title": "Modelul operațional",
+        "paragraphs": [
+          "Preferăm incrementele mici și livrabile în locul lansărilor big-bang. Fiecare sprint se încheie cu ceva demonstrabil — chiar dacă este în spatele unui feature flag.",
+          "Deciziile de arhitectură sunt documentate ca ADR-uri astfel încât echipele viitoare să înțeleagă trade-off-urile, nu doar rezultatele."
+        ]
+      },
+      {
+        "id": "phases",
+        "title": "Fazele livrării",
+        "paragraphs": [
+          "Flux tipic de la idee la operațiuni în stare stabilă:"
+        ],
+        "cards": [
+          {
+            "title": "Descoperire și prototipare",
+            "description": "Rafinați cerințele înainte ca codul să se acumuleze.",
+            "href": "/discovery",
+            "linkLabel": "Citește mai mult"
+          },
+          {
+            "title": "Sprinturi și lansări",
+            "description": "Risc controlat prin lansări frecvente.",
+            "href": "/sprints-releases",
+            "linkLabel": "Citește mai mult"
+          },
+          {
+            "title": "QA și observabilitate",
+            "description": "Piramida de testare, loguri, tracing și alerte.",
+            "href": "/qa-observability",
+            "linkLabel": "Citește mai mult"
+          },
+          {
+            "title": "Îmbunătățiri post-lansare",
+            "description": "Iterăm din metrici de utilizare reale.",
+            "href": "/post-launch",
+            "linkLabel": "Citește mai mult"
+          }
+        ]
+      },
+      {
+        "id": "resources",
+        "title": "Resurse",
+        "paragraphs": [
+          "Material de suport și opțiuni de angajament continue:"
+        ],
+        "list": [
+          "Note despre tech stack și arhitecturi de referință — vezi Insights și pagina Tech stack",
+          "Șablon pentru brief de proiect disponibil la cerere prin Contact",
+          "Planuri de suport personalizate pentru nevoile dvs. de uptime și răspuns",
+          "Programe de parteneriat și recomandare pentru agenții și integratori"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Planuri de suport",
+        "href": "/support-plans"
+      },
+      {
+        "label": "Tech stack",
+        "href": "/tech-stack"
+      },
+      {
+        "label": "Capabilități",
+        "href": "/capabilities"
+      }
+    ]
+  },
+  "stories": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Cazuri și modele | HimoSoft",
+      "description": "Unde tehnologia face diferența — narative scurte despre locurile unde adăugăm frecvent valoare pentru retail, producție, servicii, HR, logistică și viteza de inginerie."
+    },
+    "eyebrow": "Cazuri",
+    "title": "Cazuri și modele",
+    "intro": "Unde tehnologia face diferența — narative scurte despre locurile unde adăugăm frecvent valoare pentru retail, producție, servicii, HR, logistică și viteza de inginerie.",
+    "sections": [
+      {
+        "id": "patterns",
+        "title": "Modele de succes",
+        "paragraphs": [
+          "Clienții vin la HimoSoft când spreadsheet-urile, instrumentele deconectate sau monoliții legacy încetinesc creșterea. Documentăm înainte/după: mai puțini pași manuali, proprietate mai clară și metrici pe care conducerea chiar le urmărește."
+        ]
+      },
+      {
+        "id": "examples",
+        "title": "Arii de focus exemplare",
+        "paragraphs": [
+          "Spații de probleme reprezentative:"
+        ],
+        "list": [
+          "Automatizare operațiuni retail — inventar și comenzi într-un singur dashboard",
+          "Digitalizare producție — urmărire schimburi și trasabilitate QC",
+          "Rezervări și plăți servicii — programare mobile-first și mementouri",
+          "Fluxuri de lucru HR și achiziții — aprobări cu audit trails",
+          "Suport decizii logistică — rute și semnale de marfă vizualizate",
+          "Viteză de dezvoltare — CI, staging și quality gates pe care le urmează întreaga echipă"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "platform": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Mentalitatea de platformă | HimoSoft",
+      "description": "Build · Bazare pe design și date · Govern și operare — trei piloni pentru livrare sustenabilă de software."
+    },
+    "eyebrow": "Mentalitatea de platformă",
+    "title": "Mentalitatea de platformă",
+    "intro": "Build · Bazare pe design și date · Govern și operare — trei piloni pentru livrare sustenabilă de software.",
+    "sections": [
+      {
+        "id": "build",
+        "title": "Build",
+        "paragraphs": [
+          "Aplicații, integrări și toolchain deținute de o singură echipă — frontend, backend și DevOps cu iterații rapide și lansări testabile."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design și date",
+        "paragraphs": [
+          "UX/UI și arhitectură de date proiectate împreună astfel încât deciziile din ziua unu să aibă sens și în ziua o mie."
+        ]
+      },
+      {
+        "id": "govern",
+        "title": "Govern și operare",
+        "paragraphs": [
+          "Monitorizare, playbooks de securitate și SLA-uri care protejează orele de lucru și încrederea clienților."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "domains": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Domenii și funcții | HimoSoft",
+      "description": "Când fiecare funcție partajează același data fabric — combinăm codul cu tipare de utilizare și rezultate măsurabile."
+    },
+    "eyebrow": "Domenii",
+    "title": "Domenii și funcții",
+    "intro": "Când fiecare funcție partajează același data fabric — combinăm codul cu tipare de utilizare și rezultate măsurabile.",
+    "sections": [
+      {
+        "id": "grid",
+        "title": "Grila de capabilități",
+        "paragraphs": [
+          "Domenii cross-funcționale pe care le implementăm în produse:"
+        ],
+        "list": [
+          "Date și analytics — modele, dashboards, urmărire evenimente",
+          "Experiența clientului — de la landing la onboarding",
+          "Fluxuri de lucru și aprobări — lanțuri multi-step cu notificări",
+          "E-commerce și plăți — cataloage, checkout, reconciliere",
+          "Hub de integrare — gateway unificat între furnizori",
+          "Operațiuni industriale — schimburi, inventar, ticketing",
+          "Orchestrarea echipei — roluri, sarcini, calendare",
+          "Securitate și conformitate — RBAC, logging, retenție"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "capabilities": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Capabilități de platformă | HimoSoft",
+      "description": "Adeziv sănătos între date, aplicații și echipe — căi mai rapide de la decizii la software livrat."
+    },
+    "eyebrow": "Capabilități de platformă",
+    "title": "Capabilități de platformă",
+    "intro": "Adeziv sănătos între date, aplicații și echipe — căi mai rapide de la decizii la software livrat.",
+    "sections": [
+      {
+        "id": "pillars",
+        "title": "Patru piloni",
+        "paragraphs": [
+          "Cum structurăm programele pe termen lung:"
+        ],
+        "cards": [
+          {
+            "title": "Planificare și arhitectură",
+            "description": "Fundamente scalabile, sigure și mentenabile din ziua zero."
+          },
+          {
+            "title": "Livrare și calitate",
+            "description": "Lansări iterative cu revizuiri și testare automatizată."
+          },
+          {
+            "title": "Integrare",
+            "description": "Construim punți între stive legacy și moderne — API-uri pe primul loc."
+          },
+          {
+            "title": "Operațiuni și suport",
+            "description": "Monitorizare, patching și îngrijire proactivă."
+          }
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "partners": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Rețea de parteneri | HimoSoft",
+      "description": "Co-livrare cu specialiști în design, infrastructură și domenii astfel încât echipa dvs. core să rămână focalizată."
+    },
+    "eyebrow": "Rețea de parteneri",
+    "title": "Rețea de parteneri",
+    "intro": "Co-livrare cu specialiști în design, infrastructură și domenii astfel încât echipa dvs. core să rămână focalizată.",
+    "sections": [
+      {
+        "id": "network",
+        "title": "Ecosistem",
+        "paragraphs": [
+          "HimoSoft parteneriază cu integratori de extensii, agenții și furnizori de tehnologie. Modelele joint go-to-market și de recomandare rămân ușoare — scope-uri clare și metrici partajate de succes al clientului."
+        ]
+      },
+      {
+        "id": "types",
+        "title": "Tipuri de parteneri",
+        "paragraphs": [
+          "Cu cine colaborăm:"
+        ],
+        "list": [
+          "Integratori de cloud, plăți și stive de marketing",
+          "Agenții și studiouri pregătite pentru implementare la scară",
+          "Parteneri de recomandare cu standarde de calitate aliniate"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "about": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Despre HimoSoft | HimoSoft",
+      "description": "Studio software centrat pe client — livrare de inginerie disciplinată din 2020."
+    },
+    "eyebrow": "Despre HimoSoft",
+    "title": "Despre HimoSoft",
+    "intro": "Studio software centrat pe client — livrare de inginerie disciplinată din 2020.",
+    "sections": [
+      {
+        "id": "story",
+        "title": "Povestea noastră",
+        "paragraphs": [
+          "Fondată în 2020, HimoSoft ajută organizațiile să redefinească prezența digitală și operațiunile ca studio software focalizat.",
+          "Dezvoltatori, designeri și manageri de proiect colaborează strâns pentru a livra soluții de înaltă calitate care deblocăm creștere și eficiență."
+        ]
+      },
+      {
+        "id": "approach",
+        "title": "Cum lucrăm",
+        "paragraphs": [
+          "Ne concentrăm pe provocările dvs. unice astfel încât rezultatele personalizate să depășească în mod constant așteptările.",
+          "Documentarea, predarea și formarea sunt parte din „făcut\". Securitatea și utilitatea nu sunt negociabile."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "team": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Echipă și leadership | HimoSoft",
+      "description": "Cunoașteți specialiștii din spatele livrării HimoSoft."
+    },
+    "eyebrow": "Echipă",
+    "title": "Echipă și leadership",
+    "intro": "Cunoașteți specialiștii din spatele livrării HimoSoft.",
+    "sections": [
+      {
+        "id": "leadership",
+        "title": "Cine deține livrarea",
+        "paragraphs": [
+          "Un strat compact de leadership menține arhitectura coerentă și comunicarea directă. Livrarea de zi cu zi este gestionată de ingineri și PM-uri care cunosc contextul produsului dvs."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "showTeam": true
+  },
+  "insights": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Insights și resurse | HimoSoft",
+      "description": "Workshop-uri, ghiduri, articole și evenimente — note practice din practica noastră de livrare."
+    },
+    "eyebrow": "Insights",
+    "title": "Insights și resurse",
+    "intro": "Workshop-uri, ghiduri, articole și evenimente — note practice din practica noastră de livrare.",
+    "sections": [
+      {
+        "id": "content",
+        "title": "Ce veți găsi aici",
+        "paragraphs": [
+          "Subiecte placeholder astăzi — introduceți oricând URL-urile dvs. de blog, YouTube sau evenimente live. Publicăm despre laboratoare de descoperire, checklist-uri de lansare mobile, modernizare legacy, meetup-uri Dhaka/online și note lunare de livrare."
+        ]
+      },
+      {
+        "id": "topics",
+        "title": "Subiecte curente",
+        "paragraphs": [
+          "Active reprezentative:"
+        ],
+        "list": [
+          "Laborator de descoperire produs — de la distanță sau la fața locului",
+          "Checklist de lansare mobile pentru calitate store și beta",
+          "Modernizarea sistemelor legacy — pattern-uri strangler și capcane",
+          "Meetup dev — Dhaka / online cu live code review",
+          "Newsletter lunar tech și livrare"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "contact": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "contactModal": {
+      "title": "Luați legătura",
+      "description": "Alegeți email sau telefon — de obicei răspundem în termen de o zi lucrătoare.",
+      "closeLabel": "Închideți"
+    },
+    "meta": {
+      "title": "Contactați HimoSoft | HimoSoft",
+      "description": "Începeți un fir de proiect — scope, calendare, buget și pași următori."
+    },
+    "eyebrow": "Contactați HimoSoft",
+    "title": "Contactați HimoSoft",
+    "intro": "Începeți un fir de proiect — scope, calendare, buget și pași următori.",
+    "sections": [
+      {
+        "id": "start",
+        "title": "Începeți o conversație",
+        "paragraphs": [
+          "Folosiți butonul Contactați HimoSoft de mai jos pentru a vedea email-ul și numerele de telefon. Un apel scurt de descoperire este suficient — aducem claritate despre stack, calendare și riscuri.",
+          "Pentru cariere și parteneriate, menționați intenția dvs. în subiect astfel încât să vă direcționăm rapid la persoana potrivită."
+        ]
+      },
+      {
+        "id": "expect",
+        "title": "Ce să vă așteptați",
+        "paragraphs": [
+          "După ce ne contactați:"
+        ],
+        "list": [
+          "Confirmare în termen de o zi lucrătoare",
+          "NDA opțional și șablon scurt pentru scope-uri sensibile",
+          "Propunere cu faze, presupuneri și efort estimat",
+          "Fără presiune — procedăm doar când potrivirea este reciprocă"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "ecommerce-retail": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "E-commerce și retail | HimoSoft",
+      "description": "Cataloguri, checkout, inventar și fluxuri de plată optimizate pentru conversie și claritate operațională."
+    },
+    "eyebrow": "Industrie",
+    "title": "E-commerce și retail",
+    "intro": "Cataloguri, checkout, inventar și fluxuri de plată optimizate pentru conversie și claritate operațională.",
+    "sections": [
+      {
+        "id": "challenges",
+        "title": "Provocări tipice",
+        "paragraphs": [
+          "Echipele din acest spațiu se descurcă cu instrumente legacy, reconciliere manuală și canale care au depășit prima lor platformă. Începem prin maparea journey-urilor critice ale utilizatorilor — nu fiecare funcție dintr-un site concurent."
+        ]
+      },
+      {
+        "id": "solutions",
+        "title": "Cum ajută HimoSoft",
+        "paragraphs": [
+          "Livrabilele comune includ:"
+        ],
+        "list": [
+          "Admin unificat pentru catalog, prețuri și promoții",
+          "Vizibilitate comenzi și îndeplinire cu gestionare excepții",
+          "Integrare payment gateway (furnizori locali și internaționali)",
+          "Rapoarte aliniate la ritmul financiar și operațional",
+          "Acces bazat pe roluri pentru magazine, HQ și parteneri"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Rezultate pe care le vizăm",
+        "paragraphs": [
+          "Checkout mai rapid, mai puține tichete de suport și dashboards în care conducerea are încredere. Măsurăm succesul cu KPI-urile dvs. — conversie, marjă, SLA sau rate de finalizare — nu lansări de imagine."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Toate soluțiile",
+        "href": "/solutions"
+      },
+      {
+        "label": "Servicii",
+        "href": "/services"
+      },
+      {
+        "label": "Povești",
+        "href": "/stories"
+      }
+    ]
+  },
+  "education-training": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Educație și formare | HimoSoft",
+      "description": "Portaluri de învățare, gestionare cohorte, evaluări și urmărire progres pentru instituții și formatori."
+    },
+    "eyebrow": "Industrie",
+    "title": "Educație și formare",
+    "intro": "Portaluri de învățare, gestionare cohorte, evaluări și urmărire progres pentru instituții și formatori.",
+    "sections": [
+      {
+        "id": "challenges",
+        "title": "Provocări tipice",
+        "paragraphs": [
+          "Echipele din acest spațiu se descurcă cu instrumente legacy, reconciliere manuală și canale care au depășit prima lor platformă. Începem prin maparea journey-urilor critice ale utilizatorilor — nu fiecare funcție dintr-un site concurent."
+        ]
+      },
+      {
+        "id": "solutions",
+        "title": "Cum ajută HimoSoft",
+        "paragraphs": [
+          "Livrabilele comune includ:"
+        ],
+        "list": [
+          "Admin unificat pentru catalog, prețuri și promoții",
+          "Vizibilitate comenzi și îndeplinire cu gestionare excepții",
+          "Integrare payment gateway (furnizori locali și internaționali)",
+          "Rapoarte aliniate la ritmul financiar și operațional",
+          "Acces bazat pe roluri pentru magazine, HQ și parteneri"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Rezultate pe care le vizăm",
+        "paragraphs": [
+          "Checkout mai rapid, mai puține tichete de suport și dashboards în care conducerea are încredere. Măsurăm succesul cu KPI-urile dvs. — conversie, marjă, SLA sau rate de finalizare — nu lansări de imagine."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Toate soluțiile",
+        "href": "/solutions"
+      },
+      {
+        "label": "Servicii",
+        "href": "/services"
+      },
+      {
+        "label": "Povești",
+        "href": "/stories"
+      }
+    ]
+  },
+  "healthcare": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Sănătate și programări | HimoSoft",
+      "description": "Programare pacienți, mementouri și fluxuri de lucru pentru personal cu atenție la minimizarea datelor și controlul accesului."
+    },
+    "eyebrow": "Industrie",
+    "title": "Sănătate și programări",
+    "intro": "Programare pacienți, mementouri și fluxuri de lucru pentru personal cu atenție la minimizarea datelor și controlul accesului.",
+    "sections": [
+      {
+        "id": "challenges",
+        "title": "Provocări tipice",
+        "paragraphs": [
+          "Echipele din acest spațiu se descurcă cu instrumente legacy, reconciliere manuală și canale care au depășit prima lor platformă. Începem prin maparea journey-urilor critice ale utilizatorilor — nu fiecare funcție dintr-un site concurent."
+        ]
+      },
+      {
+        "id": "solutions",
+        "title": "Cum ajută HimoSoft",
+        "paragraphs": [
+          "Livrabilele comune includ:"
+        ],
+        "list": [
+          "Admin unificat pentru catalog, prețuri și promoții",
+          "Vizibilitate comenzi și îndeplinire cu gestionare excepții",
+          "Integrare payment gateway (furnizori locali și internaționali)",
+          "Rapoarte aliniate la ritmul financiar și operațional",
+          "Acces bazat pe roluri pentru magazine, HQ și parteneri"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Rezultate pe care le vizăm",
+        "paragraphs": [
+          "Checkout mai rapid, mai puține tichete de suport și dashboards în care conducerea are încredere. Măsurăm succesul cu KPI-urile dvs. — conversie, marjă, SLA sau rate de finalizare — nu lansări de imagine."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Toate soluțiile",
+        "href": "/solutions"
+      },
+      {
+        "label": "Servicii",
+        "href": "/services"
+      },
+      {
+        "label": "Povești",
+        "href": "/stories"
+      }
+    ]
+  },
+  "logistics-operations": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Logistică și operațiuni | HimoSoft",
+      "description": "Dashboards, dispatch și urmărire în timp aproape real pentru flote, depozite și echipe pe teren."
+    },
+    "eyebrow": "Industrie",
+    "title": "Logistică și operațiuni",
+    "intro": "Dashboards, dispatch și urmărire în timp aproape real pentru flote, depozite și echipe pe teren.",
+    "sections": [
+      {
+        "id": "challenges",
+        "title": "Provocări tipice",
+        "paragraphs": [
+          "Echipele din acest spațiu se descurcă cu instrumente legacy, reconciliere manuală și canale care au depășit prima lor platformă. Începem prin maparea journey-urilor critice ale utilizatorilor — nu fiecare funcție dintr-un site concurent."
+        ]
+      },
+      {
+        "id": "solutions",
+        "title": "Cum ajută HimoSoft",
+        "paragraphs": [
+          "Livrabilele comune includ:"
+        ],
+        "list": [
+          "Admin unificat pentru catalog, prețuri și promoții",
+          "Vizibilitate comenzi și îndeplinire cu gestionare excepții",
+          "Integrare payment gateway (furnizori locali și internaționali)",
+          "Rapoarte aliniate la ritmul financiar și operațional",
+          "Acces bazat pe roluri pentru magazine, HQ și parteneri"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Rezultate pe care le vizăm",
+        "paragraphs": [
+          "Checkout mai rapid, mai puține tichete de suport și dashboards în care conducerea are încredere. Măsurăm succesul cu KPI-urile dvs. — conversie, marjă, SLA sau rate de finalizare — nu lansări de imagine."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Toate soluțiile",
+        "href": "/solutions"
+      },
+      {
+        "label": "Servicii",
+        "href": "/services"
+      },
+      {
+        "label": "Povești",
+        "href": "/stories"
+      }
+    ]
+  },
+  "mvps-launches": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "MVP-uri și lansări rapide | HimoSoft",
+      "description": "Livrați ceva utilizabil în săptămâni — validați presupunerile înainte de a vă angaja la o construcție completă de platformă."
+    },
+    "eyebrow": "Stil de livrare",
+    "title": "MVP-uri și lansări rapide",
+    "intro": "Livrați ceva utilizabil în săptămâni — validați presupunerile înainte de a vă angaja la o construcție completă de platformă.",
+    "sections": [
+      {
+        "id": "when",
+        "title": "Când se potrivește",
+        "paragraphs": [
+          "Livrați ceva utilizabil în săptămâni — validați presupunerile înainte de a vă angaja la o construcție completă de platformă.",
+          "Aliniem scope-ul la obiectivele de învățare — ce trebuie să fie adevărat înainte de următoarea poartă de finanțare, sezon sau termen de conformitate."
+        ]
+      },
+      {
+        "id": "process",
+        "title": "Procesul nostru",
+        "paragraphs": [
+          "Pași tipici:"
+        ],
+        "list": [
+          "Workshop-uri cu părți interesate și mapare journey",
+          "Slice vertical subțire în producție sau staging",
+          "Instrumentare pentru metricile care contează",
+          "Retrospectivă și foaie de parcurs pentru următorul increment"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Prezentare livrare",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "legacy-modernisation": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Modernizare legacy | HimoSoft",
+      "description": "Rescrieri incrementale, pattern-uri strangler și migrații mai sigure fără înghețarea afacerii."
+    },
+    "eyebrow": "Stil de livrare",
+    "title": "Modernizare legacy",
+    "intro": "Rescrieri incrementale, pattern-uri strangler și migrații mai sigure fără înghețarea afacerii.",
+    "sections": [
+      {
+        "id": "when",
+        "title": "Când se potrivește",
+        "paragraphs": [
+          "Rescrieri incrementale, pattern-uri strangler și migrații mai sigure fără înghețarea afacerii.",
+          "Aliniem scope-ul la obiectivele de învățare — ce trebuie să fie adevărat înainte de următoarea poartă de finanțare, sezon sau termen de conformitate."
+        ]
+      },
+      {
+        "id": "process",
+        "title": "Procesul nostru",
+        "paragraphs": [
+          "Pași tipici:"
+        ],
+        "list": [
+          "Workshop-uri cu părți interesate și mapare journey",
+          "Slice vertical subțire în producție sau staging",
+          "Instrumentare pentru metricile care contează",
+          "Retrospectivă și foaie de parcurs pentru următorul increment"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Prezentare livrare",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "api-first": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Ecosisteme API-first | HimoSoft",
+      "description": "Contracte curate pentru parteneri, aplicații mobile și instrumente interne — o singură sursă de adevăr în spatele mai multor suprafețe."
+    },
+    "eyebrow": "Stil de livrare",
+    "title": "Ecosisteme API-first",
+    "intro": "Contracte curate pentru parteneri, aplicații mobile și instrumente interne — o singură sursă de adevăr în spatele mai multor suprafețe.",
+    "sections": [
+      {
+        "id": "when",
+        "title": "Când se potrivește",
+        "paragraphs": [
+          "Contracte curate pentru parteneri, aplicații mobile și instrumente interne — o singură sursă de adevăr în spatele mai multor suprafețe.",
+          "Aliniem scope-ul la obiectivele de învățare — ce trebuie să fie adevărat înainte de următoarea poartă de finanțare, sezon sau termen de conformitate."
+        ]
+      },
+      {
+        "id": "process",
+        "title": "Procesul nostru",
+        "paragraphs": [
+          "Pași tipici:"
+        ],
+        "list": [
+          "Workshop-uri cu părți interesate și mapare journey",
+          "Slice vertical subțire în producție sau staging",
+          "Instrumentare pentru metricile care contează",
+          "Retrospectivă și foaie de parcurs pentru următorul increment"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Prezentare livrare",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "design-systems-ux": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Sisteme de design și UX | HimoSoft",
+      "description": "Componente reutilizabile și ghiduri astfel încât produsul și ingineria să se scaleze fără drift vizual."
+    },
+    "eyebrow": "Stil de livrare",
+    "title": "Sisteme de design și UX",
+    "intro": "Componente reutilizabile și ghiduri astfel încât produsul și ingineria să se scaleze fără drift vizual.",
+    "sections": [
+      {
+        "id": "when",
+        "title": "Când se potrivește",
+        "paragraphs": [
+          "Componente reutilizabile și ghiduri astfel încât produsul și ingineria să se scaleze fără drift vizual.",
+          "Aliniem scope-ul la obiectivele de învățare — ce trebuie să fie adevărat înainte de următoarea poartă de finanțare, sezon sau termen de conformitate."
+        ]
+      },
+      {
+        "id": "process",
+        "title": "Procesul nostru",
+        "paragraphs": [
+          "Pași tipici:"
+        ],
+        "list": [
+          "Workshop-uri cu părți interesate și mapare journey",
+          "Slice vertical subțire în producție sau staging",
+          "Instrumentare pentru metricile care contează",
+          "Retrospectivă și foaie de parcurs pentru următorul increment"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Prezentare livrare",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "custom-software": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Software personalizat | HimoSoft",
+      "description": "Aplicații construite special ancorate în regulile domeniului dvs., integrări și fluxuri de aprobare."
+    },
+    "eyebrow": "Serviciu",
+    "title": "Software personalizat",
+    "intro": "Aplicații construite special ancorate în regulile domeniului dvs., integrări și fluxuri de aprobare.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "Aplicații construite special ancorate în regulile domeniului dvs., integrări și fluxuri de aprobare.",
+          "Documentăm granițe, interfețe și criterii de acceptare înainte de fazele majore de build astfel încât așteptările să rămână aliniate."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Livrabile tipice",
+        "paragraphs": [
+          "În funcție de dimensiunea angajamentului:"
+        ],
+        "list": [
+          "Specificație tehnică și prezentare arhitecturală",
+          "Implementare cu teste automatizate pe căi critice",
+          "Runbook-uri de deployment și configurare de mediu",
+          "Sesizune de predare și ghid operațional scris"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Toate serviciile",
+        "href": "/services"
+      }
+    ]
+  },
+  "web-applications": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Aplicații web | HimoSoft",
+      "description": "Site-uri web responsive și aplicații web pe stive moderne — performanță, accesibilitate și SEO luate în considerare de la început."
+    },
+    "eyebrow": "Serviciu",
+    "title": "Aplicații web",
+    "intro": "Site-uri web responsive și aplicații web pe stive moderne — performanță, accesibilitate și SEO luate în considerare de la început.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "Site-uri web responsive și aplicații web pe stive moderne — performanță, accesibilitate și SEO luate în considerare de la început.",
+          "Documentăm granițe, interfețe și criterii de acceptare înainte de fazele majore de build astfel încât așteptările să rămână aliniate."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Livrabile tipice",
+        "paragraphs": [
+          "În funcție de dimensiunea angajamentului:"
+        ],
+        "list": [
+          "Specificație tehnică și prezentare arhitecturală",
+          "Implementare cu teste automatizate pe căi critice",
+          "Runbook-uri de deployment și configurare de mediu",
+          "Sesizune de predare și ghid operațional scris"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Toate serviciile",
+        "href": "/services"
+      }
+    ]
+  },
+  "mobile-apps": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Aplicații mobile (iOS / Android) | HimoSoft",
+      "description": "Experiențe mobile native și cross-platform cu limbaj de design partajat și pipeline-uri de lansare fiabile."
+    },
+    "eyebrow": "Serviciu",
+    "title": "Aplicații mobile (iOS / Android)",
+    "intro": "Experiențe mobile native și cross-platform cu limbaj de design partajat și pipeline-uri de lansare fiabile.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "Experiențe mobile native și cross-platform cu limbaj de design partajat și pipeline-uri de lansare fiabile.",
+          "Documentăm granițe, interfețe și criterii de acceptare înainte de fazele majore de build astfel încât așteptările să rămână aliniate."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Livrabile tipice",
+        "paragraphs": [
+          "În funcție de dimensiunea angajamentului:"
+        ],
+        "list": [
+          "Specificație tehnică și prezentare arhitecturală",
+          "Implementare cu teste automatizate pe căi critice",
+          "Runbook-uri de deployment și configurare de mediu",
+          "Sesizune de predare și ghid operațional scris"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Toate serviciile",
+        "href": "/services"
+      }
+    ]
+  },
+  "databases": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Baze de date și performanță | HimoSoft",
+      "description": "Proiectare schemă, migrații, indexare și tuning interogări pentru performanță fiabilă sub sarcină reală."
+    },
+    "eyebrow": "Serviciu",
+    "title": "Baze de date și performanță",
+    "intro": "Proiectare schemă, migrații, indexare și tuning interogări pentru performanță fiabilă sub sarcină reală.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "Proiectare schemă, migrații, indexare și tuning interogări pentru performanță fiabilă sub sarcină reală.",
+          "Documentăm granițe, interfețe și criterii de acceptare înainte de fazele majore de build astfel încât așteptările să rămână aliniate."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Livrabile tipice",
+        "paragraphs": [
+          "În funcție de dimensiunea angajamentului:"
+        ],
+        "list": [
+          "Specificație tehnică și prezentare arhitecturală",
+          "Implementare cu teste automatizate pe căi critice",
+          "Runbook-uri de deployment și configurare de mediu",
+          "Sesizune de predare și ghid operațional scris"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Toate serviciile",
+        "href": "/services"
+      }
+    ]
+  },
+  "apis-webhooks": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "API-uri și webhook-uri | HimoSoft",
+      "description": "Integrări REST, GraphQL și event-driven cu versionare, auth și observabilitate."
+    },
+    "eyebrow": "Serviciu",
+    "title": "API-uri și webhook-uri",
+    "intro": "Integrări REST, GraphQL și event-driven cu versionare, auth și observabilitate.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "Integrări REST, GraphQL și event-driven cu versionare, auth și observabilitate.",
+          "Documentăm granițe, interfețe și criterii de acceptare înainte de fazele majore de build astfel încât așteptările să rămână aliniate."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Livrabile tipice",
+        "paragraphs": [
+          "În funcție de dimensiunea angajamentului:"
+        ],
+        "list": [
+          "Specificație tehnică și prezentare arhitecturală",
+          "Implementare cu teste automatizate pe căi critice",
+          "Runbook-uri de deployment și configurare de mediu",
+          "Sesizune de predare și ghid operațional scris"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Toate serviciile",
+        "href": "/services"
+      }
+    ]
+  },
+  "cloud-deployment": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Cloud și deployment | HimoSoft",
+      "description": "CI/CD, infrastructure as code, medii și alegeri de găzduire conștiente de costuri."
+    },
+    "eyebrow": "Serviciu",
+    "title": "Cloud și deployment",
+    "intro": "CI/CD, infrastructure as code, medii și alegeri de găzduire conștiente de costuri.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "CI/CD, infrastructure as code, medii și alegeri de găzduire conștiente de costuri.",
+          "Documentăm granițe, interfețe și criterii de acceptare înainte de fazele majore de build astfel încât așteptările să rămână aliniate."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Livrabile tipice",
+        "paragraphs": [
+          "În funcție de dimensiunea angajamentului:"
+        ],
+        "list": [
+          "Specificație tehnică și prezentare arhitecturală",
+          "Implementare cu teste automatizate pe căi critice",
+          "Runbook-uri de deployment și configurare de mediu",
+          "Sesizune de predare și ghid operațional scris"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Toate serviciile",
+        "href": "/services"
+      }
+    ]
+  },
+  "security-compliance": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Securitate și conformitate | HimoSoft",
+      "description": "Autentificare, autorizare, audit trails, criptare și practici aliniate la livrare conștientă de GDPR."
+    },
+    "eyebrow": "Serviciu",
+    "title": "Securitate și conformitate",
+    "intro": "Autentificare, autorizare, audit trails, criptare și practici aliniate la livrare conștientă de GDPR.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "Autentificare, autorizare, audit trails, criptare și practici aliniate la livrare conștientă de GDPR.",
+          "Documentăm granițe, interfețe și criterii de acceptare înainte de fazele majore de build astfel încât așteptările să rămână aliniate."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Livrabile tipice",
+        "paragraphs": [
+          "În funcție de dimensiunea angajamentului:"
+        ],
+        "list": [
+          "Specificație tehnică și prezentare arhitecturală",
+          "Implementare cu teste automatizate pe căi critice",
+          "Runbook-uri de deployment și configurare de mediu",
+          "Sesizune de predare și ghid operațional scris"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Toate serviciile",
+        "href": "/services"
+      }
+    ]
+  },
+  "support-sla": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Suport și SLA | HimoSoft",
+      "description": "Răspuns la incidente, patching și mentenanță proactivă cu timpi de răspuns clari."
+    },
+    "eyebrow": "Serviciu",
+    "title": "Suport și SLA",
+    "intro": "Răspuns la incidente, patching și mentenanță proactivă cu timpi de răspuns clari.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "paragraphs": [
+          "Răspuns la incidente, patching și mentenanță proactivă cu timpi de răspuns clari.",
+          "Documentăm granițe, interfețe și criterii de acceptare înainte de fazele majore de build astfel încât așteptările să rămână aliniate."
+        ]
+      },
+      {
+        "id": "deliverables",
+        "title": "Livrabile tipice",
+        "paragraphs": [
+          "În funcție de dimensiunea angajamentului:"
+        ],
+        "list": [
+          "Specificație tehnică și prezentare arhitecturală",
+          "Implementare cu teste automatizate pe căi critice",
+          "Runbook-uri de deployment și configurare de mediu",
+          "Sesizune de predare și ghid operațional scris"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Toate serviciile",
+        "href": "/services"
+      }
+    ]
+  },
+  "discovery": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Descoperire și prototipare | HimoSoft",
+      "description": "Rafinați cerințele, validați UX și reduceți riscul alegerilor tehnice înainte de investiții mari în cod."
+    },
+    "eyebrow": "Livrare",
+    "title": "Descoperire și prototipare",
+    "intro": "Rafinați cerințele, validați UX și reduceți riscul alegerilor tehnice înainte de investiții mari în cod.",
+    "sections": [
+      {
+        "id": "activities",
+        "title": "Activități cheie",
+        "paragraphs": [
+          "Rafinați cerințele, validați UX și reduceți riscul alegerilor tehnice înainte de investiții mari în cod."
+        ]
+      },
+      {
+        "id": "artifacts",
+        "title": "Artefacte pe care le primiți",
+        "paragraphs": [
+          "Exemple includ:"
+        ],
+        "list": [
+          "Note de workshop și backlog prioritizat",
+          "Note de lansare și checklist de deployment",
+          "Rapoarte de testare și dashboards de monitorizare",
+          "Backlog de îmbunătățiri clasat după impact"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Prezentare livrare",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "sprints-releases": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Sprinturi și lansări | HimoSoft",
+      "description": "Livrare time-boxed cu increment demoable și risc de lansare controlat."
+    },
+    "eyebrow": "Livrare",
+    "title": "Sprinturi și lansări",
+    "intro": "Livrare time-boxed cu increment demoable și risc de lansare controlat.",
+    "sections": [
+      {
+        "id": "activities",
+        "title": "Activități cheie",
+        "paragraphs": [
+          "Livrare time-boxed cu increment demoable și risc de lansare controlat."
+        ]
+      },
+      {
+        "id": "artifacts",
+        "title": "Artefacte pe care le primiți",
+        "paragraphs": [
+          "Exemple includ:"
+        ],
+        "list": [
+          "Note de workshop și backlog prioritizat",
+          "Note de lansare și checklist de deployment",
+          "Rapoarte de testare și dashboards de monitorizare",
+          "Backlog de îmbunătățiri clasat după impact"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Prezentare livrare",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "qa-observability": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "QA și observabilitate | HimoSoft",
+      "description": "Testare automatizată, logging, metrici și tracing astfel încât comportamentul în producție să fie inteligibil."
+    },
+    "eyebrow": "Livrare",
+    "title": "QA și observabilitate",
+    "intro": "Testare automatizată, logging, metrici și tracing astfel încât comportamentul în producție să fie inteligibil.",
+    "sections": [
+      {
+        "id": "activities",
+        "title": "Activități cheie",
+        "paragraphs": [
+          "Testare automatizată, logging, metrici și tracing astfel încât comportamentul în producție să fie inteligibil."
+        ]
+      },
+      {
+        "id": "artifacts",
+        "title": "Artefacte pe care le primiți",
+        "paragraphs": [
+          "Exemple includ:"
+        ],
+        "list": [
+          "Note de workshop și backlog prioritizat",
+          "Note de lansare și checklist de deployment",
+          "Rapoarte de testare și dashboards de monitorizare",
+          "Backlog de îmbunătățiri clasat după impact"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Prezentare livrare",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "post-launch": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Îmbunătățiri post-lansare | HimoSoft",
+      "description": "Iterăm din analytics, tichete de suport și interviuri cu utilizatori — nu din presupuneri."
+    },
+    "eyebrow": "Livrare",
+    "title": "Îmbunătățiri post-lansare",
+    "intro": "Iterăm din analytics, tichete de suport și interviuri cu utilizatori — nu din presupuneri.",
+    "sections": [
+      {
+        "id": "activities",
+        "title": "Activități cheie",
+        "paragraphs": [
+          "Iterăm din analytics, tichete de suport și interviuri cu utilizatori — nu din presupuneri."
+        ]
+      },
+      {
+        "id": "artifacts",
+        "title": "Artefacte pe care le primiți",
+        "paragraphs": [
+          "Exemple includ:"
+        ],
+        "list": [
+          "Note de workshop și backlog prioritizat",
+          "Note de lansare și checklist de deployment",
+          "Rapoarte de testare și dashboards de monitorizare",
+          "Backlog de îmbunătățiri clasat după impact"
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Prezentare livrare",
+        "href": "/delivery"
+      }
+    ]
+  },
+  "tech-stack": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Tech stack | HimoSoft",
+      "description": "Limbaje, framework-uri și infrastructură pe care HimoSoft le folosește pentru livrare pragmatică."
+    },
+    "eyebrow": "Resurse",
+    "title": "Note tech stack",
+    "intro": "Alegem tehnologie boring acolo unde este posibil și tehnologie exciting acolo unde își merită locul. Stivele variază în funcție de proiect; mai jos este un set reprezentativ.",
+    "sections": [
+      {
+        "id": "frontend",
+        "title": "Frontend",
+        "paragraphs": [
+          "TypeScript, React, Next.js și CSS modern. Preferăm bibliotecile de componente și design tokens când produsele au nevoie de consistență UI pe termen lung."
+        ]
+      },
+      {
+        "id": "backend",
+        "title": "Backend",
+        "paragraphs": [
+          "Node.js, Python și PHP acolo unde legacy necesită. API-urile sunt documentate cu OpenAPI sau echivalent; auth folosește pattern-uri standard din industrie."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Date și infra",
+        "paragraphs": [
+          "PostgreSQL, MySQL, Redis și stocare obiecte cloud. Deployments pe AWS, Azure, GCP sau furnizori VPS comuni în Bangladesh — cu CI/CD prin GitHub Actions sau similar."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Insights",
+        "href": "/insights"
+      }
+    ]
+  },
+  "support-plans": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Planuri de suport | HimoSoft",
+      "description": "Opțiuni de mentenanță și SLA după go-live cu HimoSoft."
+    },
+    "eyebrow": "Resurse",
+    "title": "Planuri de suport",
+    "intro": "Valoarea software-ului crește când producția rămâne sănătoasă. Oferim suport tiered după lansare — de la asistență în ore de program până la răspuns la incidente critice 24/7.",
+    "sections": [
+      {
+        "id": "tiers",
+        "title": "Niveluri de plan",
+        "paragraphs": [
+          "Planurile sunt personalizate; dimensiunile tipice includ:"
+        ],
+        "list": [
+          "Obiective de timp de răspuns (ex. 4h / 1h pentru critic)",
+          "Ore incluse pentru îmbunătățiri mici",
+          "Ritm de patch-uri de securitate și actualizări de dependențe",
+          "Raport lunar de sănătate și sumar uptime"
+        ]
+      },
+      {
+        "id": "engage",
+        "title": "Cum să vă angajați",
+        "paragraphs": [
+          "Suportul poate începe la predare sau după o perioadă de garanție. Revizuim loguri și istoric incidente pentru a recomanda un nivel realist."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Serviciul Suport și SLA",
+        "href": "/support-sla"
+      }
+    ]
+  },
+  "careers": {
+    "nav": {
+      "backLabel": "Înapoi la pagina principală",
+      "onThisPageLabel": "Pe această pagină"
+    },
+    "cta": {
+      "title": "Pregătit să discutați despre proiectul dvs.?",
+      "subtitle": "Spuneți-ne despre scope, calendar și constrângeri — vom răspunde cu o foaie de parcurs clară și estimări sincere.",
+      "label": "Contactați HimoSoft",
+      "href": "/contact"
+    },
+    "meta": {
+      "title": "Cariere | HimoSoft",
+      "description": "Oportunități freelance, contract și colaborare cu HimoSoft."
+    },
+    "eyebrow": "Lucrează cu noi",
+    "title": "Roluri freelance și contract",
+    "intro": "HimoSoft lucrează cu specialiști de încredere pe scope-uri definite. Dacă aveți un portofoliu puternic și disponibilitate clară, am dori să auzim de la dvs.",
+    "sections": [
+      {
+        "id": "roles",
+        "title": "Ce căutăm",
+        "paragraphs": [
+          "Periodic avem nevoie de ajutor în inginerie, QA, design și domenii specializate (plăți, mobile, DevOps). Angajamentele sunt bazate pe proiect cu acorduri scrise."
+        ]
+      },
+      {
+        "id": "apply",
+        "title": "Cum să aplicați",
+        "paragraphs": [
+          "Email prin Contact cu subiectul „Cariere\", atașați portofoliu sau GitHub și notați fusul orar și preferința pentru angajament orar sau fix. Răspundem când există o nevoie activă potrivită."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Contact",
+        "href": "/contact"
+      },
+      {
+        "label": "Stagiari și învățare",
+        "href": "/insights"
+      }
+    ]
+  }
+}

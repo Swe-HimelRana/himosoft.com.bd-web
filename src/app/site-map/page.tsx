@@ -9,6 +9,8 @@ import { buildPageMetadata, breadcrumbJsonLd } from "@/lib/seo";
 import { getSiteContent } from "@/lib/siteContent";
 import { buildSitemapGroups } from "@/lib/siteSitemap";
 
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const site = await getSiteContent(locale);
@@ -34,7 +36,7 @@ export default async function SitemapPage() {
         ])}
       />
       <SiteHeader locale={locale} nav={site.nav} />
-      <main id="main-content" className="min-h-[60vh] bg-background py-12 sm:py-16 lg:py-20">
+      <main id="main-content" className="min-h-[60vh] py-12 sm:py-16 lg:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <SitemapPageContent
             title={site.sitemap.pageTitle}

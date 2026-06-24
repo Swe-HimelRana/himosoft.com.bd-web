@@ -31,7 +31,7 @@ const defaultModalCopy: ContactModalCopy = {
 };
 
 const buttonClass =
-  "mt-6 inline-flex rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-deep";
+  "glass-card mt-6 inline-flex rounded-full border border-white/20 bg-brand/40 px-6 py-3 text-sm font-semibold text-white shadow-sm backdrop-blur-xl transition hover:bg-brand/60";
 
 export function MarketingPageCta({
   cta,
@@ -42,9 +42,9 @@ export function MarketingPageCta({
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
-    <aside className="mt-12 rounded-3xl bg-gradient-to-br from-brand/12 via-white to-brand/5 p-8 ring-1 ring-brand/15">
-      <h2 className="text-xl font-semibold text-foreground">{cta.title}</h2>
-      <p className="mt-3 text-muted">{cta.subtitle}</p>
+    <aside className="glass-card mt-12 rounded-3xl border border-white/10 p-8">
+      <h2 className="text-xl font-semibold text-white">{cta.title}</h2>
+      <p className="mt-3 text-white/60">{cta.subtitle}</p>
 
       {openContactModal ? (
         <>

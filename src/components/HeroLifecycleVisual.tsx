@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 
-const CYAN = "var(--hero-cyan)";
-const GREEN = "var(--hero-green)";
+const CYAN = "var(--brand)";
+const GREEN = "#10b981"; // emerald-500
 
 const STAGES = [
   {
@@ -123,7 +123,7 @@ function LifecycleScreen({ screen }: { screen: ScreenId }) {
   return (
     <div className="lifecycle-screen relative flex h-full min-h-0 flex-1 flex-col overflow-hidden rounded-xl border border-white/10 bg-[#07090c] p-3 sm:p-4 lg:p-5">
       <div className="mb-2 flex items-center gap-2 border-b border-white/8 pb-2 lg:mb-3 lg:pb-3">
-        <span className="h-2 w-2 rounded-full bg-[var(--hero-cyan)]/80 lg:h-2.5 lg:w-2.5" />
+        <span className="h-2 w-2 rounded-full bg-[var(--brand)]/80 lg:h-2.5 lg:w-2.5" />
         <span className="h-2 w-2 rounded-full bg-white/20 lg:h-2.5 lg:w-2.5" />
         <span className="h-2 w-2 rounded-full bg-white/20 lg:h-2.5 lg:w-2.5" />
         <span className="ml-auto font-mono text-[10px] text-white/40 lg:text-xs">delivery.pipeline</span>
@@ -131,7 +131,7 @@ function LifecycleScreen({ screen }: { screen: ScreenId }) {
 
       {screen === "discover" && (
         <div className="lifecycle-fade-in flex flex-1 flex-col gap-2 font-mono text-[11px] sm:text-xs lg:gap-3 lg:text-sm">
-          <p className="text-[var(--hero-cyan)]">{"// discovery workshop"}</p>
+          <p className="text-[var(--brand)]">{"// discovery workshop"}</p>
           {["User journeys mapped", "Backlog prioritized", "Risks logged"].map((line, i) => (
             <p
               key={line}
@@ -146,7 +146,7 @@ function LifecycleScreen({ screen }: { screen: ScreenId }) {
 
       {screen === "design" && (
         <div className="lifecycle-fade-in grid flex-1 grid-cols-3 gap-2">
-          <div className="rounded-lg border border-dashed border-[var(--hero-cyan)]/40 bg-[var(--hero-cyan)]/5 p-2" />
+          <div className="rounded-lg border border-dashed border-[var(--brand)]/40 bg-[var(--brand)]/5 p-2" />
           <div className="rounded-lg border border-white/15 bg-white/5 p-2" />
           <div className="col-span-3 rounded-lg border border-[var(--hero-green)]/35 bg-[var(--hero-green)]/8 p-2">
             <div className="h-1.5 w-2/3 rounded bg-white/15" />
@@ -158,11 +158,11 @@ function LifecycleScreen({ screen }: { screen: ScreenId }) {
       {screen === "develop" && (
         <div className="lifecycle-fade-in flex flex-1 flex-col gap-1 font-mono text-[11px] sm:text-xs lg:gap-2 lg:text-sm">
           <p className="text-white/50">
-            <span className="text-[var(--hero-cyan)]">const</span> release ={" "}
+            <span className="text-[var(--brand)]">const</span> release ={" "}
             <span className="text-[var(--hero-green)]">build()</span>;
           </p>
           <p className="text-white/50">
-            <span className="text-[var(--hero-cyan)]">await</span> api.integrate(
+            <span className="text-[var(--brand)]">await</span> api.integrate(
             <span className="text-white/70">services</span>);
           </p>
           <p className="lifecycle-typing text-white/80">shipping feature branch…</p>
@@ -188,8 +188,8 @@ function LifecycleScreen({ screen }: { screen: ScreenId }) {
 
       {screen === "deploy" && (
         <div className="lifecycle-fade-in flex flex-1 flex-col items-center justify-center gap-3">
-          <div className="lifecycle-pulse flex h-14 w-14 items-center justify-center rounded-2xl border border-[var(--hero-cyan)]/50 bg-[var(--hero-cyan)]/10 lg:h-20 lg:w-20">
-            <svg viewBox="0 0 24 24" className="h-7 w-7 text-[var(--hero-cyan)] lg:h-10 lg:w-10" aria-hidden>
+          <div className="lifecycle-pulse flex h-14 w-14 items-center justify-center rounded-2xl border border-[var(--brand)]/50 bg-[var(--brand)]/10 lg:h-20 lg:w-20">
+            <svg viewBox="0 0 24 24" className="h-7 w-7 text-[var(--brand)] lg:h-10 lg:w-10" aria-hidden>
               <path
                 d="M12 2L4 14h16L12 2z"
                 fill="currentColor"
@@ -199,7 +199,7 @@ function LifecycleScreen({ screen }: { screen: ScreenId }) {
           </div>
           <p className="font-mono text-xs text-white/70">Release v2.4 → production</p>
           <div className="h-1.5 w-full max-w-[200px] overflow-hidden rounded-full bg-white/10">
-            <div className="lifecycle-deploy-bar h-full rounded-full bg-gradient-to-r from-[var(--hero-cyan)] to-[var(--hero-green)]" />
+            <div className="lifecycle-deploy-bar h-full rounded-full bg-gradient-to-r from-[var(--brand)] to-emerald-500" />
           </div>
         </div>
       )}
@@ -247,13 +247,13 @@ export function HeroLifecycleVisual() {
 
   return (
     <aside
-      className="hero-lifecycle relative flex h-full w-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-black shadow-[0_24px_64px_-20px_rgba(0,0,0,0.9),0_0_40px_-8px_rgba(38,198,218,0.3)]"
+      className="hero-lifecycle relative flex h-full w-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#07090c] shadow-[0_24px_64px_-20px_rgba(0,0,0,0.9),0_0_40px_-8px_rgba(16,185,129,0.3)]"
       aria-label="Software delivery lifecycle animation"
     >
       <div className="flex items-center justify-between gap-2 border-b border-white/8 px-3 py-2 sm:px-4 lg:px-5 lg:py-3">
         <div className="flex items-center gap-2">
           <span
-            className={`h-2 w-2 rounded-full bg-[var(--hero-cyan)] ${animate ? "lifecycle-recording" : ""}`}
+            className={`h-2 w-2 rounded-full bg-[var(--brand)] ${animate ? "lifecycle-recording" : ""}`}
           />
           <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-white/55 sm:text-xs">
             Software lifecycle
@@ -272,7 +272,7 @@ export function HeroLifecycleVisual() {
       <div className="border-t border-white/8 px-2 pb-2 pt-2 sm:px-3 sm:pb-3 lg:px-4 lg:pb-4 lg:pt-3">
         <div className="relative mb-2 h-1 overflow-hidden rounded-full bg-white/8">
           <div
-            className="absolute inset-y-0 left-0 rounded-full bg-gradient-to-r from-[var(--hero-cyan)] to-[var(--hero-green)]"
+            className="absolute inset-y-0 left-0 rounded-full bg-gradient-to-r from-[var(--brand)] to-emerald-500"
             style={{
               width: `${((active + 1) / STAGES.length) * 100}%`,
               transition: animate ? `width ${CYCLE_MS}ms linear` : "none",

@@ -8,6 +8,7 @@ import { DomainsGridSection } from "@/components/DomainsGridSection";
 import { HeroSection } from "@/components/HeroSection";
 import { PaymentPartnersMarquee } from "@/components/PaymentPartnersMarquee";
 import { InsightsSection } from "@/components/InsightsSection";
+import { NewProductsSection } from "@/components/NewProductsSection";
 import { PartnersSection } from "@/components/PartnersSection";
 import { PlatformTriadSection } from "@/components/PlatformTriadSection";
 import { ServicesSection } from "@/components/ServicesSection";
@@ -21,6 +22,8 @@ import { getLocale } from "@/lib/getLocale";
 import { getPaymentPartners } from "@/lib/paymentPartners";
 import { buildRootMetadata, professionalServiceJsonLd, webSiteJsonLd } from "@/lib/seo";
 import { getSiteContent } from "@/lib/siteContent";
+
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
@@ -45,6 +48,7 @@ export default async function Home() {
       <SiteHeader locale={locale} nav={site.nav} />
       <main id="main-content">
         <HeroSection hero={site.hero} />
+        <NewProductsSection products={site.newProducts} />
         <PaymentPartnersMarquee data={paymentPartners} />
         <TrustStrip trustStrip={site.trustStrip} />
         <StoriesSection stories={site.stories} />

@@ -840,5 +840,17 @@
     "onlineLabel": "Online",
     "closeLabel": "Zamknij czat",
     "loadingLabel": "Ładowanie danych kontaktowych…"
+  },
+  "newProducts": {
+    "playProtect": {
+      "name": "HimoSoft Play Protect",
+      "description": "Rozwiązanie hostingu wideo dla twórców, nauczycieli i firm. Bezpieczny hosting wideo z zaawansowanymi funkcjami.",
+      "href": "https://playprotect.net"
+    },
+    "mikrotikConnect": {
+      "name": "Mikrotik Connect",
+      "description": "Uzyskaj dostęp do lokalnego routera MikroTik z dowolnego miejsca.",
+      "href": "https://mikrotikconnect.com"
+    }
   }
 }

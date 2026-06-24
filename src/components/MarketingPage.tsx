@@ -20,28 +20,28 @@ type Props = {
 export function MarketingPage({ page, team, slug, contactLabels }: Props) {
   return (
     <article className="mx-auto max-w-4xl">
-      <header className="border-b border-black/[0.08] pb-8">
+      <header className="border-b border-white/10 pb-8">
         <SectionEyebrow>{page.eyebrow}</SectionEyebrow>
-        <h1 className="mt-3 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+        <h1 className="mt-3 text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl">
           {page.title}
         </h1>
-        <p className="mt-4 text-lg leading-relaxed text-muted">{page.intro}</p>
+        <p className="mt-4 text-lg leading-relaxed text-white/60">{page.intro}</p>
       </header>
 
       {page.sections.length > 1 ? (
         <nav
           aria-label={page.nav.onThisPageLabel}
-          className="mt-8 rounded-2xl border border-black/[0.06] bg-white p-5 sm:p-6"
+          className="glass-card mt-8 rounded-2xl border border-white/10 p-5 sm:p-6"
         >
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/60">
             {page.nav.onThisPageLabel}
           </p>
-          <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm font-medium text-foreground">
+          <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm font-medium text-white">
             {page.sections.map((section) => (
               <li key={section.id}>
                 <a
                   href={`#${section.id}`}
-                  className="text-brand-deep hover:text-brand hover:underline"
+                  className="text-brand hover:text-white hover:underline"
                 >
                   {section.title}
                 </a>
@@ -56,12 +56,12 @@ export function MarketingPage({ page, team, slug, contactLabels }: Props) {
           <section
             key={section.id}
             id={section.id}
-            className="scroll-mt-28 border-t border-black/[0.06] pt-10 first:border-t-0 first:pt-0"
+            className="scroll-mt-28 border-t border-white/10 pt-10 first:border-t-0 first:pt-0"
           >
-            <h2 className="text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
+            <h2 className="text-xl font-semibold tracking-tight text-white sm:text-2xl">
               {section.title}
             </h2>
-            <div className="mt-4 space-y-4 text-[0.9375rem] leading-relaxed text-muted sm:text-base">
+            <div className="mt-4 space-y-4 text-[0.9375rem] leading-relaxed text-white/60 sm:text-base">
               {section.paragraphs.map((paragraph) => (
                 <p key={paragraph.slice(0, 48)}>{paragraph}</p>
               ))}
@@ -78,15 +78,15 @@ export function MarketingPage({ page, team, slug, contactLabels }: Props) {
                 {section.cards.map((card) => (
                   <li
                     key={card.title}
-                    className="rounded-2xl border border-black/[0.06] bg-white p-5 ring-1 ring-black/[0.04]"
+                    className="glass-card rounded-2xl border border-white/10 p-5"
                   >
-                    <h3 className="font-semibold text-foreground">{card.title}</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-muted">{card.description}</p>
+                    <h3 className="font-semibold text-white">{card.title}</h3>
+                    <p className="mt-2 text-sm leading-relaxed text-white/60">{card.description}</p>
                     {card.href && card.linkLabel ? (
                       <Link
                         href={card.href}
                         {...externalNavLinkProps(card.href)}
-                        className="mt-4 inline-flex text-sm font-semibold text-brand-deep hover:text-brand hover:underline"
+                        className="mt-4 inline-flex text-sm font-semibold text-brand hover:text-white hover:underline"
                       >
                         {card.linkLabel} →
                       </Link>
@@ -106,8 +106,8 @@ export function MarketingPage({ page, team, slug, contactLabels }: Props) {
       ) : null}
 
       {page.relatedLinks && page.relatedLinks.length > 0 ? (
-        <aside className="mt-12 rounded-2xl border border-black/[0.06] bg-background/80 p-6">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted">
+        <aside className="glass-card mt-12 rounded-2xl border border-white/10 p-6">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/60">
             Related
           </p>
           <ul className="mt-4 flex flex-wrap gap-3">
@@ -115,7 +115,7 @@ export function MarketingPage({ page, team, slug, contactLabels }: Props) {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="rounded-full border border-black/[0.08] bg-white px-4 py-2 text-sm font-semibold text-foreground hover:border-brand/30 hover:text-brand-deep"
+                  className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-white hover:border-brand/30 hover:text-brand"
                 >
                   {link.label}
                 </Link>
@@ -138,10 +138,10 @@ export function MarketingPage({ page, team, slug, contactLabels }: Props) {
         />
       ) : null}
 
-      <footer className="mt-14 border-t border-black/[0.08] pt-8">
+      <footer className="mt-14 border-t border-white/10 pt-8">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-sm font-semibold text-brand-deep hover:text-brand hover:underline"
+          className="inline-flex items-center gap-2 text-sm font-semibold text-brand hover:text-white hover:underline"
         >
           ← {page.nav.backLabel}
         </Link>

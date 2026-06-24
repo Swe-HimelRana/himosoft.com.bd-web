@@ -6,6 +6,8 @@ import { getLocale } from "@/lib/getLocale";
 import { getLegalPage } from "@/lib/legalContent";
 import { buildPageMetadata } from "@/lib/seo";
 
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const document = await getLegalPage(locale, "privacy");

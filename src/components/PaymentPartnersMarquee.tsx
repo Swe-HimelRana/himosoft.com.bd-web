@@ -9,7 +9,7 @@ type Props = {
 function PartnerLogo({ partner }: { partner: PaymentPartnersData["items"][number] }) {
   return (
     <div className="shrink-0" title={partner.name}>
-      <span className="flex h-14 min-w-[8.5rem] items-center justify-center rounded-xl border border-black/[0.06] bg-white px-6 shadow-sm sm:min-w-[9.5rem] sm:px-7">
+      <span className="glass-card flex h-14 min-w-[8.5rem] items-center justify-center rounded-xl px-6 shadow-sm sm:min-w-[9.5rem] sm:px-7">
         <Image
           src={partner.icon}
           alt=""
@@ -48,10 +48,10 @@ export function PaymentPartnersMarquee({ data }: Props) {
   return (
     <section
       aria-label={data.label ?? "Technology partners"}
-      className="border-b border-black/[0.06] bg-[linear-gradient(180deg,#fff_0%,var(--background)_100%)] py-8 sm:py-10"
+      className="border-b border-[var(--glass-border)] bg-[var(--background)] py-8 sm:py-10"
     >
       <div className="payment-partners-marquee relative overflow-hidden">
-        <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-16 bg-gradient-to-r from-white to-transparent sm:w-24" />
+        <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-16 bg-gradient-to-r from-[var(--background)] to-transparent sm:w-24" />
         <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-16 bg-gradient-to-l from-[var(--background)] to-transparent sm:w-24" />
 
         <ul className="payment-partners-track flex w-max flex-row items-center gap-5 px-4 sm:gap-6 sm:px-6">

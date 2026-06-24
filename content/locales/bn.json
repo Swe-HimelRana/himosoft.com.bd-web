@@ -840,5 +840,17 @@
     "onlineLabel": "অনলাইন",
     "closeLabel": "চ্যাট বন্ধ করুন",
     "loadingLabel": "যোগাযোগের তথ্য লোড হচ্ছে…"
+  },
+  "newProducts": {
+    "playProtect": {
+      "name": "HimoSoft Play Protect",
+      "description": "কন্টেন্ট ক্রিয়েটর, শিক্ষক এবং ব্যবসার জন্য ভিডিও হোস্টিং সমাধান। সুরক্ষিত এবং সুরক্ষিত ভিডিও হোস্টিং অ্যাডভান্সড ফিচার সহ।",
+      "href": "https://playprotect.net"
+    },
+    "mikrotikConnect": {
+      "name": "Mikrotik Connect",
+      "description": "যেকোনো জায়গা থেকে আপনার স্থানীয় MikroTik রাউটারে দূরবর্তী অ্যাক্সেস করুন।",
+      "href": "https://mikrotikconnect.com"
+    }
   }
 }

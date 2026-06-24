@@ -26,26 +26,29 @@ function MegaPanelBody({
 
   return (
     <div
-      className={`mx-auto grid max-w-7xl gap-10 px-4 py-10 sm:px-6 lg:px-8 ${featured ? "lg:grid-cols-[minmax(0,300px)_1fr]" : ""}`}
+      className={`mx-auto grid max-w-7xl gap-10 px-4 py-10 sm:px-6 lg:px-8 ${featured ? "lg:grid-cols-[minmax(0,320px)_1fr]" : ""}`}
     >
       {featured ? (
-        <aside className="rounded-3xl bg-gradient-to-br from-brand/15 via-white to-brand/5 p-7 ring-1 ring-brand/15">
-          {featured.eyebrow ? (
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-deep">
-              {featured.eyebrow}
+        <aside className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-brand/20 via-white/5 to-transparent p-7 shadow-[0_8px_32px_rgba(102,126,234,0.15)]">
+          <div className="absolute inset-0 bg-gradient-to-br from-brand/10 to-transparent pointer-events-none" />
+          <div className="relative">
+            {featured.eyebrow ? (
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand">
+                {featured.eyebrow}
+              </p>
+            ) : null}
+            <p className="mt-3 text-xl font-semibold leading-snug tracking-tight text-white">
+              {featured.title}
             </p>
-          ) : null}
-          <p className="mt-3 text-xl font-semibold leading-snug tracking-tight text-foreground">
-            {featured.title}
-          </p>
-          <p className="mt-4 text-sm leading-relaxed text-muted">{featured.description}</p>
-          <a
-            href={featured.href}
-            className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-deep"
-          >
-            {featured.ctaLabel}
-            <span aria-hidden>→</span>
-          </a>
+            <p className="mt-4 text-sm leading-relaxed text-white/60">{featured.description}</p>
+            <a
+              href={featured.href}
+              className="group mt-6 inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/20 backdrop-blur-md px-5 py-2.5 text-sm font-semibold text-white shadow-[0_4px_16px_rgba(102,126,234,0.25)] transition-all hover:bg-brand/40 hover:shadow-[0_8px_24px_rgba(102,126,234,0.35)]"
+            >
+              {featured.ctaLabel}
+              <span aria-hidden className="transition-transform group-hover:translate-x-1">→</span>
+            </a>
+          </div>
         </aside>
       ) : null}
 
@@ -58,35 +61,35 @@ function MegaPanelBody({
             className="min-w-[11.5rem] sm:min-w-[12.5rem]"
           >
             {column.title ? (
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/40">
                 {column.title}
               </p>
             ) : (
               <span className="sr-only">{linkGroupSr}</span>
             )}
-            <ul className={`mt-4 space-y-4 ${column.title ? "" : "mt-0"}`}>
+            <ul className={`mt-4 space-y-1 ${column.title ? "" : "mt-0"}`}>
               {column.links.map((link) => (
                 <li key={`${link.href}-${link.label}`}>
                   <a
                     href={link.href}
-                    className="group block rounded-xl px-2 py-1 -mx-2 hover:bg-black/[0.03]"
+                    className="group relative flex items-start justify-between gap-3 rounded-xl border border-transparent px-3 py-2.5 -mx-3 transition-all hover:border-white/10 hover:bg-white/5"
                   >
-                    <span className="flex items-start justify-between gap-3">
-                      <span className="whitespace-nowrap text-sm font-semibold text-foreground group-hover:text-brand-deep">
+                    <span className="flex flex-col">
+                      <span className="text-sm font-semibold text-white transition-colors group-hover:text-brand">
                         {link.label}
                       </span>
-                      <span
-                        aria-hidden
-                        className="mt-0.5 text-muted opacity-0 transition group-hover:opacity-100"
-                      >
-                        →
-                      </span>
+                      {link.description ? (
+                        <span className="mt-0.5 text-xs leading-relaxed text-white/40">
+                          {link.description}
+                        </span>
+                      ) : null}
                     </span>
-                    {link.description ? (
-                      <span className="mt-1 block text-xs leading-relaxed text-muted">
-                        {link.description}
-                      </span>
-                    ) : null}
+                    <span
+                      aria-hidden
+                      className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand/20 text-brand opacity-0 transition-all group-hover:opacity-100"
+                    >
+                      →
+                    </span>
                   </a>
                 </li>
               ))}
@@ -153,7 +156,7 @@ export function SiteHeader({ locale, nav }: Props) {
 
   return (
     <header className="sticky top-0 z-50">
-      <div className="relative border-b border-[var(--nav-border)] bg-[var(--nav-bg)]">
+      <div className="glass-nav relative mx-auto max-w-7xl border border-emerald-500/20 bg-gradient-to-b from-emerald-950/90 via-emerald-900/85 to-emerald-950/90 backdrop-blur-xl shadow-[0_8px_40px_-10px_rgba(0,0,0,0.5)]">
         <div className="mx-auto grid max-w-7xl grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-x-2 px-4 py-2 sm:gap-x-3 sm:px-6 lg:px-8">
           <Link
             href="/"
@@ -168,7 +171,7 @@ export function SiteHeader({ locale, nav }: Props) {
               priority
               className="h-8 w-8 object-contain sm:h-9 sm:w-9"
             />
-            <span className="text-sm font-bold tracking-tight text-zinc-800">
+            <span className="text-sm font-bold tracking-tight text-white">
               {nav.brand}
             </span>
           </Link>
@@ -192,7 +195,7 @@ export function SiteHeader({ locale, nav }: Props) {
                   >
                     <button
                       type="button"
-                      className={`flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-medium transition ${expanded ? "bg-zinc-300/70 text-zinc-900" : "text-zinc-600 hover:bg-zinc-300/55 hover:text-zinc-900"}`}
+                      className={`flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-medium transition ${expanded ? "bg-white/20 text-white" : "text-white/70 hover:bg-white/10 hover:text-white"}`}
                       aria-expanded={expanded}
                       aria-controls={panelId}
                       aria-haspopup="true"
@@ -220,7 +223,7 @@ export function SiteHeader({ locale, nav }: Props) {
                   key={item.id}
                   href={item.href}
                   {...externalNavLinkProps(item.href, item.external)}
-                  className="shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-medium text-zinc-600 transition hover:bg-zinc-300/55 hover:text-zinc-900"
+                  className="shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-medium text-white/70 transition hover:bg-white/10 hover:text-white"
                 >
                   {item.label}
                 </a>
@@ -233,7 +236,7 @@ export function SiteHeader({ locale, nav }: Props) {
             <LanguageSwitcher locale={locale} />
             <a
               href={nav.ctaHref}
-              className="hidden shrink-0 whitespace-nowrap rounded-full bg-brand px-4 py-1.5 text-xs font-semibold text-white shadow-sm transition hover:bg-brand-deep lg:inline-flex"
+              className="glass-card hidden shrink-0 whitespace-nowrap rounded-full border border-white/20 bg-brand/40 px-4 py-1.5 text-xs font-semibold text-white shadow-sm backdrop-blur-xl transition hover:bg-brand/60 lg:inline-flex"
             >
               {nav.ctaLabel}
             </a>
@@ -250,11 +253,14 @@ export function SiteHeader({ locale, nav }: Props) {
         {activeMega ? (
           <div
             id={`${uid}-${activeMega.id}-panel`}
-            className="absolute left-0 right-0 top-full border-t border-black/[0.06] bg-white shadow-[0_28px_70px_-36px_rgba(15,23,42,0.55)]"
+            className="absolute left-1/2 -translate-x-1/2 top-full z-50 w-full max-w-6xl animate-in slide-in-from-top-2 fade-in duration-300"
             onMouseEnter={clearCloseTimer}
             onMouseLeave={scheduleClose}
           >
-            <MegaPanelBody panel={activeMega.mega} linkGroupSr={nav.a11y.megaLinkGroup} />
+            {/* Glass mega menu */}
+            <div className="relative mx-4 rounded-2xl border border-[var(--glass-border)] bg-gray-800 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.6)] overflow-hidden backdrop-blur-md">
+              <MegaPanelBody panel={activeMega.mega} linkGroupSr={nav.a11y.megaLinkGroup} />
+            </div>
           </div>
         ) : null}
       </div>

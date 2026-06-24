@@ -8,7 +8,7 @@ type Props = {
 export function SectionEyebrow({ children, tone = "dark" }: Props) {
   const cls =
     tone === "light"
-      ? "text-sky-200/90"
+      ? "text-white/50"
       : "text-brand tracking-[0.22em] uppercase";
 
   return (

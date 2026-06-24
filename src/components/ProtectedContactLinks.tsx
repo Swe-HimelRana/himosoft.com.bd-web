@@ -17,22 +17,22 @@ export function ProtectedContactLinks({ emailLabel, phoneLabel, mobileLabel }: P
   if (!revealed) {
     return (
       <>
-        <li>
+        <div>
           <span className="text-sm text-white/40" aria-hidden>
             ••••••••
           </span>
           <span className="sr-only">{emailLabel}</span>
-        </li>
-        <li>
+        </div>
+        <div>
           <span className="text-sm text-white/40" aria-hidden>
             ••••••••
           </span>
-        </li>
-        <li>
+        </div>
+        <div>
           <span className="text-sm text-white/40" aria-hidden>
             ••••••••
           </span>
-        </li>
+        </div>
       </>
     );
   }
@@ -47,21 +47,21 @@ export function ProtectedContactLinks({ emailLabel, phoneLabel, mobileLabel }: P
 
   return (
     <>
-      <li>
+      <div>
         <button type="button" onClick={openMail} className={linkClass}>
           {emailLabel}: {revealed.email}
         </button>
-      </li>
-      <li>
+      </div>
+      <div>
         <button type="button" onClick={() => call(revealed.phones[0])} className={linkClass}>
           {phoneLabel}: {revealed.phones[0]}
         </button>
-      </li>
-      <li>
+      </div>
+      <div>
         <button type="button" onClick={() => call(revealed.phones[1])} className={linkClass}>
           {mobileLabel}: {revealed.phones[1]}
         </button>
-      </li>
+      </div>
     </>
   );
 }

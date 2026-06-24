@@ -64,37 +64,37 @@ export function FloatingContactWidget({ copy, labels }: Props) {
             : "pointer-events-none translate-y-3 scale-95 opacity-0"
         }`}
       >
-        <div className="flex max-h-[min(70dvh,28rem)] flex-col overflow-hidden rounded-2xl border border-black/[0.08] bg-white shadow-[0_16px_48px_-12px_rgba(15,23,42,0.35)] ring-1 ring-black/[0.06]">
-          <header className="flex shrink-0 items-center gap-3 border-b border-black/[0.06] bg-gradient-to-r from-brand/10 to-brand/5 px-4 py-3">
-            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand text-sm font-bold text-white">
+        <div className="glass-card flex max-h-[min(70dvh,28rem)] flex-col overflow-hidden rounded-2xl border border-white/10 shadow-[0_16px_48px_-12px_rgba(0,0,0,0.4)] backdrop-blur-xl">
+          <header className="flex shrink-0 items-center gap-3 border-b border-white/10 bg-white/5 px-4 py-3">
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand/80 text-sm font-bold text-white backdrop-blur-sm">
               H
             </div>
             <div className="min-w-0 flex-1">
-              <p className="truncate text-sm font-semibold text-foreground">{copy.chatTitle}</p>
-              <p className="flex items-center gap-1.5 text-xs text-muted">
-                <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" aria-hidden />
+              <p className="truncate text-sm font-semibold text-white">{copy.chatTitle}</p>
+              <p className="flex items-center gap-1.5 text-xs text-white/60">
+                <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" aria-hidden />
                 {copy.onlineLabel}
               </p>
             </div>
             <button
               type="button"
               onClick={close}
-              className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-muted transition hover:bg-black/[0.06] hover:text-foreground"
+              className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-white/60 transition hover:bg-white/10 hover:text-white"
               aria-label={copy.closeLabel}
             >
               <ChevronDownIcon />
             </button>
           </header>
 
-          <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain bg-[#f4f6f8] px-3 py-4">
+          <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain bg-white/5 px-3 py-4">
             <div className="space-y-3">
               <div className="flex justify-start">
-                <div className="max-w-[92%] rounded-2xl rounded-tl-md bg-white px-3.5 py-2.5 text-sm leading-relaxed text-foreground shadow-sm ring-1 ring-black/[0.04]">
+                <div className="glass-card max-w-[92%] rounded-2xl rounded-tl-md px-3.5 py-2.5 text-sm leading-relaxed text-white shadow-sm">
                   {copy.welcomeMessage}
                 </div>
               </div>
               <div className="flex justify-start">
-                <div className="max-w-[92%] rounded-2xl rounded-tl-md bg-white px-3.5 py-2.5 text-xs leading-relaxed text-muted shadow-sm ring-1 ring-black/[0.04]">
+                <div className="glass-card max-w-[92%] rounded-2xl rounded-tl-md px-3.5 py-2.5 text-xs leading-relaxed text-white/60 shadow-sm">
                   {copy.chatSubtitle}
                 </div>
               </div>
@@ -121,7 +121,7 @@ export function FloatingContactWidget({ copy, labels }: Props) {
         aria-expanded={open}
         aria-controls={panelId}
         onClick={() => setOpen((prev) => !prev)}
-        className="pointer-events-auto inline-flex items-center gap-2 rounded-full bg-brand px-4 py-3 text-sm font-semibold text-white shadow-[0_8px_24px_-6px_rgba(15,23,42,0.45)] transition hover:bg-brand-deep hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+        className="pointer-events-auto glass-card inline-flex items-center gap-2 rounded-full bg-brand/80 px-4 py-3 text-sm font-semibold text-white shadow-[0_8px_24px_-6px_rgba(102,126,234,0.4)] backdrop-blur-md transition hover:bg-brand hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
       >
         <ChatIcon />
         <span>{copy.buttonLabel}</span>

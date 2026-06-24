@@ -10,6 +10,8 @@ import {
 } from "@/lib/marketingPages";
 import { buildPageMetadata } from "@/lib/seo";
 
+export const dynamic = "force-dynamic";
+
 type Props = {
   params: Promise<{ slug: string }>;
 };

@@ -229,4 +229,16 @@ export type SiteContent = {
     }[];
     legal?: string;
   };
+  newProducts: {
+    playProtect: {
+      name: string;
+      description: string;
+      href: string;
+    };
+    mikrotikConnect: {
+      name: string;
+      description: string;
+      href: string;
+    };
+  };
 };

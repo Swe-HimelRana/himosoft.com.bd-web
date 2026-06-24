@@ -39,7 +39,7 @@ export function ContactInfoLinks({ labels, loadingLabel, variant = "cards" }: Pr
 
   if (!revealed) {
     return (
-      <p className="rounded-xl bg-white/80 px-3 py-4 text-center text-sm text-muted">{loadingLabel}</p>
+      <p className="glass-card rounded-xl px-3 py-4 text-center text-sm text-white/60">{loadingLabel}</p>
     );
   }
 
@@ -56,14 +56,14 @@ export function ContactInfoLinks({ labels, loadingLabel, variant = "cards" }: Pr
           <a
             key={key}
             href={href}
-            className="flex items-center gap-3 rounded-2xl rounded-tl-md border border-black/[0.06] bg-white px-3 py-2.5 text-sm shadow-sm transition hover:border-brand/25 hover:bg-brand/[0.03]"
+            className="glass-card flex items-center gap-3 rounded-2xl rounded-tl-md px-3 py-2.5 text-sm shadow-sm transition hover:bg-white/10"
           >
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-brand/10 text-brand-deep">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-brand/20 text-brand">
               <Icon />
             </span>
             <span className="min-w-0 flex-1">
-              <span className="block text-[0.65rem] font-semibold uppercase tracking-wide text-muted">{label}</span>
-              <span className="block truncate font-semibold text-foreground">{value}</span>
+              <span className="block text-[0.65rem] font-semibold uppercase tracking-wide text-white/60">{label}</span>
+              <span className="block truncate font-semibold text-white">{value}</span>
             </span>
           </a>
         ))}
@@ -77,14 +77,14 @@ export function ContactInfoLinks({ labels, loadingLabel, variant = "cards" }: Pr
         <a
           key={key}
           href={href}
-          className="group flex items-center gap-4 rounded-2xl border border-black/[0.06] bg-background p-4 transition hover:border-brand/25 hover:bg-brand/[0.04] hover:shadow-sm"
+          className="glass-card group flex items-center gap-4 rounded-2xl border border-white/10 p-4 transition hover:bg-white/10"
         >
-          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand/10 text-brand-deep ring-1 ring-brand/20">
+          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand/20 text-brand ring-1 ring-brand/20">
             <Icon className="h-5 w-5" />
           </span>
           <span className="min-w-0 flex-1">
-            <span className="block text-xs font-semibold uppercase tracking-wide text-muted">{label}</span>
-            <span className="mt-0.5 block truncate text-base font-semibold text-foreground group-hover:text-brand-deep">
+            <span className="block text-xs font-semibold uppercase tracking-wide text-white/60">{label}</span>
+            <span className="mt-0.5 block truncate text-base font-semibold text-white group-hover:text-brand">
               {value}
             </span>
           </span>

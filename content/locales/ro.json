@@ -840,5 +840,17 @@
     "onlineLabel": "Online",
     "closeLabel": "Închide chatul",
     "loadingLabel": "Se încarcă datele de contact…"
+  },
+  "newProducts": {
+    "playProtect": {
+      "name": "HimoSoft Play Protect",
+      "description": "Soluție de hosting video pentru creatori, profesori și afaceri. Hosting video sigur și protejat cu funcții avansate.",
+      "href": "https://playprotect.net"
+    },
+    "mikrotikConnect": {
+      "name": "Mikrotik Connect",
+      "description": "Accesați routerul MikroTik local de oriunde.",
+      "href": "https://mikrotikconnect.com"
+    }
   }
 }

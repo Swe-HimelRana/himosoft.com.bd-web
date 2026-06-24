@@ -27,10 +27,10 @@ export function LanguageSwitcher({ locale }: Props) {
           router.refresh();
         });
       }}
-      className="max-w-[11rem] cursor-pointer truncate rounded-full border border-[var(--nav-border)] bg-white/70 px-2.5 py-1.5 text-[11px] font-medium tracking-wide text-zinc-700 shadow-sm transition hover:border-brand/35 hover:bg-white disabled:opacity-60 lg:max-w-[12rem]"
+      className="max-w-[11rem] cursor-pointer truncate rounded-full border border-white/20 bg-white/10 px-2.5 py-1.5 text-[11px] font-medium tracking-wide text-white shadow-sm backdrop-blur-md transition hover:border-white/30 hover:bg-white/15 disabled:opacity-60 lg:max-w-[12rem]"
     >
       {SITE_LOCALES.map((row) => (
-        <option key={row.code} value={row.code}>
+        <option key={row.code} value={row.code} className="bg-[var(--background)] text-white">
           {`${row.flag} ${row.nativeLabel}`}
         </option>
       ))}
