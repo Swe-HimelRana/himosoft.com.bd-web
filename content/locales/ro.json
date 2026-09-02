@@ -873,15 +873,41 @@
     "loadingLabel": "Se încarcă datele de contact…"
   },
   "newProducts": {
+    "modal": {
+      "title": "În curând",
+      "subtitle": "Finalizăm {productName}. Iată progresul actual al lansării.",
+      "closeLabel": "Închide",
+      "statusDone": "Finalizat",
+      "statusOngoing": "În desfășurare",
+      "steps": {
+        "planning": "Planificare",
+        "requirementAnalysis": "Analiza cerințelor",
+        "development": "Dezvoltare",
+        "testing": "Testare",
+        "deployment": "Implementare"
+      }
+    },
+    "liveLabel": "Live",
     "playProtect": {
+      "category": "Găzduire video",
       "name": "HimoSoft Play Protect",
       "description": "Soluție de hosting video pentru creatori, profesori și afaceri. Hosting video sigur și protejat cu funcții avansate.",
-      "href": "https://playprotect.net"
+      "href": "https://playprotect.net",
+      "status": "comingSoon"
     },
     "mikrotikConnect": {
+      "category": "Instrumente de rețea",
       "name": "Mikrotik Connect",
       "description": "Accesați routerul MikroTik local de oriunde.",
-      "href": "https://mikrotikconnect.com"
+      "href": "https://mikrotikconnect.com",
+      "status": "comingSoon"
+    },
+    "linuxMirror": {
+      "category": "Mirror Linux",
+      "name": "HimoSoft Linux Mirror",
+      "description": "Mirror APT oficial pentru Debian și Ubuntu — o singură sursă pentru toate pachetele HimoSoft, inclusiv configurare server, monitorizare și instrumente DevOps.",
+      "href": "https://mirror.himosoft.com.bd/",
+      "status": "live"
     }
   },
   "errors": {

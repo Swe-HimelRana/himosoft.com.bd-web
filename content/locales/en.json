@@ -873,15 +873,41 @@
     ]
   },
   "newProducts": {
+    "modal": {
+      "title": "Coming soon",
+      "subtitle": "We're putting the finishing touches on {productName}. Here's where we are in the rollout.",
+      "closeLabel": "Close",
+      "statusDone": "Done",
+      "statusOngoing": "On going",
+      "steps": {
+        "planning": "Planning",
+        "requirementAnalysis": "Requirement Analysis",
+        "development": "Development",
+        "testing": "Testing",
+        "deployment": "Deployment"
+      }
+    },
+    "liveLabel": "Live",
     "playProtect": {
+      "category": "Video Hosting",
       "name": "HimoSoft Play Protect",
       "description": "Video hosting solution for creators, teachers, and businesses. Secure and protected video hosting with advanced features like Protected Playback, Watermarking, custom player, analytics, and more.",
-      "href": "https://playprotect.net"
+      "href": "https://playprotect.net",
+      "status": "comingSoon"
     },
     "mikrotikConnect": {
+      "category": "Network Tools",
       "name": "Mikrotik Connect",
       "description": "Access your local MikroTik router remotely from anywhere. Features include secure backup, remote terminal access, port forwarding, and many more tools for network administrators.",
-      "href": "https://mikrotikconnect.com"
+      "href": "https://mikrotikconnect.com",
+      "status": "comingSoon"
+    },
+    "linuxMirror": {
+      "category": "Linux Mirror",
+      "name": "HimoSoft Linux Mirror",
+      "description": "Official APT mirror for Debian and Ubuntu — one source for all HimoSoft packages, including server setup, monitoring, and DevOps tools.",
+      "href": "https://mirror.himosoft.com.bd/",
+      "status": "live"
     }
   },
   "errors": {

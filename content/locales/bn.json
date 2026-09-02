@@ -873,15 +873,41 @@
     "loadingLabel": "যোগাযোগের তথ্য লোড হচ্ছে…"
   },
   "newProducts": {
+    "modal": {
+      "title": "শীঘ্রই আসছে",
+      "subtitle": "আমরা {productName}-এর চূড়ান্ত পর্যায়ে আছি। রোলআউটের বর্তমান অগ্রগতি এখানে দেখুন।",
+      "closeLabel": "বন্ধ করুন",
+      "statusDone": "সম্পন্ন",
+      "statusOngoing": "চলমান",
+      "steps": {
+        "planning": "পরিকল্পনা",
+        "requirementAnalysis": "প্রয়োজনীয়তা বিশ্লেষণ",
+        "development": "উন্নয়ন",
+        "testing": "পরীক্ষা",
+        "deployment": "ডিপ্লয়মেন্ট"
+      }
+    },
+    "liveLabel": "লাইভ",
     "playProtect": {
+      "category": "ভিডিও হোস্টিং",
       "name": "HimoSoft Play Protect",
       "description": "কন্টেন্ট ক্রিয়েটর, শিক্ষক এবং ব্যবসার জন্য ভিডিও হোস্টিং সমাধান। সুরক্ষিত এবং সুরক্ষিত ভিডিও হোস্টিং অ্যাডভান্সড ফিচার সহ।",
-      "href": "https://playprotect.net"
+      "href": "https://playprotect.net",
+      "status": "comingSoon"
     },
     "mikrotikConnect": {
+      "category": "নেটওয়ার্ক টুলস",
       "name": "Mikrotik Connect",
       "description": "যেকোনো জায়গা থেকে আপনার স্থানীয় MikroTik রাউটারে দূরবর্তী অ্যাক্সেস করুন।",
-      "href": "https://mikrotikconnect.com"
+      "href": "https://mikrotikconnect.com",
+      "status": "comingSoon"
+    },
+    "linuxMirror": {
+      "category": "লিনাক্স মিরর",
+      "name": "HimoSoft Linux Mirror",
+      "description": "Debian ও Ubuntu-এর জন্য অফিসিয়াল APT মিরর — সার্ভার সেটআপ, মনিটরিং ও DevOps টুলসসহ সব HimoSoft প্যাকেজের এক উৎস।",
+      "href": "https://mirror.himosoft.com.bd/",
+      "status": "live"
     }
   },
   "errors": {

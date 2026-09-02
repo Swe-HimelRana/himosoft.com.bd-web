@@ -236,16 +236,42 @@ export type SiteContent = {
     legal?: string;
   };
   newProducts: {
+    modal: {
+      title: string;
+      subtitle: string;
+      closeLabel: string;
+      statusDone: string;
+      statusOngoing: string;
+      steps: {
+        planning: string;
+        requirementAnalysis: string;
+        development: string;
+        testing: string;
+        deployment: string;
+      };
+    };
     playProtect: {
       name: string;
       description: string;
       href: string;
+      category: string;
+      status: "live" | "comingSoon";
     };
     mikrotikConnect: {
       name: string;
       description: string;
       href: string;
+      category: string;
+      status: "live" | "comingSoon";
     };
+    linuxMirror: {
+      name: string;
+      description: string;
+      href: string;
+      category: string;
+      status: "live" | "comingSoon";
+    };
+    liveLabel: string;
   };
   errors: {
     notFound: {

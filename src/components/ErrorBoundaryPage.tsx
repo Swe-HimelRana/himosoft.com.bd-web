@@ -13,12 +13,12 @@ const LOCALE_LOADERS: Record<
   Locale,
   () => Promise<{ default: SiteContent }>
 > = {
-  en: () => import("../../content/locales/en.json"),
-  bn: () => import("../../content/locales/bn.json"),
-  de: () => import("../../content/locales/de.json"),
-  it: () => import("../../content/locales/it.json"),
-  ro: () => import("../../content/locales/ro.json"),
-  pl: () => import("../../content/locales/pl.json"),
+  en: () => import("../../content/locales/en.json") as Promise<{ default: SiteContent }>,
+  bn: () => import("../../content/locales/bn.json") as Promise<{ default: SiteContent }>,
+  de: () => import("../../content/locales/de.json") as Promise<{ default: SiteContent }>,
+  it: () => import("../../content/locales/it.json") as Promise<{ default: SiteContent }>,
+  ro: () => import("../../content/locales/ro.json") as Promise<{ default: SiteContent }>,
+  pl: () => import("../../content/locales/pl.json") as Promise<{ default: SiteContent }>,
 };
 
 function readLocaleCookie(): Locale {

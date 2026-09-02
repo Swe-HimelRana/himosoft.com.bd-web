@@ -370,6 +370,131 @@ body::before {
   }
 }
 
+.product-modal-backdrop {
+  animation: product-modal-fade-in 0.25s ease-out both;
+}
+
+.product-modal-panel {
+  animation: product-modal-scale-in 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.product-step-visible {
+  animation: product-step-slide-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.product-step-check-pop {
+  animation: product-step-check-pop 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.product-step-check-draw {
+  stroke-dasharray: 20;
+  stroke-dashoffset: 20;
+  animation: product-step-check-draw 0.35s ease-out 0.15s forwards;
+}
+
+.product-step-ongoing-pulse {
+  animation: product-step-ongoing-pulse 2s ease-in-out infinite;
+}
+
+.product-step-deploy-bar {
+  width: 35%;
+  animation: product-step-deploy-shimmer 2.2s ease-in-out infinite;
+}
+
+@keyframes product-modal-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes product-modal-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.94) translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes product-step-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes product-step-check-pop {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes product-step-check-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes product-step-ongoing-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.08);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.04);
+    transform: scale(1.04);
+  }
+}
+
+@keyframes product-step-deploy-shimmer {
+  0% {
+    width: 20%;
+    opacity: 0.7;
+  }
+  50% {
+    width: 75%;
+    opacity: 1;
+  }
+  100% {
+    width: 35%;
+    opacity: 0.7;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .product-modal-backdrop,
+  .product-modal-panel,
+  .product-step-visible,
+  .product-step-check-pop,
+  .product-step-check-draw,
+  .product-step-ongoing-pulse,
+  .product-step-deploy-bar {
+    animation: none;
+  }
+
+  .product-step-check-draw {
+    stroke-dashoffset: 0;
+  }
+}
+
 @keyframes hero-ambient-shift {
   0% {
     opacity: 0.85;

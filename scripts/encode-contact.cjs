@@ -14,7 +14,7 @@ function encode(plain) {
 }
 
 const email = process.argv[2] ?? "hello@himosoft.com.bd";
-const phone = process.argv[3] ?? "+8801870955054";
+const phone = process.argv[3] ?? "+8801316100897";
 
 console.log(
   JSON.stringify(

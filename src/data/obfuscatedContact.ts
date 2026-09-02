@@ -4,5 +4,5 @@
  */
 export const OBFUSCATED_CONTACT = {
   email: "Mj40NTEfNDQ/PCM+MCN6NiU3dTo9",
-  phone: "cWNgaW9na21rZmVhY2M=",
+  phone: "cWNgaW9sbWtjY2Bpb2A=",
 } as const;

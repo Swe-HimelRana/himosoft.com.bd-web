@@ -21,8 +21,8 @@ export const SEO_ROUTES = {
 /** Public contact details for structured data (matches encode-contact.cjs defaults). */
 export const SEO_CONTACT = {
   email: "hello@himosoft.com.bd",
-  phone: "+8801870955054",
-  phoneDisplay: "+880 1870-955054",
+  phone: "+8801316100897",
+  phoneDisplay: "+880 1316-100897",
 } as const;
 
 export const SEO_SOCIAL_PROFILES = [
