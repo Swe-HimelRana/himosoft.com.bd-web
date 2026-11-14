@@ -31,7 +31,7 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
         type="button"
         aria-expanded={menuOpen}
         aria-controls="mobile-nav-sheet"
-        className="glass-card inline-flex items-center justify-center rounded-full px-2.5 py-1.5 text-xs font-medium text-white shadow-sm backdrop-blur-md"
+        className="glass-card inline-flex items-center justify-center rounded-full px-2.5 py-1.5 text-xs font-medium text-foreground shadow-sm backdrop-blur-md"
         onClick={() => setMenuOpen((open) => !open)}
       >
         {menuLabel}
@@ -47,7 +47,7 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
           />
           <div
             id="mobile-nav-sheet"
-            className="mobile-nav-sheet fixed inset-x-0 top-[52px] z-50 max-h-[min(82vh,calc(100dvh-52px))] overflow-y-auto border-b border-white/15 shadow-xl lg:hidden"
+            className="mobile-nav-sheet fixed inset-x-0 top-[52px] z-50 max-h-[min(82vh,calc(100dvh-52px))] overflow-y-auto border-b border-foreground/15 shadow-xl lg:hidden"
           >
             <nav className="space-y-1 px-4 py-4" aria-label={a11y.mobileNav}>
               {items.map((item) => {
@@ -55,10 +55,10 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
                   const expanded = expandedId === item.id;
 
                   return (
-                    <div key={item.id} className="rounded-2xl border border-white/15 bg-slate-800/90">
+                    <div key={item.id} className="mobile-nav-item rounded-2xl border border-foreground/15">
                       <button
                         type="button"
-                        className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left text-sm font-semibold text-white"
+                        className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left text-sm font-semibold text-foreground"
                         aria-expanded={expanded}
                         onClick={() => toggleMega(item.id)}
                       >
@@ -76,18 +76,18 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
                       </button>
 
                       {expanded ? (
-                        <div className="space-y-5 border-t border-white/15 px-4 py-4">
+                        <div className="space-y-5 border-t border-foreground/15 px-4 py-4">
                           {item.mega.featured ? (
-                            <div className="rounded-2xl border border-white/10 bg-slate-900/90 p-4">
+                            <div className="mobile-nav-featured rounded-2xl border border-foreground/10 p-4">
                               {item.mega.featured.eyebrow ? (
                                 <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--logo-teal)]">
                                   {item.mega.featured.eyebrow}
                                 </p>
                               ) : null}
-                              <p className="mt-2 text-base font-semibold text-white">
+                              <p className="mt-2 text-base font-semibold text-foreground">
                                 {item.mega.featured.title}
                               </p>
-                              <p className="mt-2 text-xs leading-relaxed text-white/75">
+                              <p className="mt-2 text-xs leading-relaxed text-foreground/75">
                                 {item.mega.featured.description}
                               </p>
                               <a
@@ -103,7 +103,7 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
                           {item.mega.columns.map((column) => (
                             <div key={column.title ?? column.links[0]?.href}>
                               {column.title ? (
-                                <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-white/65">
+                                <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-foreground/65">
                                   {column.title}
                                 </p>
                               ) : null}
@@ -112,12 +112,12 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
                                   <li key={`${link.href}-${link.label}`}>
                                     <a
                                       href={link.href}
-                                      className="block rounded-xl px-3 py-2 text-sm font-semibold text-white hover:bg-white/10"
+                                      className="block rounded-xl px-3 py-2 text-sm font-semibold text-foreground hover:bg-foreground/10"
                                       onClick={() => setMenuOpen(false)}
                                     >
                                       {link.label}
                                       {link.description ? (
-                                        <span className="mt-1 block text-xs font-normal leading-relaxed text-white/70">
+                                        <span className="mt-1 block text-xs font-normal leading-relaxed text-foreground/70">
                                           {link.description}
                                         </span>
                                       ) : null}
@@ -138,7 +138,7 @@ export function MobileNav({ items, ctaLabel, ctaHref, menuLabel, a11y }: Props) 
                     key={item.id}
                     href={item.href}
                     {...externalNavLinkProps(item.href, item.external)}
-                    className="block rounded-2xl px-4 py-3 text-sm font-semibold text-white hover:bg-white/10"
+                    className="block rounded-2xl px-4 py-3 text-sm font-semibold text-foreground hover:bg-foreground/10"
                     onClick={() => setMenuOpen(false)}
                   >
                     {item.label}

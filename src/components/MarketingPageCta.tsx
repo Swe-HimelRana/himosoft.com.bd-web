@@ -13,6 +13,7 @@ import type { MarketingPageContent } from "@/types/marketingPage";
 type ContactLabels = {
   emailLabel: string;
   phoneLabel: string;
+  phoneEuLabel: string;
 };
 
 type Props = {
@@ -30,7 +31,7 @@ const defaultModalCopy: ContactModalCopy = {
 };
 
 const buttonClass =
-  "glass-card mt-6 inline-flex rounded-full border border-white/20 bg-brand/40 px-6 py-3 text-sm font-semibold text-white shadow-sm backdrop-blur-xl transition hover:bg-brand/60";
+  "mt-6 inline-flex rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-brand/90";
 
 export function MarketingPageCta({
   cta,
@@ -41,9 +42,9 @@ export function MarketingPageCta({
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
-    <aside className="glass-card mt-12 rounded-3xl border border-white/10 p-8">
-      <h2 className="text-xl font-semibold text-white">{cta.title}</h2>
-      <p className="mt-3 text-white/60">{cta.subtitle}</p>
+    <aside className="glass-card mt-12 rounded-3xl border border-foreground/10 p-8">
+      <h2 className="text-xl font-semibold text-foreground">{cta.title}</h2>
+      <p className="mt-3 text-foreground/60">{cta.subtitle}</p>
 
       {openContactModal ? (
         <>

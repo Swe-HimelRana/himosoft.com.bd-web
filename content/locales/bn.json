@@ -372,6 +372,27 @@
       ]
     }
   },
+  "webPresence": {
+    "eyebrow": "আমাদের ডোমেইন",
+    "title": "বাংলাদেশ ও ইউরোপে একই ব্র্যান্ড",
+    "visitLabel": "সাইট দেখুন",
+    "items": [
+      {
+        "host": "himosoft.com.bd",
+        "region": "বাংলাদেশ",
+        "description": "আমাদের মূল ভিত্তি — স্থানীয় ও আঞ্চলিক টিমের জন্য সফটওয়্যার স্টুডিও।",
+        "href": "https://himosoft.com.bd",
+        "flagSrc": "/flags/bd.png"
+      },
+      {
+        "host": "himosoft.eu",
+        "region": "ইউরোপ",
+        "description": "ক্রস-বর্ডার ডেলিভারি ও GDPR-সচেতন কাজের জন্য ইউরোপীয় উপস্থিতি।",
+        "href": "https://himosoft.eu",
+        "flagSrc": "/flags/eu.png"
+      }
+    ]
+  },
   "trustStrip": {
     "headline": "বিশ্বস্ত ডিজিটাল অংশীদার — ছোট উদ্যোক্তা থেকে প্রতিষ্ঠান পর্যন্ত একই ইঞ্জিনিয়ারিং শৃঙ্খলা",
     "stats": [
@@ -782,7 +803,6 @@
     "registrationLicense": "সরকারি নিবন্ধিত লাইসেন্স: TRADE-16247-100-8113",
     "contactEmailLabel": "ইমেইল",
     "contactPhoneLabel": "ফোন",
-    "contactMobileLabel": "মোবাইল",
     "columns": [
       {
         "title": "সমাধান ও খাত",
@@ -861,16 +881,22 @@
         "protectedContacts": true,
         "links": []
       }
-    ]
+    ],
+    "contactPhoneEuLabel": "ইইউ ফোন"
   },
   "floatingContact": {
-    "buttonLabel": "যোগাযোগ করুন",
+    "buttonLabel": "লাইভ চ্যাট",
     "chatTitle": "HimoSoft",
-    "chatSubtitle": "আমরা সাধারণত এক কর্মদিবসের মধ্যে উত্তর দিই।",
-    "welcomeMessage": "হ্যালো! আজ আমরা কীভাবে সাহায্য করতে পারি? ইমেইল বা কল করতে নিচে ট্যাপ করুন।",
+    "chatSubtitle": "HimoSoft সম্পর্কে যা খুশি জিজ্ঞাসা করুন। যদি আমাদের টিমের সাথে যোগাযোগ লাগে, আমি যোগাযোগের তথ্য দেখাব।",
+    "welcomeMessage": "হ্যালো, আমি HimoSoft AI — আমাদের সেবা, প্রোডাক্ট এবং কাজের ধরন নিয়ে আপনার সাধারণ প্রশ্নের উত্তর দিতে প্রস্তুত।",
     "onlineLabel": "অনলাইন",
     "closeLabel": "চ্যাট বন্ধ করুন",
-    "loadingLabel": "যোগাযোগের তথ্য লোড হচ্ছে…"
+    "loadingLabel": "যোগাযোগের তথ্য লোড হচ্ছে…",
+    "placeholder": "মেসেজ লিখুন…",
+    "sendLabel": "পাঠান",
+    "typingLabel": "HimoSoft লিখছে…",
+    "errorLabel": "কিছু ভুল হয়েছে। একটু পরে আবার চেষ্টা করুন।",
+    "contactHint": "আমাদের টিমের সাথে যোগাযোগের উপায়:"
   },
   "newProducts": {
     "modal": {

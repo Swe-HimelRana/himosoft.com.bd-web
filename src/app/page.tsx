@@ -20,6 +20,7 @@ import { SpotlightSection } from "@/components/SpotlightSection";
 import { StoriesSection } from "@/components/StoriesSection";
 import { TeamSection } from "@/components/TeamSection";
 import { TrustStrip } from "@/components/TrustStrip";
+import { WebPresenceSection } from "@/components/WebPresenceSection";
 import { getLocale } from "@/lib/getLocale";
 import { getPaymentPartners } from "@/lib/paymentPartners";
 import {
@@ -65,6 +66,7 @@ export default async function Home() {
           <HeroSection hero={site.hero} />
           <NewProductsSection products={site.newProducts} />
           <PaymentPartnersMarquee data={paymentPartners} />
+          <WebPresenceSection webPresence={site.webPresence} />
           <TrustStrip trustStrip={site.trustStrip} />
           <StoriesSection stories={site.stories} />
           <SpotlightSection spotlights={site.spotlights} />

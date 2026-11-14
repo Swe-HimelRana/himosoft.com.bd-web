@@ -18,10 +18,10 @@ export function CtaBand({ ctaBand }: Props) {
           {/* Content */}
           <div className="relative z-10 flex flex-col items-start justify-between gap-8 lg:flex-row lg:items-center">
             <div className="max-w-2xl">
-              <h2 className="text-balance text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
+              <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
                 {ctaBand.title}
               </h2>
-              <p className="mt-4 text-lg leading-relaxed text-white/70 sm:text-xl">
+              <p className="mt-4 text-lg leading-relaxed text-foreground/70 sm:text-xl">
                 {ctaBand.subtitle}
               </p>
             </div>

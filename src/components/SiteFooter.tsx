@@ -50,7 +50,7 @@ export function SiteFooter({ footer, meta, nav }: Props) {
   return (
     <footer
       id="footer"
-      className="relative overflow-hidden text-white"
+      className="relative overflow-hidden text-foreground"
     >
       <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
@@ -59,7 +59,7 @@ export function SiteFooter({ footer, meta, nav }: Props) {
           <div className="max-w-sm">
             <Link
               href="/"
-              className="group inline-flex items-center gap-3 rounded-xl p-1.5 transition-all hover:bg-white/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+              className="group inline-flex items-center gap-3 rounded-xl p-1.5 transition-all hover:bg-foreground/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
             >
               <div className="relative">
                 <Image
@@ -76,22 +76,22 @@ export function SiteFooter({ footer, meta, nav }: Props) {
               </span>
             </Link>
 
-            <p className="mt-5 leading-relaxed text-white/70 text-base">
+            <p className="mt-5 leading-relaxed text-foreground/70 text-base">
               {footer.tagline}
             </p>
 
-            <div className="mt-5 flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 px-4 py-2.5">
+            <div className="mt-5 flex items-center gap-2 rounded-lg border border-foreground/10 bg-foreground/5 px-4 py-2.5">
               <div className="flex h-8 w-8 items-center justify-center rounded-full bg-emerald-500/20">
                 <svg viewBox="0 0 24 24" className="h-4 w-4 text-emerald-400" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <p className="text-sm text-white/60">{footer.registrationLicense}</p>
+              <p className="text-sm text-foreground/60">{footer.registrationLicense}</p>
             </div>
 
             {/* Social Links */}
             <div className="mt-6">
-              <p className="text-sm font-semibold uppercase tracking-wider text-white/40 mb-3">
+              <p className="text-sm font-semibold uppercase tracking-wider text-foreground/40 mb-3">
                 Connect With Us
               </p>
               <div className="flex items-center gap-3">
@@ -102,7 +102,7 @@ export function SiteFooter({ footer, meta, nav }: Props) {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={social.label}
-                    className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-white/60 transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-400"
+                    className="flex h-10 w-10 items-center justify-center rounded-xl border border-foreground/10 bg-foreground/5 text-foreground/60 transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-400"
                   >
                     {social.icon}
                   </a>
@@ -117,7 +117,7 @@ export function SiteFooter({ footer, meta, nav }: Props) {
               <div key={col.title} className="group">
                 <div className="flex items-center gap-2">
                   <div className="h-1 w-1 rounded-full bg-brand" />
-                  <p className="text-sm font-bold uppercase tracking-wider text-white/90">
+                  <p className="text-sm font-bold uppercase tracking-wider text-foreground/90">
                     {col.title}
                   </p>
                 </div>
@@ -125,7 +125,7 @@ export function SiteFooter({ footer, meta, nav }: Props) {
                   {col.links.map((link) => {
                     const isInternal = link.href.startsWith("/");
                     const className =
-                      "group/link relative text-sm text-white/60 transition-all duration-200 hover:text-white pl-4 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:h-1.5 before:w-1.5 before:rounded-full before:bg-brand/50 before:opacity-0 before:transition-opacity hover:pl-5 hover:before:opacity-100";
+                      "group/link relative text-sm text-foreground/60 transition-all duration-200 hover:text-foreground pl-4 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:h-1.5 before:w-1.5 before:rounded-full before:bg-brand/50 before:opacity-0 before:transition-opacity hover:pl-5 hover:before:opacity-100";
 
                     return (
                       <li key={`${link.href}-${link.label}`}>
@@ -150,6 +150,7 @@ export function SiteFooter({ footer, meta, nav }: Props) {
                       <ProtectedContactLinks
                         emailLabel={footer.contactEmailLabel}
                         phoneLabel={footer.contactPhoneLabel}
+                        phoneEuLabel={footer.contactPhoneEuLabel}
                       />
                     </li>
                   ) : null}
@@ -161,27 +162,27 @@ export function SiteFooter({ footer, meta, nav }: Props) {
 
         {/* Bottom Bar */}
         <div className="mt-16 relative">
-          <div className="flex flex-col items-center justify-between gap-4 rounded-2xl border border-white/5 bg-white/[0.02] px-6 py-5 sm:flex-row">
+          <div className="flex flex-col items-center justify-between gap-4 rounded-2xl border border-foreground/5 bg-foreground/[0.02] px-6 py-5 sm:flex-row">
             <div className="flex items-center gap-3">
               <div className="flex h-2 w-2 items-center justify-center">
                 <span className="absolute h-2 w-2 animate-ping rounded-full bg-emerald-400 opacity-75" />
                 <span className="relative h-2 w-2 rounded-full bg-emerald-500" />
               </div>
-              <p className="text-sm text-white/50">Systems operational</p>
+              <p className="text-sm text-foreground/50">Systems operational</p>
             </div>
 
-            <p className="text-sm text-white/40">{meta.copyright}</p>
+            <p className="text-sm text-foreground/40">{meta.copyright}</p>
 
             <div className="flex items-center gap-4">
-              <Link href="/privacy" className="text-sm text-white/40 transition-colors hover:text-white/70">
+              <Link href="/privacy" className="text-sm text-foreground/40 transition-colors hover:text-foreground/70">
                 Privacy
               </Link>
-              <span className="text-white/20">·</span>
-              <Link href="/terms" className="text-sm text-white/40 transition-colors hover:text-white/70">
+              <span className="text-foreground/20">·</span>
+              <Link href="/terms" className="text-sm text-foreground/40 transition-colors hover:text-foreground/70">
                 Terms
               </Link>
-              <span className="text-white/20">·</span>
-              <Link href="/cookies" className="text-sm text-white/40 transition-colors hover:text-white/70">
+              <span className="text-foreground/20">·</span>
+              <Link href="/cookies" className="text-sm text-foreground/40 transition-colors hover:text-foreground/70">
                 Cookies
               </Link>
             </div>

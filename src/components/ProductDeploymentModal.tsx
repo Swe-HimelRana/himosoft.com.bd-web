@@ -116,7 +116,7 @@ export function ProductDeploymentModal({ open, onClose, productName, variant, co
         aria-modal="true"
         aria-labelledby={titleId}
         tabIndex={-1}
-        className="product-modal-panel glass-card relative w-full max-w-lg overflow-hidden rounded-3xl border border-white/10 shadow-[0_24px_80px_-24px_rgba(0,0,0,0.55)] backdrop-blur-xl outline-none"
+        className="product-modal-panel glass-card relative w-full max-w-lg overflow-hidden rounded-3xl border border-foreground/10 shadow-[0_24px_80px_-24px_rgba(0,0,0,0.55)] backdrop-blur-xl outline-none"
       >
         <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-brand/20 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-12 -left-12 h-40 w-40 rounded-full bg-emerald-500/15 blur-3xl" />
@@ -127,15 +127,15 @@ export function ProductDeploymentModal({ open, onClose, productName, variant, co
               <p className={`text-xs font-semibold uppercase tracking-[0.18em] ${accent.eyebrow}`}>
                 {copy.title}
               </p>
-              <h2 id={titleId} className="mt-2 text-xl font-semibold tracking-tight text-white sm:text-2xl">
+              <h2 id={titleId} className="mt-2 text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
                 {productName}
               </h2>
-              <p className="mt-2 text-sm leading-relaxed text-white/60">{subtitle}</p>
+              <p className="mt-2 text-sm leading-relaxed text-foreground/60">{subtitle}</p>
             </div>
             <button
               type="button"
               onClick={onClose}
-              className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white/60 transition hover:border-white/20 hover:bg-white/10 hover:text-white"
+              className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-foreground/10 bg-foreground/5 text-foreground/60 transition hover:border-foreground/20 hover:bg-foreground/10 hover:text-foreground"
               aria-label={copy.closeLabel}
             >
               <span aria-hidden className="text-lg leading-none">
@@ -145,13 +145,13 @@ export function ProductDeploymentModal({ open, onClose, productName, variant, co
           </div>
 
           <div className="mt-6">
-            <div className="h-1.5 overflow-hidden rounded-full bg-white/10">
+            <div className="h-1.5 overflow-hidden rounded-full bg-foreground/10">
               <div
                 className={`product-modal-progress h-full rounded-full bg-gradient-to-r ${accent.bar} transition-[width] duration-700 ease-out`}
                 style={{ width: `${progressWidth}%` }}
               />
             </div>
-            <p className="mt-2 text-right text-xs tabular-nums text-white/45">{Math.round(progressWidth)}%</p>
+            <p className="mt-2 text-right text-xs tabular-nums text-foreground/45">{Math.round(progressWidth)}%</p>
           </div>
         </div>
 
@@ -204,7 +204,7 @@ export function ProductDeploymentModal({ open, onClose, productName, variant, co
 
                   <div className={`min-w-0 flex-1 ${isLast ? "pb-0" : "pb-6"}`}>
                     <div className="flex flex-wrap items-center gap-2 pt-0.5">
-                      <p className="text-sm font-medium text-white">{copy.steps[key]}</p>
+                      <p className="text-sm font-medium text-foreground">{copy.steps[key]}</p>
                       {isDone && isVisible && (
                         <span className="rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-emerald-400">
                           {copy.statusDone}
@@ -220,7 +220,7 @@ export function ProductDeploymentModal({ open, onClose, productName, variant, co
                     </div>
 
                     {isOngoing && isVisible && (
-                      <div className="mt-3 overflow-hidden rounded-full bg-white/10">
+                      <div className="mt-3 overflow-hidden rounded-full bg-foreground/10">
                         <div
                           className={`product-step-deploy-bar h-1 rounded-full bg-gradient-to-r ${accent.bar}`}
                         />

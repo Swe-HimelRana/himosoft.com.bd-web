@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 const LOGO_TEAL = "var(--logo-teal)";
 const LOGO_GREEN = "var(--logo-green)";
+const ICON_MUTED = "var(--lifecycle-icon-muted)";
 
 const STAGES = [
   {
@@ -55,8 +56,8 @@ type ScreenId = (typeof STAGES)[number]["screen"];
 const CYCLE_MS = 2800;
 
 function StageIcon({ id, active }: { id: ScreenId; active: boolean }) {
-  const stroke = active ? LOGO_TEAL : "rgba(255,255,255,0.45)";
-  const fill = active ? "rgba(31,217,202,0.2)" : "transparent";
+  const stroke = active ? LOGO_TEAL : ICON_MUTED;
+  const fill = active ? "color-mix(in srgb, var(--logo-teal) 20%, transparent)" : "transparent";
 
   switch (id) {
     case "discover":
@@ -124,9 +125,9 @@ function LifecycleScreen({ screen }: { screen: ScreenId }) {
     <div className="lifecycle-screen relative flex h-full min-h-0 flex-1 flex-col overflow-hidden rounded-xl border p-3 sm:p-4 lg:p-5">
       <div className="mb-2 flex items-center gap-2 border-b border-[var(--logo-teal)]/20 pb-2 lg:mb-3 lg:pb-3">
         <span className="h-2 w-2 rounded-full bg-[var(--logo-teal)]/80 lg:h-2.5 lg:w-2.5" />
-        <span className="h-2 w-2 rounded-full bg-white/20 lg:h-2.5 lg:w-2.5" />
-        <span className="h-2 w-2 rounded-full bg-white/20 lg:h-2.5 lg:w-2.5" />
-        <span className="ml-auto font-mono text-[10px] text-white/40 lg:text-xs">delivery.pipeline</span>
+        <span className="h-2 w-2 rounded-full bg-foreground/20 lg:h-2.5 lg:w-2.5" />
+        <span className="h-2 w-2 rounded-full bg-foreground/20 lg:h-2.5 lg:w-2.5" />
+        <span className="ml-auto font-mono text-[10px] text-foreground/40 lg:text-xs">delivery.pipeline</span>
       </div>
 
       {screen === "discover" && (
@@ -135,7 +136,7 @@ function LifecycleScreen({ screen }: { screen: ScreenId }) {
           {["User journeys mapped", "Backlog prioritized", "Risks logged"].map((line, i) => (
             <p
               key={line}
-              className="text-white/75"
+              className="text-foreground/75"
               style={{ animationDelay: `${i * 0.35}s` }}
             >
               <span className="text-[var(--logo-green)]">✓</span> {line}
@@ -147,25 +148,25 @@ function LifecycleScreen({ screen }: { screen: ScreenId }) {
       {screen === "design" && (
         <div className="lifecycle-fade-in grid flex-1 grid-cols-3 gap-2">
           <div className="rounded-lg border border-dashed border-[var(--logo-teal)]/40 bg-[var(--logo-teal)]/5 p-2" />
-          <div className="rounded-lg border border-white/15 bg-white/5 p-2" />
+          <div className="rounded-lg border border-foreground/15 bg-foreground/5 p-2" />
           <div className="col-span-3 rounded-lg border border-[var(--logo-green)]/35 bg-[var(--logo-green)]/8 p-2">
-            <div className="h-1.5 w-2/3 rounded bg-white/15" />
-            <div className="mt-2 h-1.5 w-1/2 rounded bg-white/10" />
+            <div className="h-1.5 w-2/3 rounded bg-foreground/15" />
+            <div className="mt-2 h-1.5 w-1/2 rounded bg-foreground/10" />
           </div>
         </div>
       )}
 
       {screen === "develop" && (
         <div className="lifecycle-fade-in flex flex-1 flex-col gap-1 font-mono text-[11px] sm:text-xs lg:gap-2 lg:text-sm">
-          <p className="text-white/50">
+          <p className="text-foreground/50">
             <span className="text-[var(--logo-teal)]">const</span> release ={" "}
             <span className="text-[var(--logo-green)]">build()</span>;
           </p>
-          <p className="text-white/50">
+          <p className="text-foreground/50">
             <span className="text-[var(--logo-teal)]">await</span> api.integrate(
-            <span className="text-white/70">services</span>);
+            <span className="text-foreground/70">services</span>);
           </p>
-          <p className="lifecycle-typing text-white/80">shipping feature branch…</p>
+          <p className="lifecycle-typing text-foreground/80">shipping feature branch…</p>
         </div>
       )}
 
@@ -174,7 +175,7 @@ function LifecycleScreen({ screen }: { screen: ScreenId }) {
           {["Unit tests", "E2E flows", "Security scan"].map((t, i) => (
             <div
               key={t}
-              className="flex items-center gap-2 text-xs text-white/80 lg:text-sm"
+              className="flex items-center gap-2 text-xs text-foreground/80 lg:text-sm"
               style={{ animationDelay: `${i * 0.4}s` }}
             >
               <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[var(--logo-green)]/25 text-[10px] text-[var(--logo-green)]">
@@ -197,8 +198,8 @@ function LifecycleScreen({ screen }: { screen: ScreenId }) {
               />
             </svg>
           </div>
-          <p className="font-mono text-xs text-white/70">Release v2.4 → production</p>
-          <div className="h-1.5 w-full max-w-[200px] overflow-hidden rounded-full bg-white/10">
+          <p className="font-mono text-xs text-foreground/70">Release v2.4 → production</p>
+          <div className="h-1.5 w-full max-w-[200px] overflow-hidden rounded-full bg-foreground/10">
             <div className="lifecycle-deploy-bar h-full rounded-full bg-gradient-to-r from-[var(--logo-teal)] via-[var(--logo-cyan)] to-[var(--logo-green)]" />
           </div>
         </div>
@@ -215,7 +216,7 @@ function LifecycleScreen({ screen }: { screen: ScreenId }) {
               strokeWidth="2"
             />
           </svg>
-          <p className="mt-2 font-mono text-[10px] text-white/50">uptime · logs · alerts · iterate</p>
+          <p className="mt-2 font-mono text-[10px] text-foreground/50">uptime · logs · alerts · iterate</p>
         </div>
       )}
     </div>
@@ -255,18 +256,18 @@ export function HeroLifecycleVisual() {
           <span
             className={`h-2 w-2 rounded-full bg-[var(--logo-teal)] ${animate ? "lifecycle-recording" : ""}`}
           />
-          <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-white/55 sm:text-xs">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-foreground/55 sm:text-xs">
             Software lifecycle
           </span>
         </div>
-        <span className="font-mono text-[10px] text-white/40">
+        <span className="font-mono text-[10px] text-foreground/40">
           {stage.short} / 06 · {stage.label}
         </span>
       </div>
 
       <div className="flex min-h-0 flex-1 flex-col gap-2 p-2 sm:gap-3 sm:p-3 lg:gap-4 lg:p-4">
         <LifecycleScreen screen={stage.screen} />
-        <p className="px-1 text-center text-[10px] text-white/45 sm:text-xs lg:text-sm">{stage.detail}</p>
+        <p className="px-1 text-center text-[10px] text-foreground/45 sm:text-xs lg:text-sm">{stage.detail}</p>
       </div>
 
       <div className="border-t border-[var(--logo-teal)]/20 px-2 pb-2 pt-2 sm:px-3 sm:pb-3 lg:px-4 lg:pb-4 lg:pt-3">
@@ -279,7 +280,7 @@ export function HeroLifecycleVisual() {
             }}
           />
           <div
-            className="absolute top-1/2 h-2.5 w-2.5 -translate-y-1/2 rounded-full bg-white shadow-[0_0_12px_rgba(31,217,202,0.9)]"
+            className="absolute top-1/2 h-2.5 w-2.5 -translate-y-1/2 rounded-full bg-white shadow-[var(--lifecycle-thumb-shadow)] ring-1 ring-foreground/10"
             style={{
               left: `calc(${((active + 0.5) / STAGES.length) * 100}% - 5px)`,
               transition: animate ? `left ${CYCLE_MS}ms linear` : "none",
@@ -299,14 +300,14 @@ export function HeroLifecycleVisual() {
                       ? "border-[var(--logo-teal)]/60 bg-[var(--logo-teal)]/20"
                       : isPast
                         ? "border-[var(--logo-green)]/40 bg-[var(--logo-green)]/15"
-                        : "border-white/15 bg-white/5"
+                        : "border-foreground/15 bg-foreground/5"
                   }`}
                 >
                   <StageIcon id={s.screen} active={isActive} />
                 </div>
                 <span
                   className={`hidden text-center text-[8px] font-semibold leading-tight sm:block sm:text-[9px] lg:text-[10px] ${
-                    isActive ? "text-[var(--logo-cyan)]" : "text-white/40"
+                    isActive ? "text-[var(--logo-cyan)]" : "text-foreground/40"
                   }`}
                 >
                   {s.label}

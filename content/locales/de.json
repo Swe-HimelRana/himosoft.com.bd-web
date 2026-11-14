@@ -372,6 +372,27 @@
       ]
     }
   },
+  "webPresence": {
+    "eyebrow": "Unsere Domains",
+    "title": "Eine Marke in Bangladesch und Europa",
+    "visitLabel": "Zur Website",
+    "items": [
+      {
+        "host": "himosoft.com.bd",
+        "region": "Bangladesch",
+        "description": "Unser Stammsitz — Softwarestudio für lokale und regionale Teams.",
+        "href": "https://himosoft.com.bd",
+        "flagSrc": "/flags/bd.png"
+      },
+      {
+        "host": "himosoft.eu",
+        "region": "Europa",
+        "description": "Europäische Präsenz für grenzüberschreitende Lieferung und DSGVO-nahe Arbeit.",
+        "href": "https://himosoft.eu",
+        "flagSrc": "/flags/eu.png"
+      }
+    ]
+  },
   "trustStrip": {
     "headline": "Vertrauenswürdiger digitaler Partner – gleiche technische Sorgfalt vom Gründer bis zum Unternehmen",
     "stats": [
@@ -782,7 +803,6 @@
     "registrationLicense": "Staatlich registrierte Lizenz: TRADE-16247-100-8113",
     "contactEmailLabel": "E-Mail",
     "contactPhoneLabel": "Telefon",
-    "contactMobileLabel": "Mobil",
     "columns": [
       {
         "title": "Lösungen & Branchen",
@@ -861,16 +881,22 @@
         "protectedContacts": true,
         "links": []
       }
-    ]
+    ],
+    "contactPhoneEuLabel": "EU-Telefon"
   },
   "floatingContact": {
-    "buttonLabel": "Kontakt",
+    "buttonLabel": "Live-Chat",
     "chatTitle": "HimoSoft",
-    "chatSubtitle": "Wir antworten in der Regel innerhalb eines Werktags.",
-    "welcomeMessage": "Hallo! Wie können wir Ihnen helfen? Tippen Sie unten, um uns per E-Mail oder Telefon zu erreichen.",
+    "chatSubtitle": "Fragen Sie alles zu HimoSoft. Wenn Sie unser Team brauchen, teile ich die Kontaktdaten.",
+    "welcomeMessage": "Hallo, ich bin HimoSoft AI — bereit, Ihre allgemeinen Fragen zu unseren Services, Produkten und unserer Arbeitsweise zu beantworten.",
     "onlineLabel": "Online",
     "closeLabel": "Chat schließen",
-    "loadingLabel": "Kontaktdaten werden geladen…"
+    "loadingLabel": "Kontaktdaten werden geladen…",
+    "placeholder": "Nachricht schreiben…",
+    "sendLabel": "Senden",
+    "typingLabel": "HimoSoft schreibt…",
+    "errorLabel": "Etwas ist schiefgelaufen. Bitte versuchen Sie es gleich noch einmal.",
+    "contactHint": "So erreichen Sie unser Team:"
   },
   "newProducts": {
     "modal": {

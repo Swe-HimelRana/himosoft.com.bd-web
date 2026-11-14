@@ -13,10 +13,10 @@ export function PlatformTriadSection({ platformTriad }: Props) {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <SectionEyebrow>{platformTriad.sectionEyebrow}</SectionEyebrow>
-          <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+          <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
             {platformTriad.sectionTitle}
           </h2>
-          <p className="mt-4 text-lg leading-relaxed text-white/60">
+          <p className="mt-4 text-lg leading-relaxed text-foreground/60">
             {platformTriad.sectionSubtitle}
           </p>
         </div>
@@ -32,7 +32,7 @@ export function PlatformTriadSection({ platformTriad }: Props) {
               <div className="absolute -right-4 -top-4 h-28 w-28 rounded-full bg-brand/20 blur-2xl" />
               
               {/* Large number */}
-              <div className="absolute right-6 top-6 text-5xl font-black leading-none text-white/10 z-0">
+              <div className="absolute right-6 top-6 text-5xl font-black leading-none text-foreground/10 z-0">
                 {index + 1}
               </div>
               
@@ -40,14 +40,14 @@ export function PlatformTriadSection({ platformTriad }: Props) {
                 <p className="text-xs font-semibold uppercase tracking-[0.22em] text-brand">
                   {item.eyebrow}
                 </p>
-                <h3 className="mt-4 text-xl font-semibold tracking-tight text-white">
+                <h3 className="mt-4 text-xl font-semibold tracking-tight text-foreground">
                   {item.title}
                 </h3>
-                <p className="mt-4 flex-1 leading-relaxed text-white/60">{item.description}</p>
+                <p className="mt-4 flex-1 leading-relaxed text-foreground/60">{item.description}</p>
                 {item.href && item.linkLabel ? (
                   <a
                     href={item.href}
-                    className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-brand hover:text-white transition"
+                    className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-brand hover:text-foreground transition"
                   >
                     {item.linkLabel}
                     <span aria-hidden>→</span>

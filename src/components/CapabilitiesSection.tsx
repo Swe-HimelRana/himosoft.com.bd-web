@@ -8,7 +8,7 @@ export function CapabilitiesSection({ capabilities }: Props) {
   return (
     <section
       id="capabilities"
-      className="relative scroll-mt-28 overflow-hidden py-16 text-white sm:py-20 lg:py-24"
+      className="relative scroll-mt-28 overflow-hidden py-16 text-foreground sm:py-20 lg:py-24"
     >
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
@@ -16,7 +16,7 @@ export function CapabilitiesSection({ capabilities }: Props) {
           <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
             {capabilities.sectionTitle}
           </h2>
-          <p className="mt-4 text-lg leading-relaxed text-white/60">
+          <p className="mt-4 text-lg leading-relaxed text-foreground/60">
             {capabilities.sectionSubtitle}
           </p>
         </div>
@@ -33,7 +33,7 @@ export function CapabilitiesSection({ capabilities }: Props) {
               
               <div className="relative z-10">
                 <h3 className="text-xl font-semibold tracking-tight">{pillar.title}</h3>
-                <p className="mt-4 leading-relaxed text-white/60">{pillar.description}</p>
+                <p className="mt-4 leading-relaxed text-foreground/60">{pillar.description}</p>
               </div>
             </article>
           ))}

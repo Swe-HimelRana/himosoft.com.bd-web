@@ -10,13 +10,13 @@ export function AboutSection({ about }: Props) {
       <div className="mx-auto grid max-w-6xl gap-12 px-4 sm:px-6 lg:grid-cols-12 lg:px-8 lg:gap-16">
         <div className="lg:col-span-5">
           <SectionEyebrow>{about.sectionEyebrow}</SectionEyebrow>
-          <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+          <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
             {about.sectionTitle}
           </h2>
         </div>
         <div className="space-y-5 lg:col-span-7">
           {about.paragraphs.map((paragraph, index) => (
-            <p key={index} className="text-lg leading-relaxed text-white/60">
+            <p key={index} className="text-lg leading-relaxed text-foreground/60">
               {paragraph}
             </p>
           ))}

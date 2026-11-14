@@ -111,6 +111,18 @@ export type SiteContent = {
       cards: { label: string; value: string }[];
     };
   };
+  webPresence: {
+    eyebrow: string;
+    title: string;
+    visitLabel: string;
+    items: {
+      host: string;
+      region: string;
+      description: string;
+      href: string;
+      flagSrc: string;
+    }[];
+  };
   trustStrip: {
     headline: string;
     stats: { value: string; label: string }[];
@@ -208,6 +220,11 @@ export type SiteContent = {
     onlineLabel: string;
     closeLabel: string;
     loadingLabel: string;
+    placeholder: string;
+    sendLabel: string;
+    typingLabel: string;
+    errorLabel: string;
+    contactHint: string;
   };
   cookieConsent: {
     title: string;
@@ -226,7 +243,8 @@ export type SiteContent = {
     registrationLicense: string;
     contactEmailLabel: string;
     contactPhoneLabel: string;
-    contactMobileLabel: string;
+    /** EU / Romania line shown next to the Bangladesh phone. */
+    contactPhoneEuLabel: string;
     columns: {
       title: string;
       links: NavLink[];

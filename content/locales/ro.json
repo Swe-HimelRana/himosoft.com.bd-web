@@ -372,6 +372,27 @@
       ]
     }
   },
+  "webPresence": {
+    "eyebrow": "Domeniile noastre",
+    "title": "Un brand în Bangladesh și Europa",
+    "visitLabel": "Vizitează site-ul",
+    "items": [
+      {
+        "host": "himosoft.com.bd",
+        "region": "Bangladesh",
+        "description": "Baza noastră — studio software pentru echipe locale și regionale.",
+        "href": "https://himosoft.com.bd",
+        "flagSrc": "/flags/bd.png"
+      },
+      {
+        "host": "himosoft.eu",
+        "region": "Europa",
+        "description": "Prezență europeană pentru livrare transfrontalieră și lucru aliniat GDPR.",
+        "href": "https://himosoft.eu",
+        "flagSrc": "/flags/eu.png"
+      }
+    ]
+  },
   "trustStrip": {
     "headline": "Partener digital de încredere – aceeași rigoare inginerească de la fondatori până la întreprinderi",
     "stats": [
@@ -782,7 +803,6 @@
     "registrationLicense": "Licență înregistrată de guvern: TRADE-16247-100-8113",
     "contactEmailLabel": "E-mail",
     "contactPhoneLabel": "Telefon",
-    "contactMobileLabel": "Mobil",
     "columns": [
       {
         "title": "Soluții și industrii",
@@ -861,16 +881,22 @@
         "protectedContacts": true,
         "links": []
       }
-    ]
+    ],
+    "contactPhoneEuLabel": "Telefon UE"
   },
   "floatingContact": {
-    "buttonLabel": "Contactați-ne",
+    "buttonLabel": "Chat live",
     "chatTitle": "HimoSoft",
-    "chatSubtitle": "Răspundem de obicei într-o zi lucrătoare.",
-    "welcomeMessage": "Bună! Cu ce vă putem ajuta? Apăsați mai jos pentru email sau telefon.",
+    "chatSubtitle": "Întreabă orice despre HimoSoft. Dacă ai nevoie de echipa noastră, îți voi arăta datele de contact.",
+    "welcomeMessage": "Bună, sunt HimoSoft AI — gata să răspund la întrebările tale generale despre serviciile, produsele și modul nostru de lucru.",
     "onlineLabel": "Online",
     "closeLabel": "Închide chatul",
-    "loadingLabel": "Se încarcă datele de contact…"
+    "loadingLabel": "Se încarcă datele de contact…",
+    "placeholder": "Scrie un mesaj…",
+    "sendLabel": "Trimite",
+    "typingLabel": "HimoSoft scrie…",
+    "errorLabel": "A apărut o eroare. Te rugăm să încerci din nou imediat.",
+    "contactHint": "Iată cum poți contacta echipa noastră:"
   },
   "newProducts": {
     "modal": {

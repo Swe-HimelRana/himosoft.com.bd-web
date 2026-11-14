@@ -6,7 +6,7 @@ export function TrustStrip({ trustStrip }: Props) {
   return (
     <section>
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
-        <p className="max-w-4xl text-balance text-xl font-semibold leading-snug tracking-tight text-white sm:text-2xl">
+        <p className="max-w-4xl text-balance text-xl font-semibold leading-snug tracking-tight text-foreground sm:text-2xl">
           {trustStrip.headline}
         </p>
 
@@ -24,7 +24,7 @@ export function TrustStrip({ trustStrip }: Props) {
                 <p className="text-3xl font-semibold tracking-tight text-brand sm:text-4xl">
                   {stat.value}
                 </p>
-                <p className="mt-2 text-sm font-semibold text-white/60">{stat.label}</p>
+                <p className="mt-2 text-sm font-semibold text-foreground/60">{stat.label}</p>
               </div>
             </div>
           ))}

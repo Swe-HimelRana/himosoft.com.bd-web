@@ -124,17 +124,17 @@ function ProductCard({
           <p className={`mb-1 text-[10px] font-bold uppercase tracking-[0.2em] ${styles.category}`}>
             {product.category}
           </p>
-          <h3 className={`text-xl font-bold text-white transition-colors ${styles.title}`}>{product.name}</h3>
-          <p className="mt-2 text-sm leading-relaxed text-white/70">{product.description}</p>
+          <h3 className={`text-xl font-bold text-foreground transition-colors ${styles.title}`}>{product.name}</h3>
+          <p className="mt-2 text-sm leading-relaxed text-foreground/70">{product.description}</p>
 
           <div className="mt-5 grid grid-cols-2 gap-4">
             <div className="text-center">
-              <div className="text-2xl font-bold text-white">24/7</div>
-              <div className="mt-1 text-[10px] uppercase tracking-wider text-white/50">Support Mindset</div>
+              <div className="text-2xl font-bold text-foreground">24/7</div>
+              <div className="mt-1 text-[10px] uppercase tracking-wider text-foreground/50">Support Mindset</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-white">100%</div>
-              <div className="mt-1 text-[10px] uppercase tracking-wider text-white/50">Client‑centric</div>
+              <div className="text-2xl font-bold text-foreground">100%</div>
+              <div className="mt-1 text-[10px] uppercase tracking-wider text-foreground/50">Client‑centric</div>
             </div>
           </div>
         </div>
@@ -189,7 +189,7 @@ export function NewProductsSection({ products }: Props) {
               liveLabel={products.liveLabel}
               onOpen={() => setActiveProduct({ key: "playProtect", variant: "brand" })}
             >
-              <svg className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <svg className="h-8 w-8 text-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -204,7 +204,7 @@ export function NewProductsSection({ products }: Props) {
               liveLabel={products.liveLabel}
               onOpen={() => setActiveProduct({ key: "mikrotikConnect", variant: "emerald" })}
             >
-              <svg className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <svg className="h-8 w-8 text-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -214,7 +214,7 @@ export function NewProductsSection({ products }: Props) {
             </ProductCard>
 
             <ProductCard product={products.linuxMirror} variant="sky" liveLabel={products.liveLabel}>
-              <svg className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <svg className="h-8 w-8 text-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"

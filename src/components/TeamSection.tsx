@@ -10,10 +10,10 @@ export function TeamSection({ team }: Props) {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <SectionEyebrow>{team.sectionEyebrow}</SectionEyebrow>
-          <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+          <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
             {team.sectionTitle}
           </h2>
-          <p className="mt-4 text-lg leading-relaxed text-white/60">{team.sectionSubtitle}</p>
+          <p className="mt-4 text-lg leading-relaxed text-foreground/60">{team.sectionSubtitle}</p>
         </div>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">
@@ -27,14 +27,14 @@ export function TeamSection({ team }: Props) {
               <div className="absolute -right-3 -top-3 h-20 w-20 rounded-full bg-brand/15 blur-xl" />
               
               <div className="relative z-10 flex items-center gap-4">
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand to-purple-600 text-lg font-bold text-white shadow-lg shadow-brand/30">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand to-purple-600 text-lg font-bold text-foreground shadow-lg shadow-brand/30">
                   {member.name.slice(0, 1)}
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold tracking-tight text-white">
+                  <h3 className="text-lg font-semibold tracking-tight text-foreground">
                     {member.name}
                   </h3>
-                  <p className="mt-1 text-sm font-semibold text-white/60">{member.role}</p>
+                  <p className="mt-1 text-sm font-semibold text-foreground/60">{member.role}</p>
                 </div>
               </div>
             </article>

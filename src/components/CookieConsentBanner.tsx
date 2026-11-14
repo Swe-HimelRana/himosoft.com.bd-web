@@ -60,7 +60,7 @@ export function CookieConsentBanner({ copy }: Props) {
       <section
         role="region"
         aria-labelledby="cookie-consent-title"
-        className="cookie-consent-panel glass-card pointer-events-auto w-full max-w-xl overflow-hidden rounded-xl border border-white/10 shadow-[0_-4px_24px_-8px_rgba(0,0,0,0.3)] backdrop-blur-xl"
+        className="cookie-consent-panel glass-card pointer-events-auto w-full max-w-xl overflow-hidden rounded-xl border border-foreground/10 shadow-[0_-4px_24px_-8px_rgba(0,0,0,0.3)] backdrop-blur-xl"
       >
         <div className="flex flex-col gap-3 p-3.5 sm:flex-row sm:items-center sm:gap-4 sm:p-4">
           <div className="flex min-w-0 flex-1 items-start gap-2.5">
@@ -70,11 +70,11 @@ export function CookieConsentBanner({ copy }: Props) {
             <div className="min-w-0 flex-1">
               <h2
                 id="cookie-consent-title"
-                className="text-sm font-semibold tracking-tight text-white"
+                className="text-sm font-semibold tracking-tight text-foreground"
               >
                 {copy.title}
               </h2>
-              <p className="mt-0.5 text-xs leading-snug text-white/60">{copy.description}</p>
+              <p className="mt-0.5 text-xs leading-snug text-foreground/60">{copy.description}</p>
             </div>
           </div>
 
@@ -83,7 +83,7 @@ export function CookieConsentBanner({ copy }: Props) {
               type="button"
               disabled={pending}
               onClick={() => respond("rejected")}
-              className="glass-card inline-flex flex-1 items-center justify-center rounded-full border border-white/20 bg-white/10 px-3.5 py-2 text-xs font-semibold text-white transition hover:bg-white/20 disabled:opacity-60 sm:flex-none sm:px-4 backdrop-blur-xl"
+              className="glass-card inline-flex flex-1 items-center justify-center rounded-full border border-foreground/20 bg-foreground/10 px-3.5 py-2 text-xs font-semibold text-foreground transition hover:bg-foreground/20 disabled:opacity-60 sm:flex-none sm:px-4 backdrop-blur-xl"
             >
               {copy.rejectLabel}
             </button>
@@ -91,15 +91,15 @@ export function CookieConsentBanner({ copy }: Props) {
               type="button"
               disabled={pending}
               onClick={() => respond("accepted")}
-              className="glass-card inline-flex flex-1 items-center justify-center rounded-full border border-brand/30 bg-brand/40 px-3.5 py-2 text-xs font-semibold text-white shadow-[0_4px_14px_-6px_rgba(102,126,234,0.45)] transition hover:bg-brand/60 disabled:opacity-60 sm:flex-none sm:px-4 backdrop-blur-xl"
+              className="glass-card inline-flex flex-1 items-center justify-center rounded-full border border-brand/30 bg-brand/40 px-3.5 py-2 text-xs font-semibold text-foreground shadow-[0_4px_14px_-6px_rgba(102,126,234,0.45)] transition hover:bg-brand/60 disabled:opacity-60 sm:flex-none sm:px-4 backdrop-blur-xl"
             >
               {copy.acceptLabel}
             </button>
           </div>
         </div>
 
-        <details className="group border-t border-white/10">
-          <summary className="cursor-pointer list-none px-3.5 py-2 text-xs font-semibold text-brand transition hover:text-white sm:px-4 [&::-webkit-details-marker]:hidden">
+        <details className="group border-t border-foreground/10">
+          <summary className="cursor-pointer list-none px-3.5 py-2 text-xs font-semibold text-brand transition hover:text-foreground sm:px-4 [&::-webkit-details-marker]:hidden">
             <span className="inline-flex items-center gap-1">
               {copy.detailsLabel}
               <span
@@ -110,25 +110,25 @@ export function CookieConsentBanner({ copy }: Props) {
               </span>
             </span>
           </summary>
-          <div className="max-h-[40dvh] overflow-y-auto overscroll-contain border-t border-white/5 bg-white/5 px-3.5 py-2.5 sm:px-4">
+          <div className="max-h-[40dvh] overflow-y-auto overscroll-contain border-t border-foreground/5 bg-foreground/5 px-3.5 py-2.5 sm:px-4">
             <ul className="space-y-2">
               {copy.categories.map((category) => (
                 <li key={category.title}>
-                  <p className="text-xs font-semibold text-white">{category.title}</p>
-                  <p className="mt-0.5 text-[0.6875rem] leading-relaxed text-white/60">
+                  <p className="text-xs font-semibold text-foreground">{category.title}</p>
+                  <p className="mt-0.5 text-[0.6875rem] leading-relaxed text-foreground/60">
                     {category.description}
                   </p>
                 </li>
               ))}
             </ul>
-            <div className="mt-2.5 space-y-1 text-[0.6875rem] leading-relaxed text-white/50">
+            <div className="mt-2.5 space-y-1 text-[0.6875rem] leading-relaxed text-foreground/50">
               <p>{copy.necessaryNote}</p>
               <p>{copy.rightsNote}</p>
               <p>{copy.retentionNote}</p>
             </div>
             <Link
               href="/cookies"
-              className="mt-2 inline-block text-xs font-semibold text-brand hover:text-white hover:underline"
+              className="mt-2 inline-block text-xs font-semibold text-brand hover:text-foreground hover:underline"
             >
               {copy.privacyLinkLabel}
             </Link>

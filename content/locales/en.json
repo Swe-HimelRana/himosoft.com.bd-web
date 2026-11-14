@@ -372,6 +372,27 @@
       ]
     }
   },
+  "webPresence": {
+    "eyebrow": "Our domains",
+    "title": "One brand across Bangladesh and Europe",
+    "visitLabel": "Visit site",
+    "items": [
+      {
+        "host": "himosoft.com.bd",
+        "region": "Bangladesh",
+        "description": "Our home base — software studio serving local and regional teams.",
+        "href": "https://himosoft.com.bd",
+        "flagSrc": "/flags/bd.png"
+      },
+      {
+        "host": "himosoft.eu",
+        "region": "Europe",
+        "description": "European presence for cross-border delivery and GDPR-aware work.",
+        "href": "https://himosoft.eu",
+        "flagSrc": "/flags/eu.png"
+      }
+    ]
+  },
   "trustStrip": {
     "headline": "Trusted digital partner — same engineering rigour from founders to enterprises",
     "stats": [
@@ -753,13 +774,18 @@
     "cookiesLabel": "Cookie Policy"
   },
   "floatingContact": {
-    "buttonLabel": "Contact Us",
+    "buttonLabel": "Live chat",
     "chatTitle": "HimoSoft",
-    "chatSubtitle": "We typically reply within one business day.",
-    "welcomeMessage": "Hello! How can we help you today? Tap below to email or call our team.",
+    "chatSubtitle": "Ask anything about HimoSoft. If you need to reach our team, I’ll share the contact details.",
+    "welcomeMessage": "Hi, I’m HimoSoft AI — ready to answer your general questions about our services, products, and how we work.",
     "onlineLabel": "Online",
     "closeLabel": "Close chat",
-    "loadingLabel": "Loading contact details…"
+    "loadingLabel": "Loading contact details…",
+    "placeholder": "Type a message…",
+    "sendLabel": "Send",
+    "typingLabel": "HimoSoft is typing…",
+    "errorLabel": "Something went wrong. Please try again in a moment.",
+    "contactHint": "Here’s how to reach our team:"
   },
   "cookieConsent": {
     "title": "We value your privacy",
@@ -791,7 +817,6 @@
     "registrationLicense": "Government Registered License: TRADE-16247-100-8113",
     "contactEmailLabel": "Email",
     "contactPhoneLabel": "Phone",
-    "contactMobileLabel": "Mobile",
     "columns": [
       {
         "title": "Solutions & industries",
@@ -870,7 +895,8 @@
         "protectedContacts": true,
         "links": []
       }
-    ]
+    ],
+    "contactPhoneEuLabel": "EU Phone"
   },
   "newProducts": {
     "modal": {

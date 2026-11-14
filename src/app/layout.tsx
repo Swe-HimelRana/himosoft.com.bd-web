@@ -4,8 +4,10 @@ import { Inter, Noto_Sans_Bengali } from "next/font/google";
 import "./globals.css";
 
 import { CookieConsentBanner } from "@/components/CookieConsentBanner";
-import { FloatingContactWidget } from "@/components/FloatingContactWidget";
 import { JsonLd } from "@/components/JsonLd";
+import { LiveChatWidget } from "@/components/LiveChatWidget";
+import { ScrollReveal } from "@/components/ScrollReveal";
+import { ThemeScript } from "@/components/ThemeScript";
 import { getLocale } from "@/lib/getLocale";
 import { localeHtmlLang } from "@/lib/locale-options";
 import { buildRootMetadata, organizationJsonLd, webSiteJsonLd } from "@/lib/seo";
@@ -50,13 +52,17 @@ export default async function RootLayout({
         className="min-h-full bg-background text-foreground"
         suppressHydrationWarning
       >
+        <ThemeScript />
+        <ScrollReveal />
         <JsonLd data={[organizationJsonLd(), webSiteJsonLd(locale)]} />
         {children}
-        <FloatingContactWidget
+        <LiveChatWidget
+          locale={locale}
           copy={site.floatingContact}
           labels={{
             contactEmailLabel: site.footer.contactEmailLabel,
             contactPhoneLabel: site.footer.contactPhoneLabel,
+            contactPhoneEuLabel: site.footer.contactPhoneEuLabel,
           }}
         />
         <CookieConsentBanner copy={site.cookieConsent} />

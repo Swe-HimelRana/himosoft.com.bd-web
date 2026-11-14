@@ -10,10 +10,10 @@ export function ServicesSection({ services }: Props) {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <SectionEyebrow>{services.sectionEyebrow}</SectionEyebrow>
-          <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+          <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
             {services.sectionTitle}
           </h2>
-          <p className="mt-4 text-lg leading-relaxed text-white/60">
+          <p className="mt-4 text-lg leading-relaxed text-foreground/60">
             {services.sectionSubtitle}
           </p>
         </div>
@@ -30,10 +30,10 @@ export function ServicesSection({ services }: Props) {
               
               <div className="relative z-10">
                 <div className="h-1 w-12 rounded-full bg-gradient-to-r from-brand to-brand-deep" />
-                <h3 className="mt-5 text-lg font-semibold tracking-tight text-white">
+                <h3 className="mt-5 text-lg font-semibold tracking-tight text-foreground">
                   {service.title}
                 </h3>
-                <p className="mt-3 leading-relaxed text-white/60">{service.description}</p>
+                <p className="mt-3 leading-relaxed text-foreground/60">{service.description}</p>
               </div>
             </article>
           ))}

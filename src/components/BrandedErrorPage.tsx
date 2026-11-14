@@ -41,15 +41,15 @@ export function BrandedErrorPage({ copy, onRetry, showSitemap = true }: Props) {
                 height={44}
                 className="h-11 w-11"
               />
-              <span className="text-lg font-semibold text-white">HimoSoft</span>
+              <span className="text-lg font-semibold text-foreground">HimoSoft</span>
             </Link>
           </div>
 
           <SectionEyebrow tone="light">{copy.eyebrow}</SectionEyebrow>
-          <h1 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">
+          <h1 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
             {copy.title}
           </h1>
-          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/65">
+          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-foreground/65">
             {copy.description}
           </p>
 
@@ -58,21 +58,21 @@ export function BrandedErrorPage({ copy, onRetry, showSitemap = true }: Props) {
               <button
                 type="button"
                 onClick={onRetry}
-                className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-brand to-purple-600 px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-brand/25 transition hover:scale-[1.02] hover:shadow-brand/40"
+                className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-brand to-purple-600 px-7 py-3.5 text-sm font-semibold text-foreground shadow-lg shadow-brand/25 transition hover:scale-[1.02] hover:shadow-brand/40"
               >
                 {copy.retryLabel}
               </button>
             ) : null}
             <Link
               href="/"
-              className="inline-flex items-center justify-center rounded-full bg-brand/30 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur-md transition hover:bg-brand/45"
+              className="inline-flex items-center justify-center rounded-full bg-brand/30 px-7 py-3.5 text-sm font-semibold text-foreground backdrop-blur-md transition hover:bg-brand/45"
             >
               {copy.homeLabel}
             </Link>
             {showSitemap && copy.sitemapLabel ? (
               <Link
                 href="/sitemap"
-                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur-md transition hover:bg-white/10"
+                className="inline-flex items-center justify-center rounded-full border border-foreground/20 bg-foreground/5 px-7 py-3.5 text-sm font-semibold text-foreground backdrop-blur-md transition hover:bg-foreground/10"
               >
                 {copy.sitemapLabel}
               </Link>
@@ -80,7 +80,7 @@ export function BrandedErrorPage({ copy, onRetry, showSitemap = true }: Props) {
             {copy.contactLabel ? (
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur-md transition hover:bg-white/10"
+                className="inline-flex items-center justify-center rounded-full border border-foreground/20 bg-foreground/5 px-7 py-3.5 text-sm font-semibold text-foreground backdrop-blur-md transition hover:bg-foreground/10"
               >
                 {copy.contactLabel}
               </Link>

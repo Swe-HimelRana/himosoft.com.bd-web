@@ -36,6 +36,7 @@ export async function MarketingPageShell({ locale, page, slug }: Props) {
             contactLabels={{
               contactEmailLabel: site.footer.contactEmailLabel,
               contactPhoneLabel: site.footer.contactPhoneLabel,
+              contactPhoneEuLabel: site.footer.contactPhoneEuLabel,
             }}
           />
         </div>

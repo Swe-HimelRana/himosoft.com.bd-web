@@ -10,10 +10,10 @@ export function StoriesSection({ stories }: Props) {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <SectionEyebrow>{stories.sectionEyebrow}</SectionEyebrow>
-          <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+          <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
             {stories.sectionTitle}
           </h2>
-          <p className="mt-4 text-lg leading-relaxed text-white/60">{stories.sectionSubtitle}</p>
+          <p className="mt-4 text-lg leading-relaxed text-foreground/60">{stories.sectionSubtitle}</p>
         </div>
 
         <div className="mt-10 flex gap-4 overflow-x-auto pb-2 pt-1 [scrollbar-width:thin] sm:grid sm:grid-cols-2 sm:overflow-visible lg:grid-cols-3">
@@ -27,13 +27,13 @@ export function StoriesSection({ stories }: Props) {
               <div className="absolute -right-3 -top-3 h-20 w-20 rounded-full bg-brand/15 blur-xl" />
               
               <div className="relative z-10">
-                <h3 className="text-lg font-semibold leading-snug tracking-tight text-white">
+                <h3 className="text-lg font-semibold leading-snug tracking-tight text-foreground">
                   {item.title}
                 </h3>
-                <p className="mt-4 text-sm leading-relaxed text-white/60">{item.description}</p>
+                <p className="mt-4 text-sm leading-relaxed text-foreground/60">{item.description}</p>
                 <a
                   href={item.href}
-                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand hover:text-white transition"
+                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand hover:text-foreground transition"
                 >
                   {item.linkLabel}
                   <span aria-hidden>→</span>
